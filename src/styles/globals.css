@@ -12,3 +12,116 @@ body {
   width: 100%;
   height: 100%;
 }
+
+#home-connect{
+ position: relative; 
+}
+
+#home-connect::before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #fff; 
+  transition: all ease .6s; 
+  transition-delay: .3s;
+ }
+
+ #home-connect::after{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transition: all ease .6s;
+ }
+
+ .contact-wrapper:hover #home-connect::after{
+  width: 0;
+ }
+ .contact-wrapper:hover #home-connect::before{
+  width: 98%;
+ }
+
+ .contact-wrapper{
+  clip-path: polygon(20% 5%, 80% 5%, 80% 95%, 20% 95%);
+  transition: all ease .5s;
+ }
+ .contact-wrapper:hover{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+ }
+
+ .product-marquee{
+  animation-name: slider;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+ }
+
+ .mq-card h6{
+  transition: all ease .5s;
+ }
+
+ .mq-card:hover h6{
+  transform: translateX(0%) !important;
+ }
+
+ @keyframes slider {
+   0% {
+     transform: translateX(0);
+   }
+   100% {
+    transform: translateX(calc(-100% - 4px));
+  }
+ }
+
+ .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+
+.swiper-button-prev{
+  position: absolute;
+  bottom: 0% !important;
+  left: 45% !important;
+  top: auto !important;
+  width: 3vw !important;
+  height: 3vw !important;
+  border-radius: 50%;
+  background-image: url("/swiperarr.png");
+  background-size: cover;
+  transform: rotate(180deg);
+}
+.swiper-button-prev:after{
+  display: none;
+}
+
+.swiper-button-next{
+  position: absolute;
+  bottom: 0% !important;
+  top: auto !important;
+  right: 45% !important;
+  width: 3vw !important;
+  height: 3vw !important;
+  border-radius: 50%;
+  background-image: url("/swiperarr.png");
+  background-size: cover;
+}
+.swiper-button-next:after{
+  display: none;
+} */
