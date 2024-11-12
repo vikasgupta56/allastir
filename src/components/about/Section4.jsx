@@ -227,32 +227,32 @@ const Section4 = () => {
                         </div>
                         <div className='w-[1.5vw] left-[-.75vw] h-full absolute top-0 flex flex-col justify-between items-center'>
                             <div className="dot1 relative  w-[1.5vw] h-[1.5vw] flex items-center justify-center">
-                                <div className="dot-1 w-[35%] h-[35%] bg-[#000] rounded"></div>
+                                <div className="dot-1 w-[35%] h-[35%] bg-[#000] rounded-full"></div>
                                 <div className='dot-out1 w-full h-full border border-[#000] scale-1 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
                             </div>
                             <div className="dot2 relative  w-[1.5vw] h-[1.5vw] flex items-center justify-center">
-                                <div className="dot-2 w-[35%] h-[35%] bg-zinc-400 rounded"></div>
+                                <div className="dot-2 w-[35%] h-[35%] bg-zinc-400 rounded-full "></div>
                                 <div className='dot-out2 w-full h-full border border-[#000] scale-0 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
                             </div>
                             <div className="dot3 relative  w-[1.5vw] h-[1.5vw] flex items-center justify-center">
-                                <div className="dot-3 w-[35%] h-[35%] bg-zinc-400 rounded"></div>
+                                <div className="dot-3 w-[35%] h-[35%] bg-zinc-400 rounded-full "></div>
                                 <div className='dot-out3 w-full h-full border border-[#000] scale-0 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
                             </div>
                             <div className="dot4 relative  w-[1.5vw] h-[1.5vw] flex items-center justify-center">
-                                <div className="dot-4 w-[35%] h-[35%] bg-zinc-400 rounded"></div>
+                                <div className="dot-4 w-[35%] h-[35%] bg-zinc-400 rounded-full "></div>
                                 <div className='dot-out4 w-full h-full border border-[#000] scale-0 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
                             </div>
                             <div className="dot5 relative  w-[1.5vw] h-[1.5vw] flex items-center justify-center">
-                                <div className="dot-5 w-[35%] h-[35%] bg-zinc-400 rounded"></div>
+                                <div className="dot-5 w-[35%] h-[35%] bg-zinc-400 rounded-full "></div>
                                 <div className='dot-out5 w-full h-full border border-[#000] scale-0 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
                             </div>
                             <div className="dot6 relative  w-[1.5vw] h-[1.5vw] flex items-center justify-center">
-                                <div className="dot-6 w-[35%] h-[35%] bg-zinc-400 rounded"></div>
+                                <div className="dot-6 w-[35%] h-[35%] bg-zinc-400 rounded-full "></div>
                                 <div className='dot-out6 w-full h-full border border-[#000] scale-0 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
                             </div>
                         </div>
                     </div>
-                    <div className='w-[89%] h-full relative'>
+                    <div className='w-[89%] h-full relative rounded-lg overflow-hidden'>
                         <img style={{ clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" }} className='tlig1 w-full h-full object-cover absolute top-0 left-0' src="https://images.unsplash.com/photo-1655711789589-b6367b970712?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D" alt="" />
                         <img style={{ clipPath: "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)" }} className='tlig2 w-full h-full object-cover absolute top-0 left-0' src="https://images.unsplash.com/photo-1728652964273-09085b4b22da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D" alt="" />
                         <img style={{ clipPath: "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)" }} className='tlig3 w-full h-full object-cover absolute top-0 left-0' src="https://images.unsplash.com/photo-1730315269715-1e25650773be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />

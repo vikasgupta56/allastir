@@ -9,8 +9,8 @@ const Navbar = ({navRef}) => {
             <Link href="/" className='hover:opacity-[.8]'>home</Link>
             <Link href="/about" className='hover:opacity-[.8]'>about</Link>
             <Link href="/product" className='hover:opacity-[.8]'>product</Link>
-            <Link href="/" className='hover:opacity-[.8]'>brochure</Link>
-            <Link href="/" className='hover:opacity-[.8]'>contact</Link>
+            <Link href="/ALLASTIR_BROCHURE.pdf" className='hover:opacity-[.8]'>brochure</Link>
+            <Link href="/"  className='hover:opacity-[.8]'>contact</Link>
         </div>
     </div>
   )
