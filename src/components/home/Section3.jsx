@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section3 = () => {
     return (
-        <div className='w-full min-h-screen flex flex-col items-center'>
+        <div className='w-full min-h-screen py-[5vw] flex flex-col items-center'>
             <h1 className='text-[7vw] font-semibold'>Foundary Qualified</h1>
             <div className='w-[80%] pt-[4vw]'>
             <div className='w-full border-t py-[2vw] flex  justify-between border-black pr-[8vw] pl-[3vw]'>

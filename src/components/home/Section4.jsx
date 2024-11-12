@@ -3,7 +3,7 @@ import React from 'react'
 const Section4 = () => {
   return (
     <div className='w-full h-screen flex  flex-col justify-center'>
-        <h2 className='text-[1.2vw] font-semibold mb-[1vw] pl-[2.5vw]'>Our Products</h2>
+        <h2 className='text-[2vw] mb-[1vw] pl-[2.5vw]'>Our Products</h2>
         <div  className='w-full h-[40vh]  flex items-center overflow-hidden'>
             <div className='product-marquee w-fit h-full flex items-start gap-[.5vw] pl-[.8vw]'>
                 <div className='mq-card w-[14vw] h-full'>

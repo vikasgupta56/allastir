@@ -8,7 +8,7 @@ const Section2 = () => {
     gsap.to(".letters-wrapper span",{
       color:"black",
       stagger:.3,
-      duration:1,
+      duration:2,
       scrollTrigger:{
         trigger:".letters-wrapper",
         start:"top 60%",
