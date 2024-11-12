@@ -22,7 +22,7 @@ const Section1 = ({navRef}) => {
     
   return (
     <div className='about-pg w-full h-screen'>
-        <img className='w-full h-full object-cover' src="https://images.unsplash.com/photo-1591228128578-a2723fa3ed9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <video autoPlay muted loop playsInline className='w-full h-full object-cover' src="https://cdn.jasonbradley.co/pic/e41880eb-c899c2fa%20(1).mp4"></video>
     </div>
   )
 }
