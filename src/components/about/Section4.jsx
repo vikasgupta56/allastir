@@ -58,22 +58,27 @@ const Section4 = () => {
             .to(".timeline-strip", {
                 height: "40%",
                 duration: 1,
+                delay:3
             }, "s2")
             .to(".tlig2", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-                duration: 1
+                duration: 1,
+                delay: 3
             }, "s2")
             .to(".tlig3", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s2")
             .to(".timeline-title", {
                 text: "Kajaran mine",
-                duration: 1
+                duration: 1,
+                delay: 3
             }, "s2")
             .to(".timeline-para", {
                 text: "Based on these results, in 1936, a technical and economic assessment report for the Kajaran mine was compiled, which was approved by the Academy of Sciences of the USSR and the People's Commissariat for Non-ferrous Metallurgy. The decision of building the Kajaran copper-molybdenum combine was made.",
-                duration: 1
+                duration: 1,
+                delay: 3
             }, "s2")
             .to(".dot-3", {
                 backgroundColor: "#000"
@@ -89,23 +94,28 @@ const Section4 = () => {
             }, "b")
             .to(".timeline-strip", {
                 height: "60%",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s3")
             .to(".tlig3", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s3")
             .to(".tlig4", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s3")
             .to(".timeline-title", {
                 text: "the combine",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s3")
             .to(".timeline-para", {
                 text: "In late 1940, the construction of the combine began, which was interrupted by the Great Patriotic War (WWII), and resumed only after the end of the war. In 1949, an experimental enrichment plant was built, and in 1952, the combine produced its first product, thereby starting the history of uninterrupted operation.",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s3")
             .to(".dot-4", {
                 backgroundColor: "#000"
@@ -121,23 +131,28 @@ const Section4 = () => {
             }, "c")
             .to(".timeline-strip", {
                 height: "80%",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s4")
             .to(".tlig4", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s4")
             .to(".tlig5", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s4")
             .to(".timeline-title", {
                 text: "open-pit operation",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s4")
             .to(".timeline-para", {
                 text: "The deposit was initially developed as an underground operation; later open pit mining started, and since 1962 the mine has been operated exclusively by open-pit method.",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s4")
             .to(".dot-5", {
                 backgroundColor: "#000"
@@ -153,23 +168,28 @@ const Section4 = () => {
             }, "d")
             .to(".timeline-strip", {
                 height: "100%",
-                duration: 1
+                duration: 1,
+                delay:3
             },)
             .to(".tlig5", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s5")
             .to(".tlig6", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s5")
             .to(".timeline-title", {
                 text: "recommissioning",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s5")
             .to(".timeline-para", {
                 text: "As a result of the economic crisis after Armenia’s independence in 1991, the operation of the combine was halted. It was recommissioned in 1994.",
-                duration: 1
+                duration: 1,
+                delay:3
             }, "s5")
             .to(".dot-6", {
                 backgroundColor: "#000"

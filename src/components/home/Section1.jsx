@@ -123,8 +123,10 @@ const Section1 = ({ navRef }) => {
             }, "a")
             .to(".ifram",{
                 scaleX:1,
-                duration:.5
+                duration:.5,
             })
+
+          
 
         ScrollTrigger.refresh();
 
@@ -223,10 +225,12 @@ const Section1 = ({ navRef }) => {
                     <img onClick={() => {
                         videoRef.current.currentTime = 1
                         videoRef.current.play()
+                        document.querySelector(".player-line").style.left = "10% !important"
                     }}   className='h-full w-[5.3vw] object-cover transition-all duration-500 hover:w-[7.5vw]' src="https://lh3.googleusercontent.com/cCGdsw-Qj0GV01Jv4Q2VmtNUEZiZdPjZRa6Pn0NiS6r4QLg2lxapozN4tocEqXsphGZxFP9hFkjHXThJTCfk4dIlKd_3UVQVK8I=rw-s0-e365" alt="" />
                     <img onClick={() => {
                         videoRef.current.currentTime = 2
                         videoRef.current.play()
+                        document.querySelector(".player-line").style.left = "20% !important"
                     }}  className='h-full w-[5.3vw] object-cover transition-all duration-500 hover:w-[7.5vw]' src="https://lh3.googleusercontent.com/mMu661DL7tny_32Cn8x5igtI0vOvBfhyH_bWHYGp_y_ZAYnCOy7TEIX0EzbMRWcYmMdDwbcVGTi3W42qQn4SYjCRTalHJGOjsEm4=rw-s0-e365" alt="" />
                     <img 
                     onClick={() => {

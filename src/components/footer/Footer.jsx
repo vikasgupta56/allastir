@@ -35,10 +35,10 @@ const Footer = () => {
         <div style={{width:"calc(100%/3)"}} className='h-full flex flex-col  justify-between'>
         <h2>Follow us</h2>
         <div className='flex items-start gap-[1vw] h-[70%]'>
-            <Link href="/"><i class="ri-instagram-line"></i></Link>
-            <Link href="/"><i class="ri-behance-line"></i></Link>
-            <Link href="/"><i class="ri-pinterest-fill"></i></Link>
-            <Link href="/"><i class="ri-twitter-fill"></i></Link>
+            <Link href="/"><i className="ri-instagram-line"></i></Link>
+            <Link href="/"><i className="ri-behance-line"></i></Link>
+            <Link href="/"><i className="ri-pinterest-fill"></i></Link>
+            <Link href="/"><i className="ri-twitter-fill"></i></Link>
         </div>
         </div>
         </div>

@@ -1,6 +1,7 @@
 import Section1 from '@/components/about/Section1'
 import Section4 from '@/components/about/Section4'
 import Section5 from '@/components/about/Section5'
+import Section6 from '@/components/about/Section6'
 import Footer from '@/components/footer/Footer'
 import Section2 from '@/components/home/Section2'
 import Section3 from '@/components/home/Section3'
@@ -17,6 +18,7 @@ const index = () => {
         <Section3/>
         <Section4/>
         <Section5/>
+        <Section6/>
         <Footer/>
     </div>
   )

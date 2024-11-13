@@ -31,27 +31,27 @@ export default function App() {
       >
         <SwiperSlide>
             <div className='w-full h-full flex items-center justify-center'>
-                <img className='w-[50%] h-[60%] object-cover' src="https://www.allastir.com/images/9wanbury.jpg" alt="" />
+                <img className='w-[50%] h-[60%] object-contain' src="https://www.allastir.com/images/9wanbury.jpg" alt="" />
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full flex items-center justify-center'>
-                <img className='w-[50%] h-[60%] object-cover' src="https://www.allastir.com/images/11aris.jpg" alt="" />
+                <img className='w-[50%] h-[60%] object-contain' src="https://www.allastir.com/images/11aris.jpg" alt="" />
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full flex items-center justify-center'>
-                <img className='w-[50%] h-[60%] object-cover' src="https://www.allastir.com/images/12akums.jpg" alt="" />
+                <img className='w-[50%] h-[60%] object-contain' src="https://www.allastir.com/images/12akums.jpg" alt="" />
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full flex items-center justify-center'>
-                <img className='w-[50%] h-[60%] object-cover' src="https://www.allastir.com/images/13Cipla1.jpg" alt="" />
+                <img className='w-[50%] h-[60%] object-contain' src="https://www.allastir.com/images/13Cipla1.jpg" alt="" />
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full flex items-center justify-center'>
-                <img className='w-[50%] h-[60%] object-cover' src="https://www.allastir.com/images/18Unison1.jpg" alt="" />
+                <img className='w-[50%] h-[60%] object-contain' src="https://www.allastir.com/images/18Unison1.jpg" alt="" />
             </div>
         </SwiperSlide>
       </Swiper>

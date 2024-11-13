@@ -64,7 +64,7 @@ body {
   animation-name: slider;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-duration: 20s;
+  animation-duration: 30s;
  }
 
  .mq-card h6{
@@ -131,3 +131,6 @@ body {
   display: none;
 } */
 
+.product-wraper:hover .product-txt{
+  width: 80%;
+}
