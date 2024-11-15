@@ -156,4 +156,6 @@ body {
 
 .product-wraper:hover .product-txt {
   width: 80%;
+  background-color: #58636e;
+  color: #fff;
 }

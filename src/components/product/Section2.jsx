@@ -9,7 +9,7 @@ const Section2 = ({ title }) => {
                     <div className='w-[30%] h-[6.5vw] shrink-0 transition-all duration-150 overflow-hidden'>
                         <img className='w-full h-full object-cover object-bottom' src="https://images.unsplash.com/photo-1585435557343-3b092031a831?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
-                    <div className='product-txt w-[100%] full flex items-center px-[2vw] justify-between  shrink-0  hover:bg-[#58636e] hover:text-white transition-all duration-500'>
+                    <div className='product-txt w-[100%] full flex items-center px-[2vw] justify-between  shrink-0  transition-all duration-500'>
                        <div className='flex justify-between items-end w-full'>
                        <div className='flex flex-col'>
                             <h2 className='text-[1.5vw] capitalize leading-none mb-[.2vw]'>Orange pills</h2>
