@@ -3,13 +3,13 @@ import React from 'react'
 
 const Navbar2 = () => {
   return (
-    <div className='w-full px-[2.5vw] py-[1vw] text-black bg-white fixed z-[9] top-0 left-0'>
+    <div className='w-full px-[2.5vw] py-[1vw] text-black bg-white fixed z-[99] top-0 left-0'>
         <h2 className='text-[1.4vw] font-bold'>Allastir</h2>
         <div className='absolute top-1/2  left-1/2 -translate-x-1/2 text-[1.1vw] font-regular capitalize -translate-y-1/2 flex items-center gap-[3vw]'>
             <Link href="/" className='hover:opacity-[.8]'>home</Link>
             <Link href="/about" className='hover:opacity-[.8]'>about</Link>
             <Link href="/product" className='hover:opacity-[.8]'>product</Link>
-            <Link href="/ALLASTIR_BROCHURE.pdf" className='hover:opacity-[.8]'>brochure</Link>
+            <Link href="/ALLASTIR_BROCHURE.pdf" target="_blank" className='hover:opacity-[.8]'>brochure</Link>
             <Link href="/contact"  className='hover:opacity-[.8]'>contact</Link>
         </div>
     </div>

@@ -13,10 +13,11 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function App() {
   return (
-    <div className='w-full h-[30vh]'>
-      <Swiper
-       slidesPerView={3}
-        spaceBetween={30}
+    <div className='w-full h-[30vh] flex items-center justify-center px-[2.5vw]'>
+     <div className='w-full h-full'>
+     <Swiper
+       slidesPerView={4}
+        spaceBetween={2}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -25,7 +26,7 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
-        navigation={false}
+        navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
@@ -55,6 +56,7 @@ export default function App() {
             </div>
         </SwiperSlide>
       </Swiper>
+     </div>
     </div>
   );
 }

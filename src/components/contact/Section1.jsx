@@ -3,7 +3,7 @@ import React from 'react'
 const Section1 = () => {
     return (
         <div className='w-full min-h-screen flex gap-[1vw] items-center p-[2.5vw] pt-[5.5vw]'>
-            <div className='w-[50%] h-[85vh] bg-zinc-100/40 rounded-2xl p-[2.5vw] flex flex-col justify-between'>
+            <div className='w-[50%] h-[85vh] bg-zinc-100 rounded-2xl p-[2.5vw] flex flex-col justify-between'>
                 <div className='w-full'>
                     <h1 className='text-[5vw] capitalize leading-none'>Contact us</h1>
                     <p className='text-[1vw] w-[80%] my-[1vw]'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>
@@ -34,7 +34,7 @@ const Section1 = () => {
                 <div className='w-full h-[50%] rounded-2xl overflow-hidden'>
                     <img className='w-full h-full object-cover' src="https://cdn.prod.website-files.com/662e5390115777703fa6e8da/663b51da0bf50313bd8b4a39_Woman%20Contact-p-800.webp" alt="" />
                 </div>
-                <div className='w-full h-[50%]  rounded-2xl bg-zinc-100/40 flex flex-wrap p-[2.5vw] justify-between'>
+                <div className='w-full h-[50%]  rounded-2xl bg-zinc-100 flex flex-wrap p-[2.5vw] justify-between'>
                     <div className='w-[49%] h-fit'>
                         <h4 className='text-[1vw] font-semibold'>Address</h4>
                         <p className='text-[1.1vw] w-[60%] font-light mt-[.5vw]'>Sonnenstraße 87

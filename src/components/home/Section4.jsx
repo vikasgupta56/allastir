@@ -2,8 +2,8 @@ import React from 'react'
 
 const Section4 = () => {
   return (
-    <div className='w-full h-screen flex  flex-col justify-center'>
-        <h2 className='text-[2vw] mb-[1vw] pl-[2.5vw]'>Our Products</h2>
+    <div className='w-full h-[63vh] flex  flex-col'>
+        <h2 className='text-[3vw] font-semibold mb-[2vw] text-center'>Our Products</h2>
         <div  className='w-full h-[40vh]  flex items-center overflow-hidden'>
             <div className='product-marquee w-fit h-full flex items-start gap-[.5vw] px-[.25vw]'>
                 <div className='mq-card w-[14vw] h-full'>
@@ -12,8 +12,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -23,8 +24,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -34,8 +36,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -45,8 +48,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -56,8 +60,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -67,8 +72,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -78,8 +84,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -89,8 +96,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -100,8 +108,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -111,8 +120,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -122,8 +132,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -133,8 +144,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -146,8 +158,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -157,8 +170,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -168,8 +182,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -179,8 +194,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -190,8 +206,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -201,8 +218,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -212,8 +230,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -223,8 +242,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -234,8 +254,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -245,8 +266,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -256,8 +278,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -267,8 +290,9 @@ const Section4 = () => {
                     </div>
                     <div className='flex gap-[.5vw] items-center h-[10%]'>
                         <span className='w-[.5vw] h-[.5vw] bg-black rounded-full'></span>
-                        <span className='h-full flex overflow-hidden items-center'>
+                        <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
+                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>

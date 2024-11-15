@@ -1,9 +1,7 @@
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-import TextPlugin from 'gsap/dist/TextPlugin'
 import React, { useEffect } from 'react'
 gsap.registerPlugin(ScrollTrigger)
-gsap.registerPlugin(TextPlugin)
 
 const Section4 = () => {
     useEffect(() => {
@@ -11,7 +9,7 @@ const Section4 = () => {
             scrollTrigger: {
                 trigger: '.timeline-section',
                 start: 'top top',
-                end: 'top -230%',
+                end: 'top -250%',
                 pin: true,
                 scrub: 1,
             }
@@ -20,27 +18,26 @@ const Section4 = () => {
             .to(".timeline-strip", {
                 height: "20%",
                 duration: 1,
-                delay: 1
             }, "s")
+            .to(".present-year , .timeline-title", {
+                transform: "translateY(-100%)",
+                duration: 1
+            }, "s")
+            .to(".timeline-para1", {
+                opacity: 0,
+                duration: 1
+            }, "s")
+            .to(".timeline-para2", {
+                opacity: 1,
+                duration: .3
+            })
             .to(".tlig1", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
                 duration: 1,
-                delay: 1
             }, "s")
             .to(".tlig2", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
                 duration: 1,
-                delay: 1
-            }, "s")
-            .to(".timeline-title", {
-                text: "major undertaking",
-                delay: 1,
-                duration: 1
-            }, "s")
-            .to(".timeline-para", {
-                text: "In 1924-25 Large-scale geological exploration work began in search of raw materials, non-ferrous and valuable metals. The Kajaran deposit was widely exploration (1930-1933). As a result, rich reserves of molybdenum were confirmed along with copper and a number of other metals",
-                delay: 1,
-                duration: 1
             }, "s")
             .to(".dot-2", {
                 backgroundColor: "#000"
@@ -48,37 +45,32 @@ const Section4 = () => {
             .to(".dot-out2", {
                 scale: 1
             }, "a")
-            .to(".present-year", {
-                text: "1992"
-            }, "a")
-
             .to(".year2", {
                 color: "black"
             }, "a")
             .to(".timeline-strip", {
                 height: "40%",
                 duration: 1,
-                delay:3
             }, "s2")
+            .to(".present-year , .timeline-title", {
+                transform: "translateY(-200%)",
+                duration: 1
+            }, "s2")
+            .to(".timeline-para2", {
+                opacity: 0,
+                duration: 1
+            }, "s2")
+            .to(".timeline-para3", {
+                opacity: 1,
+                duration: .3
+            })
             .to(".tlig2", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
                 duration: 1,
-                delay: 3
             }, "s2")
             .to(".tlig3", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
                 duration: 1,
-                delay:3
-            }, "s2")
-            .to(".timeline-title", {
-                text: "Kajaran mine",
-                duration: 1,
-                delay: 3
-            }, "s2")
-            .to(".timeline-para", {
-                text: "Based on these results, in 1936, a technical and economic assessment report for the Kajaran mine was compiled, which was approved by the Academy of Sciences of the USSR and the People's Commissariat for Non-ferrous Metallurgy. The decision of building the Kajaran copper-molybdenum combine was made.",
-                duration: 1,
-                delay: 3
             }, "s2")
             .to(".dot-3", {
                 backgroundColor: "#000"
@@ -86,36 +78,32 @@ const Section4 = () => {
             .to(".dot-out3", {
                 scale: 1
             }, "b")
-            .to(".present-year", {
-                text: "1993"
-            }, "b")
             .to(".year3", {
                 color: "black"
             }, "b")
             .to(".timeline-strip", {
                 height: "60%",
                 duration: 1,
-                delay:3
             }, "s3")
+            .to(".present-year , .timeline-title", {
+                transform: "translateY(-300%)",
+                duration: 1
+            }, "s3")
+            .to(".timeline-para3", {
+                opacity: 0,
+                duration: 1
+            }, "s3")
+            .to(".timeline-para4", {
+                opacity: 1,
+                duration: .3
+            })
             .to(".tlig3", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
                 duration: 1,
-                delay:3
             }, "s3")
             .to(".tlig4", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
                 duration: 1,
-                delay:3
-            }, "s3")
-            .to(".timeline-title", {
-                text: "the combine",
-                duration: 1,
-                delay:3
-            }, "s3")
-            .to(".timeline-para", {
-                text: "In late 1940, the construction of the combine began, which was interrupted by the Great Patriotic War (WWII), and resumed only after the end of the war. In 1949, an experimental enrichment plant was built, and in 1952, the combine produced its first product, thereby starting the history of uninterrupted operation.",
-                duration: 1,
-                delay:3
             }, "s3")
             .to(".dot-4", {
                 backgroundColor: "#000"
@@ -123,36 +111,32 @@ const Section4 = () => {
             .to(".dot-out4", {
                 scale: 1
             }, "c")
-            .to(".present-year", {
-                text: "1994"
-            }, "c")
             .to(".year4", {
                 color: "black"
             }, "c")
             .to(".timeline-strip", {
                 height: "80%",
                 duration: 1,
-                delay:3
             }, "s4")
+            .to(".present-year , .timeline-title", {
+                transform: "translateY(-400%)",
+                duration: 1
+            }, "s4")
+            .to(".timeline-para4", {
+                opacity: 0,
+                duration: 1
+            }, "s4")
+            .to(".timeline-para5", {
+                opacity: 1,
+                duration: .3
+            })
             .to(".tlig4", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
                 duration: 1,
-                delay:3
             }, "s4")
             .to(".tlig5", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
                 duration: 1,
-                delay:3
-            }, "s4")
-            .to(".timeline-title", {
-                text: "open-pit operation",
-                duration: 1,
-                delay:3
-            }, "s4")
-            .to(".timeline-para", {
-                text: "The deposit was initially developed as an underground operation; later open pit mining started, and since 1962 the mine has been operated exclusively by open-pit method.",
-                duration: 1,
-                delay:3
             }, "s4")
             .to(".dot-5", {
                 backgroundColor: "#000"
@@ -160,45 +144,38 @@ const Section4 = () => {
             .to(".dot-out5", {
                 scale: 1
             }, "d")
-            .to(".present-year", {
-                text: "1995"
-            }, "d")
             .to(".year5", {
                 color: "black"
             }, "d")
             .to(".timeline-strip", {
                 height: "100%",
                 duration: 1,
-                delay:3
-            },)
+            }, "s5")
+            .to(".present-year , .timeline-title", {
+                transform: "translateY(-500%)",
+                duration: 1
+            }, "s5")
+            .to(".timeline-para5", {
+                opacity: 0,
+                duration: 1
+            }, "s5")
+            .to(".timeline-para6", {
+                opacity: 1,
+                duration: .3
+            })
             .to(".tlig5", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
                 duration: 1,
-                delay:3
             }, "s5")
             .to(".tlig6", {
                 clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
                 duration: 1,
-                delay:3
-            }, "s5")
-            .to(".timeline-title", {
-                text: "recommissioning",
-                duration: 1,
-                delay:3
-            }, "s5")
-            .to(".timeline-para", {
-                text: "As a result of the economic crisis after Armenia’s independence in 1991, the operation of the combine was halted. It was recommissioned in 1994.",
-                duration: 1,
-                delay:3
             }, "s5")
             .to(".dot-6", {
                 backgroundColor: "#000"
             }, "e")
             .to(".dot-out6", {
                 scale: 1
-            }, "e")
-            .to(".present-year", {
-                text: "1996"
             }, "e")
             .to(".year6", {
                 color: "black"
@@ -214,21 +191,53 @@ const Section4 = () => {
     }, [])
     return (
         <div className='timeline-section w-full h-[100vh] flex'>
-            <div className='w-[42%] h-full  flex flex-col justify-between'>
-                <h2 className='text-[2vw]  mb-[1vw] pl-[2.5vw]'>History</h2>
+            <div className='w-[42%] h-full  flex flex-col justify-end'>
                 <div className='w-full h-[72vh] pl-[2.5vw] pb-[1vw] flex flex-col justify-between'>
-                    <h1 className='present-year text-[10vw] font-semibold leading-[.6]'>1991</h1>
-                    <div>
-                        <h2 className='timeline-title text-[3vw] mb-[1vw] capitalize'>initial prospecting</h2>
-                        <p className='timeline-para w-[90%] text-[1vw] leading-tight text-[#80868B]'>Being located at a considerable distance from the communication routes of that time, the mine was initially exploited irregularly. The history of the formation and uninterrupted operation of the project is closely connected with the establishment of Soviet rule in Armenia, when mining enterprises, metallurgical plants, and mines were nationalized.</p>
+                    <div className='h-[10vw] w-fit overflow-hidden'>
+                        <h1 className='present-year text-[10vw] font-semibold leading-none'>1991</h1>
+                        <h1 className='present-year text-[10vw] font-semibold leading-none'>1992</h1>
+                        <h1 className='present-year text-[10vw] font-semibold leading-none'>1993</h1>
+                        <h1 className='present-year text-[10vw] font-semibold leading-none'>1994</h1>
+                        <h1 className='present-year text-[10vw] font-semibold leading-none'>1995</h1>
+                        <h1 className='present-year text-[10vw] font-semibold leading-none'>1996</h1>
+                    </div>
+                    <div className='w-full h-[60%] flex flex-col justify-end'>
+                        <div className='h-[4.5vw] w-fit overflow-hidden'>
+                            <h2 className='timeline-title leading-1 text-[3vw] capitalize'>initial prospecting</h2>
+                            <h2 className='timeline-title leading-1 text-[3vw] capitalize'>Plan Strategically</h2>
+                            <h2 className='timeline-title leading-1 text-[3vw] capitalize'>Innovate Solutions</h2>
+                            <h2 className='timeline-title leading-1 text-[3vw] capitalize'>Execute Efficiently</h2>
+                            <h2 className='timeline-title leading-1 text-[3vw] capitalize'>Achieve Goals</h2>
+                            <h2 className='timeline-title leading-1 text-[3vw] capitalize'>Transform Ideas</h2>
+                        </div>
+                        <div className="w-full relative h-[40%]">
+                            <p className="timeline-para1 absolute w-[60%] text-[1vw] leading-tight text-[#80868B]">
+                                The ancient site was rediscovered by chance during an archeological survey, revealing insights into long-lost civilizations.
+                            </p>
+                            <p className="timeline-para2 opacity-0 absolute w-[60%] text-[1vw] leading-tight text-[#80868B]">
+                                After years of neglect, the region became a focal point of research, contributing to the cultural and historical narrative of the area.
+                            </p>
+                            <p className="timeline-para3 opacity-0 absolute w-[60%] text-[1vw] leading-tight text-[#80868B]">
+                                The advancements in excavation technology allowed researchers to uncover artifacts that were previously inaccessible.
+                            </p>
+                            <p className="timeline-para4 opacity-0 absolute w-[60%] text-[1vw] leading-tight text-[#80868B]">
+                                Local legends spoke of a hidden treasure buried beneath the hills, sparking curiosity and exploration for centuries.
+                            </p>
+                            <p className="timeline-para5 opacity-0 absolute w-[60%] text-[1vw] leading-tight text-[#80868B]">
+                                Geological surveys showed evidence of a rare mineral deposit, attracting mining companies to the area in the early 1900s.
+                            </p>
+                            <p className="timeline-para6 opacity-0 absolute w-[60%] text-[1vw] leading-tight text-[#80868B]">
+                                The transformation of the site into a UNESCO World Heritage location ensured its preservation for future generations.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div className='w-[57%] '>
-                <div className='h-[28vh] flex flex-col justify-between pb-[1vw]'>
-                    <h2 className='text-[1.2vw] font-bold'>Allastir</h2>
+                <div className='h-[28vh] flex flex-col justify-end pb-[1vw]'>
                     <div>
-                        <h2 className='text-[3vw] mb-[1vw] capitalize'>Our history</h2>
+                        <h2 className='text-[3vw] font-semibold mb-[1vw] capitalize'>Our history</h2>
                         <p className='w-[70%] text-[1.2vw] leading-tight text-[#80868B]'>ZCMC, and the Kajaran deposit, has a long standing history with animportant role in the development of the country and the region.</p>
                     </div>
                 </div>

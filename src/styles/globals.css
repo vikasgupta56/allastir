@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -18,75 +18,95 @@ body {
   height: 100%;
 }
 
-#home-connect{
- position: relative; 
+#home-connect {
+  position: relative;
 }
 
-#home-connect::before{
-  content:"";
+#home-connect::before {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0%;
   height: 1px;
-  background-color: #fff; 
-  transition: all ease .6s; 
-  transition-delay: .3s;
- }
+  background-color: #fff;
+  transition: all ease 0.6s;
+  transition-delay: 0.3s;
+}
 
- #home-connect::after{
-  content:"";
+#home-connect::after {
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;
   height: 1px;
   background-color: #fff;
-  transition: all ease .6s;
- }
+  transition: all ease 0.6s;
+}
 
- .contact-wrapper:hover #home-connect::after{
+.contact-wrapper:hover #home-connect::after {
   width: 0;
- }
- .contact-wrapper:hover #home-connect::before{
+}
+.contact-wrapper:hover #home-connect::before {
   width: 98%;
- }
+}
 
- .contact-wrapper{
+.contact-wrapper {
   clip-path: polygon(20% 5%, 80% 5%, 80% 95%, 20% 95%);
-  transition: all ease .5s;
- }
- .contact-wrapper:hover{
+  transition: all ease 0.5s;
+}
+.contact-wrapper:hover {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
- }
+}
 
- .product-marquee{
+.product-marquee {
   animation-name: slider;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 30s;
- }
+}
 
- .mq-card h6{
-  transition: all ease .5s;
- }
+.mq-card h6 {
+  transition: all ease 0.3s;
+  transition-delay: 0.3s;
+}
 
- .mq-card:hover h6{
+.mq-card h3 {
+  transition: all ease 0.3s;
+  transition-delay: 0.3s;
+}
+
+.mq-card:hover h6 {
   transform: translateX(0%) !important;
- }
+}
 
- @keyframes slider {
-   0% {
-     transform: translateX(0);
-   }
-   100% {
+.mq-card:hover h3 {
+  transform: translateX(-100%) !important;
+}
+.product-txt:hover .num-c {
+  background-color: #fff;
+}
+.product-txt:hover .num {
+  color: white;
+}
+.product-txt:hover i {
+  opacity: 1;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
     transform: translateX(-100%);
   }
- }
+}
 
- .swiper {
+.swiper {
   width: 100%;
   height: 100%;
+  user-select: none;
 }
 
 .swiper-slide {
@@ -98,39 +118,42 @@ body {
   align-items: center;
 }
 
-/* 
-
-.swiper-button-prev{
+.swiper-button-prev {
   position: absolute;
-  bottom: 0% !important;
-  left: 45% !important;
-  top: auto !important;
+  /* bottom: 0% !important; */
+  /* left: 45% !important; */
+  /* top: auto !important; */
   width: 3vw !important;
   height: 3vw !important;
   border-radius: 50%;
   background-image: url("/swiperarr.png");
   background-size: cover;
   transform: rotate(180deg);
+  opacity: 0.3;
 }
-.swiper-button-prev:after{
+.swiper-button-prev:after {
   display: none;
 }
 
-.swiper-button-next{
+.swiper-button-next {
   position: absolute;
-  bottom: 0% !important;
-  top: auto !important;
-  right: 45% !important;
+  /* bottom: 0% !important; */
+  /* top: auto !important; */
+  /* right: 45% !important; */
   width: 3vw !important;
   height: 3vw !important;
   border-radius: 50%;
   background-image: url("/swiperarr.png");
   background-size: cover;
+  opacity: 0.3;
 }
-.swiper-button-next:after{
+.swiper-pagination-bullet-active {
+  background-color: rgb(94, 94, 94) !important;
+}
+.swiper-button-next:after {
   display: none;
-} */
+}
 
-.product-wraper:hover .product-txt{
+.product-wraper:hover .product-txt {
   width: 80%;
 }

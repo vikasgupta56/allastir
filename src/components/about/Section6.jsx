@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Section6 = () => {
     useEffect(()=>{
         gsap.to(".leader-ship",{
-            transform:"translateX(-50%)",
+            transform:"translateX(-40%)",
             duration:3.5,
             scrollTrigger:{
                 trigger:".about-sec6",
@@ -24,11 +24,11 @@ const Section6 = () => {
     },[])
     return (
         <div className='about-sec6 h-screen'>
-            <div className='leader-ship w-[200vw] h-screen flex' style={{ transform: "translateX(0%)" }}>
-                <div className='w-[100vw] gap-[2.5vw] h-full  pl-[2.5vw] flex justify-between'>
+            <div className='leader-ship w-[190vw] h-screen flex' style={{ transform: "translateX(0%)" }}>
+                <div className='w-[90vw] gap-[2.5vw] h-full  pl-[2.5vw] flex justify-between'>
                     <div className='w-[60%] h-full flex flex-col gap-[2vw] justify-center'>
-                        <h2 className='text-[7vw] font-semibold leading-tight'>Our Leadership</h2>
-                        <p className='text-[1vw] w-[80%]'>Our leadership at the Rashtriya Swabhimaan Sangh Party embodies a visionary and inclusive approach, driving us towards our mission to build an inclusive and prosperous India based on the principles of Integral Humanism and the New India Model of Akhand Bharat.</p>
+                        <h2 className='text-[4vw] leading-tight font-semibold'>Our Leadership</h2>
+                        <p className='text-[1vw] w-[90%]'>Our leadership at the Rashtriya Swabhimaan Sangh Party embodies a visionary and inclusive approach, driving us towards our mission to build an inclusive and prosperous India based on the principles of Integral Humanism and the New India Model of Akhand Bharat.</p>
                     </div>
                     <div className='px-[4vw] h-full flex items-center justify-center'>
                         <div className='w-[23vw]'>

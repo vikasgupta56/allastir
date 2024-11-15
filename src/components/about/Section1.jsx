@@ -1,28 +1,32 @@
 import gsap from 'gsap'
-import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 import React, { useEffect } from 'react'
-gsap.registerPlugin(ScrollTrigger)
 
-const Section1 = ({navRef}) => {
-    useEffect(() => {
-        if (navRef.current) {
-            gsap.to(navRef.current, {
-                backgroundColor: "white",
-                color: "black",
-                duration: .5,
-                scrollTrigger: {
-                    trigger: ".about-pg",
-                    start: "bottom 5%",
-                    end: "bottom top",
-                    scrub: 1,
-                }
-            })
-        }
-    }, [])
-    
+const Section1 = () => {
+  useEffect(()=>{
+    gsap.to(".about-span span",{
+      transform:"translateY(0%)",
+      duration:.8,
+      stagger:{
+        amount:.2
+      },
+    })
+    gsap.to(".ml",{
+      scale:1,
+      opacity:.2,
+      delay:.2,
+      stagger:.2,
+      duration:.8
+    })
+  },[])
   return (
-    <div className='about-pg w-full h-screen'>
-        <video autoPlay muted loop playsInline className='w-full h-full object-cover' src="https://cdn.jasonbradley.co/pic/e41880eb-c899c2fa%20(1).mp4"></video>
+    <div className='relative w-full h-screen flex items-center justify-center text-[15vw] font-bold uppercase'>
+      <div className='overflow-hidden relative z-[10]'>
+        <h1 className='leading-none text-center about-span'> {"About".split("").map((l, i) => <span style={{transform:"translateY(100%)"}} className='inline-block leading-tight' key={i}>{l}</span>)}</h1>
+      </div>
+      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[15vw] top-[30%]  left-[2%]' src="ml.png" alt="" />
+      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[15vw] top-[65%]  left-[20%]' src="ml.png" alt="" />
+      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[15vw] top-[15%]  left-[40%]' src="ml.png" alt="" />
+      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[20vw] top-[30%]  left-[80%]' src="ml.png" alt="" />
     </div>
   )
 }
