@@ -18,10 +18,10 @@ const Section3 = () => {
         <div className="w-full min-h-screen py-[2vw] flex flex-col items-center">
             <h1 className="text-[3vw] font-semibold mb-[2vw]">Foundry Qualified</h1>
             <div className="w-[80%]">
-                {bars.map((bar) => (
+                {bars.map((bar,i) => (
                     <div
                         key={bar.id}
-                        className={`w-full border-t py-[.5vw] flex justify-between border-black/50 pr-[8vw] pl-[3vw]`}
+                        className={`w-full border-t ${i === bars.length - 1 && "border-b"} py-[.5vw] flex justify-between border-black/50 pr-[8vw] pl-[3vw]`}
                     >
                         <div className="flex items-center text-[2.5vw]">
                             <h>{bar.title}</h>
