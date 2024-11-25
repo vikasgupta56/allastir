@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useEffect, useRef } from 'react'
 gsap.registerPlugin(ScrollTrigger)
 
-const Section1 = ({ navRef }) => {
+const Section1 = ({ navRef, popup }) => {
     const videoRef = useRef(null)
     useEffect(() => {
         document.querySelector("body").style.overflow = "hidden"
@@ -36,7 +36,7 @@ const Section1 = ({ navRef }) => {
             .to(".hero-txt1", {
                 transform: "translateY(50%) scale(1.8)",
                 opacity: 1,
-                duration: .5,
+                duration: .8,
                 ease: "power4.in",
             })
             .to(navRef.current,{
@@ -62,7 +62,17 @@ const Section1 = ({ navRef }) => {
             .to(".ifram",{
                 scaleX:1,
                 duration:.5,
-            })
+            },"p")
+            .to(popup.current,{
+                scale:1,
+                duration:.5,
+            },"p")
+            .to(popup.current.querySelector(".close"),{
+                scale:1,
+                duration:.2,
+                delay:2
+            },"p")
+            
 
           
 
@@ -96,12 +106,10 @@ const Section1 = ({ navRef }) => {
                     <img onClick={() => {
                         videoRef.current.currentTime = 1
                         videoRef.current.play()
-                        document.querySelector(".player-line").style.left = "10% !important"
                     }}   className='h-full w-[5.3vw] object-cover transition-all duration-500 hover:w-[7.5vw]' src="https://lh3.googleusercontent.com/cCGdsw-Qj0GV01Jv4Q2VmtNUEZiZdPjZRa6Pn0NiS6r4QLg2lxapozN4tocEqXsphGZxFP9hFkjHXThJTCfk4dIlKd_3UVQVK8I=rw-s0-e365" alt="" />
                     <img onClick={() => {
                         videoRef.current.currentTime = 2
                         videoRef.current.play()
-                        document.querySelector(".player-line").style.left = "20% !important"
                     }}  className='h-full w-[5.3vw] object-cover transition-all duration-500 hover:w-[7.5vw]' src="https://lh3.googleusercontent.com/mMu661DL7tny_32Cn8x5igtI0vOvBfhyH_bWHYGp_y_ZAYnCOy7TEIX0EzbMRWcYmMdDwbcVGTi3W42qQn4SYjCRTalHJGOjsEm4=rw-s0-e365" alt="" />
                     <img 
                     onClick={() => {

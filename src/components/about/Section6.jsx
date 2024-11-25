@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Section6 = () => {
     useEffect(()=>{
         gsap.to(".leader-ship",{
-            transform:"translateX(-40%)",
+            transform:"translateX(-50vw)",
             duration:3.5,
             scrollTrigger:{
                 trigger:".about-sec6",

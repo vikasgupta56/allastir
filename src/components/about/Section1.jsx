@@ -12,21 +12,24 @@ const Section1 = () => {
     })
     gsap.to(".ml",{
       scale:1,
-      opacity:.2,
+      opacity:.05,
       delay:.2,
       stagger:.2,
       duration:.8
     })
   },[])
   return (
-    <div className='relative w-full h-screen flex items-center justify-center text-[15vw] font-bold uppercase'>
-      <div className='overflow-hidden relative z-[10]'>
-        <h1 className='leading-none text-center about-span'> {"About".split("").map((l, i) => <span style={{transform:"translateY(100%)"}} className='inline-block leading-tight' key={i}>{l}</span>)}</h1>
+    <div className='relative w-full h-screen flex flex-col items-center justify-center text-[15vw] font-bold uppercase'>
+       <div className='overflow-hidden relative z-[10]'>
+        <h1 className='leading-none text-center about-span'> {"about".split("").map((l, i) => <span style={{transform:"translateY(100%)"}} className='inline-block leading-none' key={i}>{l}</span>)}</h1>
       </div>
-      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[15vw] top-[30%]  left-[2%]' src="ml.png" alt="" />
-      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[15vw] top-[65%]  left-[20%]' src="ml.png" alt="" />
-      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[15vw] top-[15%]  left-[40%]' src="ml.png" alt="" />
-      <img data-scroll data-scroll-speed=".4" className='ml absolute opacity-0 w-[20vw] top-[30%]  left-[80%]' src="ml.png" alt="" />
+      <div className='overflow-hidden relative z-[10]'>
+        <h1 className='leading-none text-center about-span'> {"us".split("").map((l, i) => <span style={{transform:"translateY(100%)"}} className='inline-block leading-none' key={i}>{l}</span>)}</h1>
+      </div>
+      <img className='ml absolute opacity-0 w-[15vw] top-[30%]  left-[2%]' src="ml.png" alt="" />
+      <img className='ml absolute opacity-0 w-[15vw] top-[65%]  left-[20%]' src="mol2.png" alt="" />
+      <img className='ml absolute opacity-0 w-[15vw] top-[15%]  left-[40%]' src="mol3.png" alt="" />
+      <img className='ml absolute opacity-0 w-[20vw] top-[30%]  left-[80%]' src="mol4.png" alt="" />
     </div>
   )
 }
