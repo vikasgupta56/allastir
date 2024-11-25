@@ -50,13 +50,13 @@ const Section3 = () => {
                 {bars.map((bar,i) => (
                     <div
                         key={bar.id}
-                        className={`bar-${bar.id} w-full border-t ${i === bars.length - 1 && "border-b"} py-[.5vw] flex justify-between border-black/50 pr-[8vw] pl-[3vw]`}
+                        className={`bar-${bar.id} w-full border-t ${i === bars.length - 1 && "border-b"} py-[.5vw] flex justify-between border-black/50 pr-[3vw] pl-[3vw]`}
                     >
                         <div className="flex items-center text-[4vw] opacity-[.4]">
                             <h2 className={`count-${bar.id}`}>0</h2>
                             <span>+</span>
                         </div>
-                        <div className="gap-[3vw] flex w-[50%] items-center">
+                        <div className="gap-[3vw] flex w-[49%] items-center">
                             <img
                                 className="w-[6vw]"
                                 src="https://res.cloudinary.com/hyac47p8z/image/upload/v1717843297/01_Photopolymer_9d82e8d51a.gif"
