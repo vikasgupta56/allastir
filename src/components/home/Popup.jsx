@@ -14,6 +14,7 @@ const Popup = ({setisOpen ,popup}) => {
     </div>
     <div onClick={()=>setisOpen(false)} className="close  scale-0 cursor-pointer absolute right-[.5vw] top-[.5vw] rounded-full bg-black/10 hover:bg-black/20  w-[1.5vw] h-[1.5vw] flex items-center justify-center"><i class="ri-close-line"></i></div>
   </div>
+  
     </div>
   )
 }
