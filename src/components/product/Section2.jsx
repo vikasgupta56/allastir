@@ -16,7 +16,7 @@ const Section2 = ({ title }) => {
                         </div>
                         <div className='num-c px-[1.2vw] py-[.2vw] rounded-full bg-black text-white text-[.7vw] font-semibold transition-all duration-300 relative'>
                         <h2 className='num transition-all duration-300'>{p+1}</h2>
-                        <i class="ri-arrow-right-line text-[.7vw] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-black transition-all duration-300 opacity-0"></i>
+                        <i className="ri-arrow-right-line text-[.7vw] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-black transition-all duration-300 opacity-0"></i>
                         </div>
                        </div>
                     </div>
