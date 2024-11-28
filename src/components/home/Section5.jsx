@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function App() {
   return (
     <div className='w-full flex items-center flex-col justify-center px-[2.5vw]'>
-      <h2 className='text-[3vw] font-semibold mb-[1vw] text-center'>Our Clientele</h2>
+      <h2 className='text-[3vw] font-semibold text-center'>Our Clientele</h2>
       <div className='w-full h-[30vh]'>
         <Swiper
           slidesPerView={4}
