@@ -78,10 +78,10 @@ const Section1 = ({ navRef, popup }) => {
         <div className='hero w-full h-screen relative'>
             <video ref={videoRef} muted loop playsInline className='w-full h-full object-cover' src="https://storage.googleapis.com/gweb-mobius-cdn/research-languages/uploads/6fa2f8761189a3cb68ae72a28c3f6b3f8599dbed.compressed.compressed.mp4"></video>
             <div className="overlay-hero w-full h-full absolute top-0 left-0 text-white flex flex-col items-center justify-center">
-                <div className='overflow-hidden'>
+                <div className='overflow-hidden h-[5vw]'>
                     <h1 className='hero-txt1 text-[4vw] leading-none' style={{transform:"translateY(100%)"}}>More languages.</h1>
                 </div>
-                <div className='overflow-hidden'>
+                <div className='overflow-hidden h-[5vw]'>
                     <h1 className='hero-txt2 text-[4vw] leading-none' style={{transform:"translateY(100%)"}}>Fewer barriers.</h1>
                 </div>
                 <div className='hero-para flex flex-col items-center justify-center gap-[1vw] mt-[1.8vw] opacity-0'>
