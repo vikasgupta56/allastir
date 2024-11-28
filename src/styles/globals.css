@@ -73,7 +73,7 @@ body {
 }
 
 .mq-card h3 {
-  transition: all ease 0.3s;
+  transition-delay: 0.3s;
 }
 
 .mq-card:hover h6 {
@@ -81,7 +81,8 @@ body {
 }
 
 .mq-card:hover h3 {
-  transform: translateX(-100%) !important;
+  opacity: 0;
+  transition-delay: 0s;
 }
 .product-txt:hover .num-c {
   background-color: #fff;
@@ -116,6 +117,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.swiper-button-prev{
+  transform: scale(.8) !important;
+}
+.swiper-button-next{
+  transform: scale(.8) !important;
+}
 /* 
 .swiper-button-prev {
   position: absolute;
@@ -148,7 +155,7 @@ body {
 } */
 
 .swiper-button-next:after , .swiper-button-prev::after {
-  opacity: .6;
+  opacity: .8;
 }
 
 .product-wraper:hover .product-txt {

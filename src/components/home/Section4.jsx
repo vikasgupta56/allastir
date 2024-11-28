@@ -14,7 +14,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -160,7 +160,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -184,7 +184,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -208,7 +208,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -220,7 +220,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -232,7 +232,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -244,7 +244,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -256,7 +256,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -268,7 +268,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -280,7 +280,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
@@ -292,7 +292,7 @@ const Section4 = () => {
                         <span className='w-[.3vw] h-[.3vw] bg-black rounded-full'></span>
                         <span className='relative h-full flex overflow-hidden items-center'>
                             <h6 style={{transform:"translateX(-100%)"}} className='text-[.9vw] capitalize font-semibold'>product name</h6>
-                            <h3 style={{transform:"translateX(0%)"}} className='absolute text-[.9vw] capitalize font-semibold'>64</h3>
+                            <h3 className='number absolute text-[.9vw] capitalize font-semibold'>64</h3>
                         </span>
                     </div>
                 </div>
