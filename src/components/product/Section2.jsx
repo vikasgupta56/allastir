@@ -2,9 +2,9 @@ import React from 'react'
 
 const Section2 = ({ title }) => {
     return (
-        <div className='w-full sm:min-h-[30vh] min-h-screen p-[2.5vw] pt-[5vw]'>
-            <h1 className='sm:text-[6.5vw] text-[3vw] font-semibold capitalize mb-[2.5vw] text-center'>{title}</h1>
-            <div className='sm:w-[88%] w-[80%] mx-auto rounded-2xl overflow-hidden border border-black/20'>
+        <div className='w-full sm:min-h-[30vh] min-h-screen p-[2.5vw] sm:px-0 pt-[5vw]'>
+            <h1 className='sm:text-[6vw] text-[3vw] font-semibold capitalize mb-[2.5vw] text-center'>{title}</h1>
+            <div className='sm:w-[92%] w-[80%] mx-auto rounded-2xl overflow-hidden border border-black/20'>
                 {[0, 1, 2, 3, 4, 5].map((p, i) => (<div key={i} className='product-wraper w-full sm:h-[10vw] h-[6vw] flex justify-end border-b border-black/20'>
                     <div className='w-[30%] sm:h-[10vw] h-[6vw] shrink-0 transition-all duration-150 overflow-hidden'>
                         <img className='w-full h-full object-cover object-bottom' src="https://images.unsplash.com/photo-1585435557343-3b092031a831?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
