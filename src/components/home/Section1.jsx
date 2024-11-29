@@ -59,9 +59,6 @@ const Section1 = ({ navRef, popup }) => {
                 delay: 2
             }, "p")
 
-
-
-
         ScrollTrigger.refresh();
 
         return () => {
