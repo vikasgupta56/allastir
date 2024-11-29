@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className="w-full flex items-center flex-col justify-center px-[2.5vw]">
       <h2 className="sm:text-[6.5vw] text-[3vw] font-semibold text-center">Our Clientele</h2>
-      <div className="w-full sm:h-[20vh] h-[30vh]">
+      <div className="w-full sm:h-[13vh] h-[30vh]">
         <Swiper
           slidesPerView={4}
           spaceBetween={2}

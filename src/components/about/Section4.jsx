@@ -193,7 +193,7 @@ const Section4 = () => {
         <div className='timeline-section w-full  h-[100vh] flex sm:flex-col-reverse'>
             <div className='sm:w-full w-[42%] sm:h-[40vh]   h-full  flex flex-col justify-end'>
                 <div className='w-full h-[72vh] pl-[2.5vw] pb-[1vw] flex flex-col justify-between'>
-                    <div className='sm:h-[16vw] h-[10vw] w-fit overflow-hidden sm:mt-[8vh]'>
+                    <div className='sm:h-[17vw] h-[10vw] w-fit overflow-hidden sm:mt-[8vh]'>
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1991</h1>
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1992</h1>
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1993</h1>
@@ -201,7 +201,7 @@ const Section4 = () => {
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1995</h1>
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1996</h1>
                     </div>
-                    <div className='w-full h-[60%] flex flex-col justify-end'>
+                    <div className='w-full h-[60%] flex flex-col justify-end sm:mb-[10vw]'>
                         <div className='sm:h-[8.5vw] h-[4.5vw] w-fit overflow-hidden sm:mb-[3vw]'>
                             <h2 className='timeline-title leading-1 sm:text-[6vw] text-[3vw] capitalize'>initial prospecting</h2>
                             <h2 className='timeline-title leading-1 sm:text-[6vw] text-[3vw] capitalize'>Plan Strategically</h2>
