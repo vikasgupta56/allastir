@@ -16,25 +16,25 @@ const Section3 = () => {
 
     return (
         <div className="w-full min-h-screen py-[2vw] flex flex-col items-center">
-            <h1 className="text-[3vw] font-semibold mb-[2vw]">Foundry Qualified</h1>
-            <div className="w-[75%]">
+            <h1 className="sm:text-[6.5vw] text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
+            <div className="sm:w-[92%] w-[75%]">
                 {bars.map((bar,i) => (
                     <div
                         key={bar.id}
-                        className={`w-full border-t ${i === bars.length - 1 && "border-b"} py-[.5vw] flex justify-between border-black/20 px-[1.7vw]`}
+                        className={`w-full border-t ${i === bars.length - 1 && "border-b"} sm:py-[4vw] py-[.5vw] flex sm:flex-col justify-between border-black/20 px-[1.7vw]`}
                     >
-                        <div className="flex items-center text-[2.5vw]">
+                        <div className="flex items-center sm:text-[4vw] text-[2.5vw]">
                             <h>{bar.title}</h>
                         </div>
-                        <div className="gap-[3vw] flex w-[50%] items-center">
+                        <div className="gap-[3vw] flex sm:w-full sm:mt-[5vw] w-[49%] sm:items-start items-center">
                             <img
-                                className="w-[6vw]"
+                                className="sm:w-[15vw] w-[6vw]"
                                 src="https://res.cloudinary.com/hyac47p8z/image/upload/v1717843297/01_Photopolymer_9d82e8d51a.gif"
                                 alt=""
                             />
                             <div>
-                                <h4 className="text-[1.1vw] font-semibold">{bar.title}</h4>
-                                <p className="text-[#7F7F7F]">{bar.description}</p>
+                                <h4 className="sm:text-[3.5vw] text-[1.1vw] font-semibold">{bar.title}</h4>
+                                <p className="sm:text-[3.2vw] text-[#7F7F7F]">{bar.description}</p>
                             </div>
                         </div>
                     </div>

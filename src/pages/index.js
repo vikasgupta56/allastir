@@ -16,7 +16,7 @@ const index = () => {
 
 
   return (
-    <div className='relative'>
+    <div className='relative overflow-hidden'>
       <Navbar navRef={navRef}/>
       <Popup popup={popup} />
       <Section1 navRef={navRef} popup={popup}/>

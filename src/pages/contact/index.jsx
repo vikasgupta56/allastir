@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 const index = () => {
     const navRef = useRef(null)
   return (
-    <div className='w-full relative'>
+    <div className='w-full relative overflow-hidden'>
         <Navbar2/>
         <Section1/>
         <Footer/>

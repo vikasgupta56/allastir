@@ -4,22 +4,25 @@ const Popup = ({ popup }) => {
   const bell = useRef(null)
   return (
     <div className='w-full h-screen absolute top-0 left-0 pointer-events-none'>
-      <div ref={popup} className="notification pointer-events-auto fixed scale-0 z-10 border bottom-[2vw] right-[2vw] w-[20%] p-[1vw] bg-white rounded-xl flex items-start justify-between gap-[1vw]">
-        <div className='p-[1vw] px-[1.3vw] rounded-lg bg-blue-950/10 text-blue-900 flex items-center justify-center'>
-          <i className="ri-notification-3-line text-[1vw]"></i>
+      <div ref={popup} className="notification pointer-events-auto fixed scale-0 z-10 border sm:bottom-[10vw] bottom-[2vw] sm:right-[4vw] right-[2vw] sm:w-[65%] w-[20%] sm:p-[4vw] p-[1vw] bg-white rounded-xl flex items-start justify-between sm:gap-[3vw] gap-[1vw]">
+        <div className='sm:p-[2vw] p-[1vw] sm:px-[3vw] px-[1.3vw] rounded-lg bg-blue-950/10 text-blue-900 flex items-center justify-center'>
+          <i className="ri-notification-3-line sm:text-[4vw] text-[1vw]"></i>
         </div>
         <div>
-          <h2 className='text-[1vw] font-semibold'>Upcoming event</h2>
-          <p className='text-[.7vw]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className='text-white bg-[#2070DA] hover:bg-blue-900 text-[.6vw] font-regular px-[.9vw] py-[.4vw] mt-[.7vw] rounded-full'>Register Now</button>
+          <h2 className='sm:text-[3.5vw] text-[1vw] font-semibold'>Upcoming event</h2>
+          <p className='sm:text-[2.5vw] text-[.7vw]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button className='text-white bg-[#2070DA] hover:bg-blue-900 sm:text-[2.5vw] text-[.6vw] font-regular sm:px-[2.5vw] px-[.9vw] sm:py-[1.5vw] py-[.4vw] sm:mt-[1.5vw] mt-[.7vw] rounded-full'>Register Now</button>
         </div>
-        <div onClick={() => { 
+        <div onClick={() => {
           popup.current.classList.add("hidden")
           bell.current.style.opacity = 1
-         }} className="close  scale-0 cursor-pointer absolute right-[.5vw] top-[.5vw] rounded-full bg-black/10 hover:bg-black/20  w-[1.5vw] h-[1.5vw] flex items-center justify-center"><i className="ri-close-line"></i></div>
+        }} className="close  scale-0 cursor-pointer absolute sm:right-[1.5vw] right-[.5vw] sm:top-[1.5vw] top-[.5vw] rounded-full bg-black/10 hover:bg-black/20  sm:w-[7vw] w-[1.5vw] sm:h-[7vw] h-[1.5vw] flex items-center justify-center"><i className="ri-close-line sm:text-[5vw]"></i></div>
       </div>
-      <div ref={bell} className='w-[2.8vw] opacity-0 h-[2.8vw] rounded-full bg-[#5088ff] hover:bg-[#2070DA] duration-300 fixed z-10 bottom-[2vw] right-[2vw] pointer-events-auto cursor-pointer flex items-center justify-center'>
-        <i className="ri-notification-3-line text-[1vw] text-white"></i>
+      <div ref={bell} onClick={() => {
+        bell.current.style.opacity = 0
+        popup.current.classList.remove("hidden")
+      }} className='sm:w-[12vw] w-[2.8vw] opacity-0 sm:h-[12vw] h-[2.8vw] rounded-full bg-[#5088ff] hover:bg-[#2070DA]  fixed z-10 sm:bottom-[10vw] bottom-[2vw] sm:right-[4vw] right-[2vw] pointer-events-auto cursor-pointer flex items-center justify-center'>
+        <i className="ri-notification-3-line sm:text-[4vw] text-[1vw] text-white"></i>
       </div>
     </div>
   )

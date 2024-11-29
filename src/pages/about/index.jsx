@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 
 const index = () => {
   return (
-    <div className='w-full relative'>
+    <div className='w-full relative overflow-hidden'>
       <Navbar2/>
       <Section1 />
       <Section2 />
