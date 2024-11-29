@@ -30,7 +30,7 @@ const Section1 = () => {
                     </div>
                 </form>
             </div>
-            <div className='sm:w-full w-[50%] sm:h-[60vh] h-[85vh] sm:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col'>
+            <div className='sm:w-full w-[50%] sm:h-[50vh] h-[85vh] sm:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col'>
                 <div className='w-full h-[50%] rounded-2xl overflow-hidden'>
                     <img className='w-full h-full object-cover' src="https://cdn.prod.website-files.com/662e5390115777703fa6e8da/663b51da0bf50313bd8b4a39_Woman%20Contact-p-800.webp" alt="" />
                 </div>
