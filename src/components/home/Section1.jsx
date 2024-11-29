@@ -7,7 +7,6 @@ gsap.registerPlugin(ScrollTrigger)
 const Section1 = ({ navRef, popup }) => {
     const videoRef = useRef(null)
     useEffect(() => {
-        document.querySelector("body").style.overflow = "hidden"
         if (navRef.current) {
             gsap.to(navRef.current, {
                 backgroundColor: "white",
