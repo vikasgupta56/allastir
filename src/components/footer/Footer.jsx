@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full sm:h-[55vh] h-[55vh]  p-[4vw] sm:p-[4vw] px-[2.5vw]'> 
+    <div className='w-full sm:h-[65vh] h-[55vh]  p-[4vw] sm:p-[4vw] px-[2.5vw]'> 
       <div className='w-full h-full flex sm:flex-col sm:justify-between'>
         <div className='sm:w-full w-1/2 sm:h-fit h-full flex flex-col justify-between'>
         <h2 className='sm:text-[5vw] text-[1.4vw] font-bold'>Allastir</h2>
@@ -32,10 +32,10 @@ const Footer = () => {
             <Link href="/">help@wannathis.one</Link>
         </div>
         </div>
-        <div className='sm:w-full w-[33.3%] sm:h-fit sm:mt-[10vh]  h-full flex flex-col sm:gap-[4vw]  justify-between'>
+        <div className='sm:w-full w-[33.3%] sm:h-fit sm:mt-[12vh]  h-full flex flex-col sm:gap-[4vw]  justify-between'>
         <h2>Follow us</h2>
        <div className='w-full flex justify-between items-center'>
-       <div className='flex items-start gap-[1vw] sm:h-fit h-[70%]'>
+       <div className='flex items-start sm:gap-[4vw] gap-[1vw] sm:h-fit h-[70%]'>
             <Link href="/"><i className="ri-instagram-line"></i></Link>
             <Link href="/"><i className="ri-behance-line"></i></Link>
             <Link href="/"><i className="ri-pinterest-fill"></i></Link>

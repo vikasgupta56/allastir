@@ -24,7 +24,7 @@ const Section3 = () => {
                         className={`w-full border-t ${i === bars.length - 1 && "border-b"} sm:py-[4vw] py-[.5vw] flex sm:flex-col justify-between border-black/20 px-[1.7vw]`}
                     >
                         <div className="flex items-center sm:text-[4vw] text-[2.5vw]">
-                            <h>{bar.title}</h>
+                            <h2>{bar.title}</h2>
                         </div>
                         <div className="gap-[3vw] flex sm:w-full sm:mt-[5vw] w-[49%] sm:items-start items-center">
                             <img
