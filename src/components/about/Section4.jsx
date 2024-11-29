@@ -211,22 +211,22 @@ const Section4 = () => {
                             <h2 className='timeline-title leading-1 sm:text-[6vw] text-[3vw] capitalize'>Transform Ideas</h2>
                         </div>
                         <div className="w-full relative h-[40%]">
-                            <p className="timeline-para1 absolute w-[60%] sm:text-[3vw] text-[1vw] leading-tight text-[#80868B]">
+                            <p className="timeline-para1 absolute w-[60%] sm:text-[3.5vw] text-[1vw] leading-tight text-[#80868B]">
                                 The ancient site was rediscovered by chance during an archeological survey, revealing insights into long-lost civilizations.
                             </p>
-                            <p className="timeline-para2 opacity-0 absolute w-[60%] sm:text-[3vw] text-[1vw] leading-tight text-[#80868B]">
+                            <p className="timeline-para2 opacity-0 absolute w-[60%] sm:text-[3.5vw] text-[1vw] leading-tight text-[#80868B]">
                                 After years of neglect, the region became a focal point of research, contributing to the cultural and historical narrative of the area.
                             </p>
-                            <p className="timeline-para3 opacity-0 absolute w-[60%] sm:text-[3vw] text-[1vw] leading-tight text-[#80868B]">
+                            <p className="timeline-para3 opacity-0 absolute w-[60%] sm:text-[3.5vw] text-[1vw] leading-tight text-[#80868B]">
                                 The advancements in excavation technology allowed researchers to uncover artifacts that were previously inaccessible.
                             </p>
-                            <p className="timeline-para4 opacity-0 absolute w-[60%] sm:text-[3vw] text-[1vw] leading-tight text-[#80868B]">
+                            <p className="timeline-para4 opacity-0 absolute w-[60%] sm:text-[3.5vw] text-[1vw] leading-tight text-[#80868B]">
                                 Local legends spoke of a hidden treasure buried beneath the hills, sparking curiosity and exploration for centuries.
                             </p>
-                            <p className="timeline-para5 opacity-0 absolute w-[60%] sm:text-[3vw] text-[1vw] leading-tight text-[#80868B]">
+                            <p className="timeline-para5 opacity-0 absolute w-[60%] sm:text-[3.5vw] text-[1vw] leading-tight text-[#80868B]">
                                 Geological surveys showed evidence of a rare mineral deposit, attracting mining companies to the area in the early 1900s.
                             </p>
-                            <p className="timeline-para6 opacity-0 absolute w-[60%] sm:text-[3vw] text-[1vw] leading-tight text-[#80868B]">
+                            <p className="timeline-para6 opacity-0 absolute w-[60%] sm:text-[3.5vw] text-[1vw] leading-tight text-[#80868B]">
                                 The transformation of the site into a UNESCO World Heritage location ensured its preservation for future generations.
                             </p>
                         </div>
@@ -238,7 +238,7 @@ const Section4 = () => {
                 <div className='sm:h-fit h-[28vh] flex flex-col justify-end pb-[1vw]'>
                     <div>
                         <h2 className='sm:text-[6.5vw] text-[3vw] font-semibold sm:mb-[2vw] mb-[1vw] capitalize'>Our history</h2>
-                        <p className='sm:w-[85%] w-[70%] sm:text-[4vw] text-[1.2vw] leading-tight text-[#80868B] sm:mb-[4vw]'>ZCMC, and the Kajaran deposit, has a long standing history with animportant role in the development of the country and the region.</p>
+                        <p className='sm:w-[85%] w-[70%] sm:text-[3.5vw] text-[1.2vw] leading-tight text-[#80868B] sm:mb-[4vw]'>ZCMC, and the Kajaran deposit, has a long standing history with animportant role in the development of the country and the region.</p>
                     </div>
                 </div>
                 <div className='w-full sm:h-[35vh]  h-[72vh] flex justify-between pb-[1vw]'>
