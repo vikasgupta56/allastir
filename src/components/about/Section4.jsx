@@ -234,7 +234,7 @@ const Section4 = () => {
                     </div>
                 </div>
             </div>
-            <div className='sm:w-full w-[57%] sm:h-fit  sm:px-[4vw] pt-[10vh]'>
+            <div className='sm:w-full w-[57%] sm:h-fit  sm:px-[4vw] sm:pt-[10vh]'>
                 <div className='sm:h-fit h-[28vh] flex flex-col justify-end pb-[1vw]'>
                     <div>
                         <h2 className='sm:text-[6.5vw] text-[3vw] font-semibold sm:mb-[2vw] mb-[1vw] capitalize'>Our history</h2>
@@ -243,7 +243,7 @@ const Section4 = () => {
                 </div>
                 <div className='w-full sm:h-[35vh]  h-[72vh] flex justify-between pb-[1vw]'>
                     <div className='timeline w-[15%] h-full relative flex items-center'>
-                        <div className='w-[1px] h-[33.5vh] bg-zinc-300'>
+                        <div className='w-[1px] sm:h-[33.5vh] h-[66.5vh] bg-zinc-300'>
                             <div className='timeline-strip w-full h-0 bg-[#000]'></div>
                         </div>
                         <div className='w-full h-full flex flex-col text-zinc-400 justify-between sm:pl-[3vw] pl-[1.2vw] sm:text-[2.8vw] text-[1.1vw]'>

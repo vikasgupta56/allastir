@@ -43,7 +43,7 @@ const Navbar = ({ navRef }) => {
         <Link href="/ALLASTIR_BROCHURE.pdf" target="_blank" className='hover:opacity-[.8]'>brochure</Link>
         <Link href="/contact" className='hover:opacity-[.8]'>contact</Link>
       </div>
-      <i onClick={openSidebar} className="ri-menu-fill text-[5.5vw] font-semibold"></i>
+      <i onClick={openSidebar} className="ri-menu-fill text-[5.5vw] sm:block hidden font-semibold"></i>
      <div style={{ right: "-100%" }} className='side-menu duration-300 w-[100%] h-screen absolute top-0 right-0  text-black sm:flex hidden justify-end uppercase font-semibold text-left text-[6vw]'>
         <div className='w-[50vw] h-screen relative flex flex-col justify-center gap-[4vw] p-[4vw] bg-white'>
           <i onClick={closeSidebar} className="ri-close-line text-[6vw] absolute top-[3.1vw] right-[4vw]"></i>
