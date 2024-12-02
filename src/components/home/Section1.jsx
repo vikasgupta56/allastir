@@ -80,7 +80,7 @@ const Section1 = ({ navRef, popup }) => {
                 <div className='overflow-hidden sm:h-[11vw] h-[5vw]'>
                     <h1 className='hero-txt2 sm:text-[9vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Fewer barriers.</h1>
                 </div>
-                <div className='hero-para flex flex-col items-center justify-center sm:gap-[4vw] gap-[1vw] mt-[2.5vw] opacity-0'>
+                <div className='hero-para flex flex-col items-center justify-center sm:gap-[4vw] gap-[1vw] sm:mt-[2.5vw] opacity-0'>
                     <p className='sm:text-[4vw] text-[1.2vw] sm:w-[75%] w-[56%] text-center'>See how Google is expanding support for
                         thousands of the world's languages.</p>
                     <Link href="/contact" className='flex items-center justify-center sm:h-[8vw] h-[4vw]'>
