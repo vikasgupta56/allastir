@@ -169,4 +169,12 @@ body {
   .contact-wrapper{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
+  .product-wraper .product-txt {
+    width: 75%;
+  }
+  .product-wraper:hover .product-txt {
+    width: 75%;
+    background-color: #58636e;
+    color: #fff;
+  }
 }

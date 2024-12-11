@@ -45,7 +45,7 @@ const Section3 = () => {
 
     return (
         <div className="w-full min-h-screen py-[2vw] flex flex-col items-center">
-            <h1 className="sm:text-[10vw] text-center leading-tight whitespace-wrap text-[7vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
+            <h1 className="sm:text-[10vw] text-center leading-tight whitespace-wrap text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
             <div className="sm:w-[92%] w-[75%]">
                 {bars.map((bar, i) => (
                     <div
@@ -58,13 +58,13 @@ const Section3 = () => {
                         </div>
                         <div className="flex  sm:w-full sm:mt-[2vw] w-[49%] sm:items-start items-center">
                             <img
-                                className="sm:w-[15vw] w-[20vw] absolute top-[10%] right-0" style={{width:"20vw"}}
+                                className="sm:w-[20vw] w-[10vw] sm:absolute sm:top-[10%] sm:right-0"
                                 src="https://res.cloudinary.com/hyac47p8z/image/upload/v1717843297/01_Photopolymer_9d82e8d51a.gif"
                                 alt=""
                             />
                             <div>
-                                <h4 className="sm:text-[3.5vw] text-[1.1vw] font-semibold">{bar.title}</h4>
-                                <p className="sm:text-[3.2vw] text-[#7F7F7F]">{bar.description}</p>
+                                <h4 className="sm:text-[5vw] text-[1.1vw] font-semibold">{bar.title}</h4>
+                                <p className="sm:text-[4.5vw] text-[#7F7F7F]">{bar.description}</p>
                             </div>
                         </div>
                     </div>

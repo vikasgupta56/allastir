@@ -65,16 +65,16 @@ const Section6 = () => {
                     </div>
                 </div>
             </div>
-            <div className='sm:flex hidden w-full min-h-screen flex-col items-center p-[4vw] pt-[6vw]'>
-                <h2 className='text-[6.5vw] leading-tight font-semibold'>Our Leadership</h2>
-                <p className='text-[3.5vw] w-[92%] mt-[3vw] text-center'>Our leadership at the Rashtriya Swabhimaan Sangh Party embodies a visionary and inclusive approach, driving us towards our mission to build an inclusive and prosperous India based on the principles of Integral Humanism and the New India Model of Akhand Bharat.</p>
+            <div className='sm:flex bg-blue-100/50 hidden w-full min-h-screen flex-col items-center p-[4vw] pt-[6vw] sm:py-[10vw]'>
+                <h2 className='text-[10vw] leading-tight font-semibold'>Our Leadership</h2>
+                <p className='text-[4.5vw] w-[98%] mt-[3vw] text-center'>Our leadership at the Rashtriya Swabhimaan Sangh Party embodies a visionary and inclusive approach, driving us towards our mission to build an inclusive and prosperous India based on the principles of Integral Humanism and the New India Model of Akhand Bharat.</p>
                 <div className='w-[70vw]'>
                     <div className='w-full h-[35vh] mt-[10vw]'>
                         <img className='w-full h-full object-cover object-center' src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
                     <div className='w-full mt-[.54vw]'>
-                        <h4 className='text-[4vw] font-semibold'>Shri. Krrishna R. Dewassi</h4>
-                        <h6 className='text-[3.5vw]'>National President</h6>
+                        <h4 className='text-[5vw] font-semibold'>Shri. Krrishna R. Dewassi</h4>
+                        <h6 className='text-[4.5vw]'>National President</h6>
                     </div>
                 </div>
                 <div className='w-[70vw]'>
@@ -82,8 +82,8 @@ const Section6 = () => {
                         <img className='w-full h-full object-cover object-center' src="https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
                     <div className='w-full mt-[.54vw]'>
-                        <h4 className='text-[4vw] font-semibold'>Shri. Krrishna R. Dewassi</h4>
-                        <h6 className='text-[3.5vw]'>National President</h6>
+                        <h4 className='text-[5vw] font-semibold'>Shri. Krrishna R. Dewassi</h4>
+                        <h6 className='text-[4.5vw]'>National President</h6>
                     </div>
                 </div>
                 <div className='w-[70vw]'>
@@ -91,8 +91,8 @@ const Section6 = () => {
                         <img className='w-full h-full object-cover object-center' src="https://images.unsplash.com/photo-1508184964240-ee96bb9677a7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
                     <div className='w-full mt-[.54vw]'>
-                        <h4 className='text-[4vw] font-semibold'>Shri. Krrishna R. Dewassi</h4>
-                        <h6 className='text-[3.5vw]'>National President</h6>
+                        <h4 className='text-[5vw] font-semibold'>Shri. Krrishna R. Dewassi</h4>
+                        <h6 className='text-[4.5vw]'>National President</h6>
                     </div>
                 </div>
             </div>

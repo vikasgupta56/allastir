@@ -26,7 +26,7 @@ const Section2 = () => {
   }, [])
   return (
     <div className='sec2-h w-full  sm:h-[65vh] h-[65vh] sm:text-[5vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] px-[12.5vw] text-center'>
-      <h2 className='text-[#80868B] leading-tight font-regular'><span className='text-[#1A73E8]'>“In a world interconnected like never before, language plays an increasingly important role in access to knowledge and prosperity.</span><span className='letters-wrapper sm:text-black'>{"Our goal is to develop technology that enables better understanding of more languages, making them accessible, removing modality barriers and empowering people to communicate effectively and have access to knowledge. This technological advancement has significant societal impact.”".split("").map((l, i) => <span key={i}>{l}</span>)}</span></h2>
+      <h2 className='text-[#80868B] leading-1 font-regular'><span className='text-[#1A73E8]'>“In a world interconnected like never before, language plays an increasingly important role in access to knowledge and prosperity.</span><span className='letters-wrapper sm:text-black'>{"Our goal is to develop technology that enables better understanding of more languages, making them accessible, removing modality barriers and empowering people to communicate effectively and have access to knowledge. This technological advancement has significant societal impact.”".split("").map((l, i) => <span key={i}>{l}</span>)}</span></h2>
     </div>
   )
 }

@@ -4,7 +4,6 @@ import Navbar2 from '@/components/navbar/Navbar2'
 import React, { useRef } from 'react'
 
 const index = () => {
-    const navRef = useRef(null)
   return (
     <div className='w-full relative overflow-hidden'>
         <Navbar2/>
