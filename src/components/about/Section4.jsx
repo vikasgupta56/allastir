@@ -192,7 +192,7 @@ const Section4 = () => {
     return (
         <div className='timeline-section w-full  h-[100vh] flex sm:flex-col-reverse'>
             <div className='sm:w-full w-[42%] sm:h-[28vh]  h-full  flex flex-col justify-end'>
-                <div className='w-full h-[72vh] pl-[2.5vw] pb-[1vw] flex flex-col justify-between'>
+                <div className='w-full h-[72vh] pl-[2.5vw] sm:pl-[4vw] pb-[1vw] flex flex-col justify-between'>
                     <div className='sm:h-[17vw] h-[10vw] w-fit overflow-hidden '>
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1991</h1>
                         <h1 className='present-year sm:text-[16vw] text-[10vw] font-semibold leading-none'>1992</h1>
@@ -243,18 +243,18 @@ const Section4 = () => {
                 </div>
                 <div className='w-full sm:h-[37vh]  h-[72vh] flex justify-between items-end pb-[1vw] sm:pb-[2vw] sm:mt-[15vw]'>
                     <div className='timeline w-[15%] h-full relative  sm:absolute sm:rotate-[-90deg] sm:top-[-15%] sm:left-1/2 sm:-translate-x-1/2 flex items-center'>
-                        <div className='w-[1px] sm:h-[38vh] h-[66.5vh] bg-zinc-300'>
+                        <div className='w-[1px] sm:h-[89vw] h-[66.5vh] bg-zinc-300'>
                             <div className='timeline-strip w-full h-0 bg-[#000]'></div>
                         </div>
-                        <div className='w-full sm:h-[40vh] h-full flex flex-col text-zinc-400 justify-between sm:pl-[0vw] pl-[1.2vw] sm:text-[4.5vw] text-[1.1vw]'>
-                            <h2 className='text-black sm:relative sm:rotate-90'>1991</h2>
-                            <h2 className='year2 sm:relative sm:rotate-90 sm:right-[100%]'>1992</h2>
-                            <h2 className='year3 sm:relative sm:rotate-90 '>1993</h2>
-                            <h2 className='year4 sm:relative sm:rotate-90 sm:right-[100%]'>1994</h2>
-                            <h2 className='year5 sm:relative sm:rotate-90 '>1995</h2>
-                            <h2 className='year6 sm:relative sm:rotate-90 sm:right-[100%]'>1996</h2>
+                        <div className='w-full sm:h-[92vw]  h-full flex flex-col text-zinc-400 justify-between sm:pl-[0vw] pl-[1.2vw] sm:text-[4.5vw] text-[1.1vw]'>
+                            <h2 className='text-black sm:relative sm:text-center  sm:rotate-90'>1991</h2>
+                            <h2 className='year2 sm:relative sm:text-center  sm:rotate-90 sm:right-[100%]'>1992</h2>
+                            <h2 className='year3 sm:relative sm:text-center  sm:rotate-90 '>1993</h2>
+                            <h2 className='year4 sm:relative sm:text-center  sm:rotate-90 sm:right-[100%]'>1994</h2>
+                            <h2 className='year5 sm:relative sm:text-center  sm:rotate-90 '>1995</h2>
+                            <h2 className='year6 sm:relative sm:text-center  sm:rotate-90 sm:right-[100%]'>1996</h2>
                         </div>
-                        <div className='w-[1.5vw] left-[-.75vw] sm:h-[40vh] h-full absolute top-0 sm:top-1/2 sm:-translate-y-1/2 flex flex-col justify-between items-center'>
+                        <div className='w-[1.5vw] left-[-.75vw] sm:h-[92vw] h-full absolute top-0 sm:top-1/2 sm:-translate-y-1/2 flex flex-col justify-between items-center'>
                             <div className="dot1 relative  sm:w-[3.5vw] w-[1.5vw] sm:h-[3.5vw] h-[1.5vw] flex items-center justify-center">
                                 <div className="dot-1 w-[35%] h-[35%] bg-[#000] rounded-full"></div>
                                 <div className='dot-out1 w-full h-full border border-[#000] scale-1 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 rounded-full'></div>
