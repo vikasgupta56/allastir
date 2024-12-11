@@ -45,12 +45,12 @@ const Navbar = ({ navRef }) => {
       </div>
       <i onClick={openSidebar} className="menu-icon cursor-pointer ri-menu-fill text-[5.5vw] sm:block hidden font-semibold"></i>
       <div className='side-menu duration-300 w-[100%] h-[100vh] absolute top-[-100vh] left-0 text-black sm:flex hidden justify-end uppercase font-semibold text-left text-[6vw]'>
-        <div className='w-full h-fit relative flex flex-col justify-center p-[4vw] bg-white'>
-          <Link href="/" className='border-b  p-[2vw]'>home</Link>
-          <Link href="/about" className='border-b  p-[2vw]'>about</Link>
-          <Link href="/product" className='border-b  p-[2vw]'>product</Link>
-          <Link href="/ALLASTIR_BROCHURE.pdf" target="_blank" className='border-b  p-[2vw]'>brochure</Link>
-          <Link href="/contact" className='border-b  p-[2vw]'>contact</Link>
+        <div className='w-full h-fit relative flex flex-col justify-center bg-white'>
+          <Link href="/" className='border-b border-t  p-[4vw]'>home</Link>
+          <Link href="/about" className='border-b  p-[4vw]'>about</Link>
+          <Link href="/product" className='border-b  p-[4vw]'>product</Link>
+          <Link href="/ALLASTIR_BROCHURE.pdf" target="_blank" className='border-b  p-[4vw]'>brochure</Link>
+          <Link href="/contact" className='border-b  p-[4vw]'>contact</Link>
         </div>
       </div>
     </div>
