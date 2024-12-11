@@ -45,20 +45,20 @@ const Section3 = () => {
 
     return (
         <div className="w-full min-h-screen py-[2vw] flex flex-col items-center">
-            <h1 className="sm:text-[6.5vw] text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
+            <h1 className="sm:text-[10vw] text-center leading-tight whitespace-wrap text-[7vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
             <div className="sm:w-[92%] w-[75%]">
                 {bars.map((bar, i) => (
                     <div
                         key={bar.id}
-                        className={`bar-${bar.id} w-full border-t ${i === bars.length - 1 && "border-b"} sm:py-[4vw] py-[.5vw] flex sm:flex-col justify-between border-black/20 px-[1.7vw]`}
+                        className={`bar-${bar.id} relative w-full border-t ${i === bars.length - 1 && "border-b"} sm:py-[4vw] py-[.1vw] flex sm:flex-col justify-between border-black/20 px-[1.7vw]`}
                     >
-                        <div className="flex items-center sm:text-[6vw] text-[4vw] opacity-[.8]">
+                        <div className="flex items-center sm:text-[12vw] text-[4vw] opacity-[.8]">
                             <h2 className={`count-${bar.id}`}>0</h2>
                             <span>+</span>
                         </div>
-                        <div className="gap-[3vw] flex sm:w-full sm:mt-[5vw] w-[49%] sm:items-start items-center">
+                        <div className="flex  sm:w-full sm:mt-[2vw] w-[49%] sm:items-start items-center">
                             <img
-                                className="sm:w-[15vw] w-[6vw]"
+                                className="sm:w-[15vw] w-[20vw] absolute top-[10%] right-0" style={{width:"20vw"}}
                                 src="https://res.cloudinary.com/hyac47p8z/image/upload/v1717843297/01_Photopolymer_9d82e8d51a.gif"
                                 alt=""
                             />

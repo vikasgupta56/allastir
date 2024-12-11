@@ -74,17 +74,16 @@ const Section1 = ({ navRef, popup }) => {
         <div className='hero w-full h-screen relative'>
             <video ref={videoRef} muted loop playsInline className='w-full h-full object-cover' src="https://storage.googleapis.com/gweb-mobius-cdn/research-languages/uploads/6fa2f8761189a3cb68ae72a28c3f6b3f8599dbed.compressed.compressed.mp4"></video>
             <div className="overlay-hero w-full h-full absolute top-0 left-0 text-white flex flex-col items-center justify-center">
-                <div className='overflow-hidden sm:h-[11vw] h-[5vw]'>
-                    <h1 className='hero-txt1 sm:text-[9vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>More languages.</h1>
+                <div className='overflow-hidden sm:h-[14vw] h-[5vw]'>
+                    <h1 className='hero-txt1 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>More languages.</h1>
                 </div>
-                <div className='overflow-hidden sm:h-[11vw] h-[5vw]'>
-                    <h1 className='hero-txt2 sm:text-[9vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Fewer barriers.</h1>
+                <div className='overflow-hidden sm:h-[14vw] h-[5vw]'>
+                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Fewer barriers.</h1>
                 </div>
                 <div className='hero-para flex flex-col items-center justify-center sm:gap-[4vw] gap-[1vw] sm:mt-[2.5vw] opacity-0'>
-                    <p className='sm:text-[4vw] text-[1.2vw] sm:w-[75%] w-[56%] text-center'>See how Google is expanding support for
-                        thousands of the world's languages.</p>
+                    <p className='sm:text-[4vw] text-[1.2vw] sm:w-[90%] w-[56%] text-center'>See how Google is expanding support for thousands of the world's languages.</p>
                     <Link href="/contact" className='flex items-center justify-center sm:h-[8vw] h-[4vw]'>
-                        <div className='text-white bg-[#1A73E8] w-fit capitalize sm:px-[4.5vw] px-[1.5vw] hover:px-[2vw] hover:sm:px-[5vw] transition-all duration-500 cursor-pointer sm:py-[2vw] py-[.6vw] hover:sm:py-[2.5vw] hover:py-[1vw] rounded-full font-semibold'>
+                        <div className='text-white bg-[#1A73E8] w-fit capitalize sm:px-[4.5vw] px-[1.5vw] hover:px-[2vw] hover:sm:px-[5vw] transition-all duration-500 cursor-pointer sm:py-[2vw] py-[.6vw] hover:sm:py-[2.5vw] hover:py-[1vw] rounded-full'>
                             <h4>Let's Connect</h4>
                         </div>
                     </Link>

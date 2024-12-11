@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function App() {
   return (
     <div className="w-full flex items-center flex-col justify-center px-[2.5vw]">
-      <h2 className="sm:text-[6.5vw] text-[3vw] font-semibold text-center">Our Clientele</h2>
+      <h2 className="sm:text-[10vw] text-[3vw] font-semibold text-center">Our Clientele</h2>
       <div className="w-full sm:h-[13vh] h-[30vh]">
         <Swiper
           slidesPerView={4}
@@ -31,13 +31,13 @@ export default function App() {
           breakpoints={{
             // Screens smaller than 640px
             0: {
-              slidesPerView: 3, // Display 2 slides for very small screens
-              spaceBetween: 5,
+              slidesPerView: 2, // Display 2 slides for very small screens
+              spaceBetween: 2,
             },
             // Screens between 640px and 767px
             639: {
-              slidesPerView: 3,
-              spaceBetween: 10,
+              slidesPerView: 2,
+              spaceBetween: 5,
             },
             // Screens between 768px and 1023px
             767: {
