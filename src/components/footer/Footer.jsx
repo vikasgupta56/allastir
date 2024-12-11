@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full sm:h-[55vh] h-[55vh]  p-[4vw] sm:p-[4vw] px-[2.5vw]'> 
+    <div className='w-full sm:h-[60vh] h-[55vh]  p-[4vw] sm:p-[4vw] sm:pb-[6vw] px-[2.5vw]'> 
       <div className='w-full h-full flex sm:flex-col sm:justify-between'>
         <div className='sm:w-full w-1/2 sm:h-fit h-full flex flex-col justify-between'>
         <h2 className='sm:text-[5vw] text-[1.4vw] font-bold'>Allastir</h2>

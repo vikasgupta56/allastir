@@ -3,12 +3,12 @@ import React from 'react'
 const Section1 = () => {
     return (
         <div className='w-full min-h-screen flex sm:flex-col sm:gap-[6vw] gap-[1vw] items-center p-[2.5vw] sm:pt-[20vw] sm:px-[4vw] pt-[5.5vw]'>
-            <div className='sm:w-full w-[50%] sm:h-[60vh] h-[85vh] sm:bg-transparent  bg-zinc-100/40 rounded-2xl sm:p-0 p-[2.5vw] flex flex-col justify-between'>
+            <div className='sm:w-full w-[50%] sm:h-fit h-[85vh] sm:bg-transparent  bg-zinc-100/40 rounded-2xl sm:p-0 p-[2.5vw] flex flex-col justify-between'>
                 <div className='w-full'>
                     <h1 className='sm:text-[10vw] text-[5vw] capitalize leading-none'>Contact us</h1>
                     <p className='sm:text-[4.5vw] text-[1vw] w-[80%] sm:my-[4.5vw] my-[1vw]'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>
                 </div>
-                <form className='w-full mt-[1.5vw] flex flex-col sm:gap-[3vw] gap-[1vw] sm:text-[3.5vw]'>
+                <form className='w-full mt-[1.5vw] sm:mt-[0] flex flex-col sm:gap-[3vw] gap-[1vw] sm:text-[3.5vw]'>
                     <div className='w-full flex'>
                         <input className='w-full p-[1.5vw] sm:py-[2.5vw] sm:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent outline-none' type="text" placeholder='Name' />
                     </div>
@@ -28,8 +28,8 @@ const Section1 = () => {
                     </div>
                 </form>
             </div>
-            <div className='sm:w-full w-[50%] sm:h-[60vh] h-[85vh] sm:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col'>
-                <div className='w-full h-[50%] rounded-2xl overflow-hidden'>
+            <div className='sm:w-full w-[50%] sm:h-fit h-[85vh] sm:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col sm:pt-[4vw]'>
+                <div className='w-full h-[40%] rounded-2xl overflow-hidden'>
                     <img className='w-full h-full object-cover' src="https://cdn.prod.website-files.com/662e5390115777703fa6e8da/663b51da0bf50313bd8b4a39_Woman%20Contact-p-800.webp" alt="" />
                 </div>
                 <div className='w-full h-[50%] sm:h-[75%]  rounded-2xl sm:bg-transparent bg-zinc-100/40 flex  flex-wrap sm:p-0 p-[2.5vw] justify-between'>
