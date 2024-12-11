@@ -65,7 +65,7 @@ const Section6 = () => {
                     </div>
                 </div>
             </div>
-            <div className='sm:flex bg-blue-100/50 hidden w-full min-h-screen flex-col items-center p-[4vw] pt-[6vw] sm:py-[10vw]'>
+            <div className='sm:flex bg-[#1a73e813] hidden w-full min-h-screen flex-col items-center p-[4vw] pt-[6vw] sm:py-[10vw]'>
                 <h2 className='text-[10vw] leading-tight font-semibold'>Our Leadership</h2>
                 <p className='text-[4.5vw] w-[98%] mt-[3vw] text-center'>Our leadership at the Rashtriya Swabhimaan Sangh Party embodies a visionary and inclusive approach, driving us towards our mission to build an inclusive and prosperous India based on the principles of Integral Humanism and the New India Model of Akhand Bharat.</p>
                 <div className='w-[70vw]'>
