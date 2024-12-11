@@ -6,7 +6,7 @@ const Section1 = () => {
             <div className='sm:w-full w-[50%] sm:h-fit h-[85vh] sm:bg-transparent  bg-zinc-100/40 rounded-2xl sm:p-0 p-[2.5vw] flex flex-col justify-between'>
                 <div className='w-full'>
                     <h1 className='sm:text-[10vw] text-[5vw] capitalize leading-none'>Contact us</h1>
-                    <p className='sm:text-[4.5vw] text-[1vw] w-[80%] sm:my-[4.5vw] my-[1vw]'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>
+                    <p className='sm:text-[4.5vw] sm:w-full text-[1vw] w-[80%] sm:my-[4.5vw] my-[1vw] leading-1'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>
                 </div>
                 <form className='w-full mt-[1.5vw] sm:mt-[0] flex flex-col sm:gap-[3vw] gap-[1vw] sm:text-[3.5vw]'>
                     <div className='w-full flex'>
