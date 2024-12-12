@@ -10,11 +10,14 @@ import React, { useRef } from 'react'
 
 const index = () => {
   const navRef = useRef(null)
+  const bluetxt = "Incepted and R&D activities started in 2010, Allastir boasts a state-of-the-art facility with an R&D and Analytical lab located in Chennai, India."
+  const normaltxt = " Specializing in developing and manufacturing niche Active Pharmaceutical Ingredients, the company has consistently exhibited 100% year-over-year (YOY) growth since its inception. Striving to develop long and cardinal relationships with its clients by extending quality service, Allastir is a GMP and ISO-certified company."
+
   return (
     <div className='w-full relative overflow-hidden'>
       <Navbar navRef={navRef} />
       <Section1 navRef={navRef}/>
-      <Section2 />
+      <Section2 bluetxt={bluetxt} normaltxt={normaltxt} />
       <Section3 />
       <Section4 />
       <Section5 />

@@ -29,7 +29,7 @@ const Footer = () => {
             <Link href="/">Order custom</Link>
             <Link href="/">Privacy Policy</Link>
             <Link href="/">Terms of Use</Link>
-            <Link href="/">help@wannathis.one</Link>
+            <Link href="/">Info@allastir.com</Link>
         </div>
         </div>
         <div className='sm:w-full w-[33.3%] sm:h-fit sm:mt-[12vh]  h-full flex flex-col sm:gap-[4vw]  justify-between'>

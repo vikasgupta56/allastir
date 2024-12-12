@@ -29,29 +29,27 @@ const Section1 = () => {
                 </form>
             </div>
             <div className='sm:w-full w-[50%] sm:h-fit h-[85vh] sm:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col sm:pt-[4vw]'>
-                <div className='w-full h-[50%] rounded-2xl overflow-hidden'>
+                <div className='w-full h-[45%] rounded-2xl overflow-hidden'>
                     <img className='w-full h-full object-cover' src="https://cdn.prod.website-files.com/662e5390115777703fa6e8da/663b51da0bf50313bd8b4a39_Woman%20Contact-p-800.webp" alt="" />
                 </div>
-                <div className='w-full h-[50%] sm:h-[75%]  rounded-2xl sm:bg-transparent bg-zinc-100/40 flex  flex-wrap sm:p-0 p-[2.5vw] justify-between'>
-                    <div className='w-[49%] h-fit sm:mb-[4vw]'>
+                <div className='w-full h-[55%] sm:h-[75%]  rounded-2xl sm:bg-transparent bg-zinc-100/40 flex  flex-wrap sm:p-0 p-[2.5vw] justify-between'>
+                    <div className='w-[49%] sm:w-full h-fit sm:mb-[4vw]'>
                         <h4 className='sm:text-[5vw] text-[1vw] font-semibold'>Address</h4>
-                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.5vw]'>Sonnenstraße 87
-                            10117 Berlin
-                            Germany</p>
+                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[98%] mt-[.2vw] text-black/70'><span className='font-semibold'>Unit 1</span> : Plot No. 12, Shed No. 9A, Sidco Industrial Estate, Vichoor, Manali New Town, Chennai - 600103, Tamilnadu, INDIA</p>
                     </div>
-                    <div className='w-[49%] h-fit sm:mb-[4vw]'>
-                        <h4 className='sm:text-[5vw] text-[1vw] font-semibold'>Telephone</h4>
-                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.5vw]'>+49 0143 457632</p>
+                    <div className='w-[49%] sm:w-full h-fit sm:mb-[4vw]'>
+                        <h4 className='sm:text-[5vw] text-[1vw] font-semibold sm:hidden'><br /></h4>
+                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[98%] mt-[.2vw] text-black/70'><span className='font-semibold'>Unit 2</span> : Plot No. 8-7, 8-8, 8-17, 8-18, APIIC Industrial Park, Attivaram Village, Ozili Mandal, Tirupati District, Andhra Pradesh -524 421.
+                        </p>
                     </div>
                     <div className='w-[49%] h-fit'>
-                        <h4 className='sm:text-[5vw] text-[1vw] font-semibold'>Opening Times</h4>
-                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.5vw]'>Monday to Friday 9-5pm
-                            Saturday 6-12pm
+                        <h4 className='sm:text-[5vw] text-[1vw] font-semibold'>Contact Times</h4>
+                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.2vw] text-black/70'>Monday to Friday 10:00 am to 6:00 pm ,
                             Sunday Closed</p>
                     </div>
                     <div className='w-[49%] h-fit'>
                         <h4 className='sm:text-[5vw] text-[1vw] font-semibold'>E-Mail Adress</h4>
-                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.5vw]'>marc@webflow.io</p>
+                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.2vw] text-black/70'>Info@allastir.com</p>
                     </div>
                 </div>
             </div>

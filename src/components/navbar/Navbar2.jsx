@@ -40,7 +40,7 @@ const Navbar = () => {
         <Link href="/" className='hover:opacity-[.8]'>home</Link>
         <Link href="/about" className='hover:opacity-[.8]'>about</Link>
         <Link href="/product" className='hover:opacity-[.8]'>product</Link>
-        <Link href="/ALLASTIR_BROCHURE.pdf" target="_blank" className='hover:opacity-[.8]'>brochure</Link>
+        <Link href="/Allaster_Brochure.pdf" target="_blank" className='hover:opacity-[.8]'>brochure</Link>
         <Link href="/contact" className='hover:opacity-[.8]'>contact</Link>
       </div>
       <i onClick={openSidebar} className="menu-icon cursor-pointer ri-menu-fill text-[5.5vw] sm:block hidden font-semibold"></i>
@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link href="/" className='border-b border-t  p-[4vw]'>home</Link>
           <Link href="/about" className='border-b  p-[4vw]'>about</Link>
           <Link href="/product" className='border-b  p-[4vw]'>product</Link>
-          <Link href="/ALLASTIR_BROCHURE.pdf" target="_blank" className='border-b  p-[4vw]'>brochure</Link>
+          <Link href="/Allaster_Brochure.pdf" target="_blank" className='border-b  p-[4vw]'>brochure</Link>
           <Link href="/contact" className='border-b  p-[4vw]'>contact</Link>
         </div>
       </div>
