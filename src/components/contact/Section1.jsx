@@ -44,7 +44,7 @@ const Section1 = () => {
                     </div>
                     <div className='w-[49%] h-fit'>
                         <h4 className='sm:text-[5vw] text-[1vw] font-semibold'>Contact Times</h4>
-                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.2vw] text-black/70'>Monday to Friday 10:00 am to 6:00 pm ,
+                        <p className='sm:text-[4.5vw] text-[1.1vw] sm:w-[80%] w-[60%] mt-[.2vw] text-black/70'>Monday to Saturday 10:00 am to 6:00 pm ,
                             Sunday Closed</p>
                     </div>
                     <div className='w-[49%] h-fit'>
