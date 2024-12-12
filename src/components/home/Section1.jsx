@@ -75,19 +75,19 @@ const Section1 = ({ navRef, popup }) => {
             <video ref={videoRef} muted loop playsInline className='w-full h-full object-cover' src="https://storage.googleapis.com/gweb-mobius-cdn/research-languages/uploads/6fa2f8761189a3cb68ae72a28c3f6b3f8599dbed.compressed.compressed.mp4"></video>
             <div className="overlay-hero w-full h-full absolute top-0 left-0 text-white flex flex-col items-center justify-center">
                 <div className='sm:hidden block overflow-hidden sm:h-[14vw] h-[5vw]'>
-                    <h1 className='hero-txt1 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Innovation driven</h1>
+                    <h1 className='hero-txt1 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(130%)"}}>Innovation driven</h1>
                 </div>
                 <div className='sm:hidden block overflow-hidden sm:h-[14vw] h-[5vw]'>
-                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Pharmaceutical Manufacturer.</h1>
+                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(130%)"}}>Pharmaceutical Manufacturer.</h1>
                 </div>
                 <div className='sm:block hidden overflow-hidden sm:h-[14vw] h-[5vw]'>
-                    <h1 className='hero-txt1 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Innovation driven</h1>
+                    <h1 className='hero-txt1 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(130%)"}}>Innovation driven</h1>
                 </div>
                 <div className='sm:block hidden overflow-hidden sm:h-[14vw] h-[5vw]'>
-                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Pharmaceutical</h1>
+                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(130%)"}}>Pharmaceutical</h1>
                 </div>
                 <div className='sm:block hidden overflow-hidden sm:h-[14vw] h-[5vw]'>
-                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(110%)"}}>Manufacturer.</h1>
+                    <h1 className='hero-txt2 sm:text-[11vw] text-[4vw] leading-none' style={{transform:"translateY(130%)"}}>Manufacturer.</h1>
                 </div>
                 <div className='hero-para flex flex-col items-center justify-center sm:gap-[4vw] gap-[1vw] sm:mt-[2.5vw] opacity-0'>
                     <p className='sm:text-[4.5vw] text-[1.2vw] sm:w-[90%] w-[56%] text-center'>See how Google is expanding support for thousands of the world's languages.</p>
