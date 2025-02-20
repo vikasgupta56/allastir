@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Section1 = () => {
@@ -30,7 +31,7 @@ const Section1 = () => {
             </div>
             <div className='sm:w-full w-[50%] sm:h-fit h-[85vh] sm:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col sm:pt-[4vw]'>
                 <div className='w-full h-[45%] rounded-2xl overflow-hidden'>
-                    <img className='w-full h-full object-cover' src="https://cdn.prod.website-files.com/662e5390115777703fa6e8da/663b51da0bf50313bd8b4a39_Woman%20Contact-p-800.webp" alt="" />
+                    <Image className='w-full h-full object-cover' width={1000} height={1000} src="/unit2.jpg" alt="unit-image" />
                 </div>
                 <div className='w-full h-[55%] sm:h-[75%]  rounded-2xl sm:bg-transparent bg-zinc-100/40 flex  flex-wrap sm:p-0 p-[2.5vw] justify-between'>
                     <div className='w-[49%] sm:w-full h-fit sm:mb-[4vw]'>

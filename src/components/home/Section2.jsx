@@ -25,7 +25,7 @@ const Section2 = ({bluetxt , normaltxt}) => {
 
   }, [])
   return (
-    <div className='sec2-h w-full  sm:h-[65vh] h-[65vh] sm:text-[4.5vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] px-[12.5vw] text-center'>
+    <div className='sec2-h w-full  sm:h-[80vh] h-[80vh] sm:text-[4.5vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] px-[12.5vw] text-center'>
       <h2 className='text-[#80868B] leading-1 font-regular'><span className='text-[#1A73E8]'>{bluetxt}</span><span className='letters-wrapper sm:text-black'>{normaltxt.split("").map((l, i) => <span key={i}>{l}</span>)}</span></h2>
     </div>
   )

@@ -1,14 +1,30 @@
 import React from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-// Import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Image from 'next/image';
+
+const clients = [
+  '/client-logo/akums.png',
+  '/client-logo/alembic.png',
+  '/client-logo/alkem.png',
+  '/client-logo/eris.png',
+  '/client-logo/exeltis.png',
+  '/client-logo/glenmark.png',
+  '/client-logo/hetero.png',
+  '/client-logo/indchemie.png',
+  '/client-logo/integrace.png',
+  '/client-logo/nacleods.png',
+  '/client-logo/png.png',
+  '/client-logo/systopic.png',
+  '/client-logo/torrent_pharma.png',
+  '/client-logo/unison.png',
+  '/client-logo/usv.png',
+  '/client-logo/wanbury.png',
+  '/client-logo/zydus.png',
+];
 
 export default function App() {
   return (
@@ -23,60 +39,30 @@ export default function App() {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
+          pagination={{ clickable: true }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           breakpoints={{
-            // Screens smaller than 640px
-            0: {
-              slidesPerView: 2, // Display 2 slides for very small screens
-              spaceBetween: 2,
-            },
-            // Screens between 640px and 767px
-            639: {
-              slidesPerView: 2,
-              spaceBetween: 5,
-            },
-            // Screens between 768px and 1023px
-            767: {
-              slidesPerView: 3,
-              spaceBetween: 15,
-            },
-            // Screens 1024px and larger
-            1024: {
-              slidesPerView: 4,
-              spaceBetween: 20,
-            },
+            0: { slidesPerView: 2, spaceBetween: 2 },
+            639: { slidesPerView: 2, spaceBetween: 5 },
+            767: { slidesPerView: 3, spaceBetween: 15 },
+            1024: { slidesPerView: 4, spaceBetween: 20 },
           }}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <div className="w-full h-full flex items-center justify-center">
-              <img className="w-[50%] h-[60%] object-contain" src="https://www.allastir.com/images/9wanbury.jpg" alt="" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full flex items-center justify-center">
-              <img className="w-[50%] h-[60%] object-contain" src="https://www.allastir.com/images/11aris.jpg" alt="" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full flex items-center justify-center">
-              <img className="w-[50%] h-[60%] object-contain" src="https://www.allastir.com/images/12akums.jpg" alt="" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full flex items-center justify-center">
-              <img className="w-[50%] h-[60%] object-contain" src="https://www.allastir.com/images/13Cipla1.jpg" alt="" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full flex items-center justify-center">
-              <img className="w-[50%] h-[60%] object-contain" src="https://www.allastir.com/images/18Unison1.jpg" alt="" />
-            </div>
-          </SwiperSlide>
+          {clients.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="w-full h-full flex items-center justify-center">
+                <Image
+                  width={1000}
+                  height={1000}
+                  className="w-[50%] h-[45%] object-contain"
+                  src={image}
+                  alt={`Client ${index + 1}`}
+                />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

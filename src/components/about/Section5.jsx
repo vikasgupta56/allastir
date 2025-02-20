@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Section5 = () => {
@@ -8,7 +9,7 @@ const Section5 = () => {
           <h4 className='sm:text-[5vw] text-[2vw] sm:mt-[15vw]'>Project</h4>
         </div>
         <div className="w-full sm:h-[35vh] h-[60%] bg-zinc-200 rounded-md overflow-hidden">
-          <video autoPlay muted loop playsInline className='w-full h-full object-cover' src="https://cdn.jasonbradley.co/pic/e41880eb-c899c2fa%20(1).mp4"></video>
+          <Image width={1000} height={1000} className='w-full h-full object-cover' src="/unit1.png" alt='unit-image'/>
         </div>
       </div>
       <div className='w-full h-[100vh] sm:h-fit'>
@@ -17,7 +18,7 @@ const Section5 = () => {
           <h4 className='sm:text-[4.5vw] text-[1vw] sm:mt-[2.5vw]'>We partner with forward thinking clients, who don’t shy away from being different. Who challenge us to solve their problems, and collaborate with us, to build better brands and tell captivating stories.</h4>
         </div>
         <div className="w-full sm:h-[35vh] h-[60%] bg-zinc-200 rounded-md overflow-hidden">
-          <video autoPlay muted loop playsInline className='w-full h-full object-cover' src="https://cdn.jasonbradley.co/pic/1e50e423-e10aee53.mp4"></video>
+        <Image width={1000} height={1000} className='w-full h-full object-cover' src="/unit2.jpg" alt='unit-image'/>
         </div>
       </div>
     </div>

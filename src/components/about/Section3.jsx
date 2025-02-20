@@ -5,18 +5,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Section3 = () => {
     const bars = [
-        { id: 1, target: "Robust Solution", title: "Robust Solution", description: "Large format, rugged/ shippable patterns. Low CTE and ultra-low ash." },
-        { id: 2, target: "High Precision", title: "High Precision", description: "Advanced manufacturing technology ensures exact dimensions." },
-        { id: 3, target: "Cost Effective", title: "Cost Effective", description: "Optimized solutions to reduce material and production costs." },
-        { id: 4, target: "Cost Effective", title: "Cost Effective", description: "Optimized solutions to reduce material and production costs." },
-        { id: 5, target: "Cost Effective", title: "Cost Effective", description: "Optimized solutions to reduce material and production costs." },
+        { id: 1, target: "State-of-the-Art Facilities", title: "State-of-the-Art Facilities", description: "Our advanced manufacturing units, covering 225,000+ SQFT, ensure precision, efficiency, and scalability." },
+        { id: 2, target: "Trusted Industry Partnerships", title: "Trusted Industry Partnerships", description: "We collaborate with top Indian pharmaceutical MNCs, delivering high-quality API and formulations." },
+        { id: 3, target: "Comprehensive Product Portfolio", title: "Comprehensive Product Portfolio", description: "With 40+ finished formulation dossiers and 25 niche API products, we cater to diverse therapeutic needs." },
+        { id: 4, target: "Regulatory Excellence", title: "Regulatory Excellence", description: "We have 14 APIs with DMF, 5 CDSCO-approved APIs, and 6 APIs with completed toxicology studies." },
+        { id: 5, target: "Pioneering Innovation", title: "Pioneering Innovation", description: "We have introduced 2 first-time-in-India APIs and have 6 niche API products currently under development." },
     ];
 
   
 
     return (
         <div className="w-full sm:min-h-fit min-h-screen py-[2vw] flex flex-col items-center">
-            <h1 className="sm:text-[10vw] text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
+            <h1 className="sm:text-[10vw] text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Our Strengths</h1>
             <div className="sm:w-[92%] w-[75%]">
                 {bars.map((bar,i) => (
                     <div

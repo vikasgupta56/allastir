@@ -12,8 +12,8 @@ import React, { useRef, useState } from 'react'
 const index = () => {
   const navRef = useRef(null)
   const popup = useRef(null)
-  const bluetxt = "Allastir instituted the services in 2010 with a motive to cater the pharmaceutical industry with niche API's."
-  const normaltxt = "In Allastir we strongly believe in teamwork and customer satisfaction. Allastir is backed by the strong R&D team who are passionate about what they do. We manufacture niche API's with high quality which are suitable for formulations like tablets, capsules, soft gelatins and oral liquids."
+  const bluetxt = "Allastir is a globally recognized leader in pharmaceutical innovation, driving advancements in Active Pharmaceutical Ingredients (APIs), pharmaceutical formulations, and dietary supplements."
+  const normaltxt = "With world-class manufacturing facilities, state-of-the-art research, and a team of industry experts, we are committed to transforming healthcare through cutting-edge science, quality, and excellence. Our unwavering dedication to regulatory compliance and breakthrough solutions ensures that we consistently deliver superior healthcare products to markets worldwide."
 
   return (
     <div className='relative overflow-hidden'>

@@ -5,9 +5,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Section3 = () => {
     const bars = [
-        { id: 1, target: 20, title: "Years of Experience", description: "More Than 30 Years of Experience" },
-        { id: 2, target: 100, title: "Customers", description: "100+ Renowned Pharmaceutical Customers" },
-        { id: 3, target: 16, title: "Countries", description: "16+ Countries" },
+        { id: 1, target: 2, title: "2 State-of-the-Art Manufacturing Facilities", description: "Our state-of-the-art manufacturing facilities span over 225,000 SQFT, ensuring world-class production capabilities." },
+        { id: 2, target: 40, title: "40+ Products in Our Portfolio", description: "Our diverse range of APIs and formulations meets global pharmaceutical demands and therapeutic needs." },
+        { id: 3, target: 100, title: "100+ Global Clients", description: "We are a trusted partner to leading pharmaceutical companies, delivering consistent quality and innovation." },
     ];
 
     const countsRef = useRef([]);
@@ -43,7 +43,7 @@ const Section3 = () => {
 
     return (
         <div className="w-full h-fit py-[2vw] flex flex-col items-center">
-            <h1 className="sm:text-[10vw] text-center leading-tight whitespace-wrap text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Foundry Qualified</h1>
+            <h1 className="sm:text-[10vw] text-center leading-tight whitespace-wrap text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Our Strengths</h1>
             <div className="sm:w-[92%] w-[75%]">
                 {bars.map((bar, i) => (
                     <div

@@ -86,8 +86,8 @@ body {
 .product-txt:hover .num-c {
   background-color: #fff;
 }
-.product-txt:hover .num {
-  color: white;
+.product-txt:hover i{
+  color: black;
 }
 .product-txt:hover i {
   opacity: 1;
