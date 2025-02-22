@@ -6,17 +6,17 @@ gsap.registerPlugin(ScrollTrigger)
 const Section4 = () => {
 
     const timelineData = [
-        { year: 2010, title: 'Inception & R&D', description: 'We founded Allastir with a vision to drive pharmaceutical innovation through dedicated research and development.', image: 'https://imgs.search.brave.com/Vp8fljgX_24FgT76z124NqRI4GCeN3kkeCrj6agF04M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9zb3J0aW5nLW1l/ZGljYXRpb25zXzc5/ODY1Ny0xOTQwNy5q/cGc_c2VtdD1haXNf/aHlicmlk' },
-        { year: 2012, title: 'First API Launched', description: 'We introduced our first API, LMF, marking the beginning of our journey as a key player in pharmaceutical manufacturing.', image: 'https://imgs.search.brave.com/Vp8fljgX_24FgT76z124NqRI4GCeN3kkeCrj6agF04M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9zb3J0aW5nLW1l/ZGljYXRpb25zXzc5/ODY1Ny0xOTQwNy5q/cGc_c2VtdD1haXNf/aHlicmlk' },
-        { year: 2014, title: 'Expansion in API Portfolio', description: 'We launched Vitamin K2-7 API, further strengthening our expertise in niche and specialized pharmaceutical ingredients.', image: 'https://static.vecteezy.com/system/resources/previews/049/002/014/non_2x/a-medical-workers-gloved-hand-carefully-manages-vaccine-vials-on-a-pharmaceutical-assembly-line-showcasing-the-precision-and-care-in-the-complex-process-of-manufacturing-medicinal-products-photo.jpg' },
-        { year: 2016, title: 'Certified for Quality', description: 'We obtained GMP and ISO certifications, ensuring our manufacturing processes align with global regulatory standards.', image: 'https://img.freepik.com/free-photo/pharmaceutical-industry-man-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-532.jpg' },
-        { year: 2018, title: 'Regulatory Milestone', description: 'We received CDSCO approval for Iguratimod and acquired land for the expansion of our second manufacturing facility.', image: 'https://www.tipt.com/wp-content/uploads/2019/08/aug-15-pharmaceutical-manufacturing-training.jpg' },
-        { year: 2019, title: 'Growth & Development', description: 'We secured CDSCO approval for Fimasartan and initiated the construction of our second state-of-the-art manufacturing unit.', image: 'https://media.istockphoto.com/id/1432577235/photo/pharmaceutical-workers-or-technologist-doing-quality-control-of-chemicals-and-cosmetics.jpg?s=612x612&w=0&k=20&c=tC6xLJ59vz6MuLrAT87H3mzQQ-gkt3BOztuxaiuKHOo=' },
-        { year: 2020, title: 'Global Expansion', description: 'We began exporting APIs to international markets and registered our finished products for distribution in Myanmar.', image: 'https://thumbs.dreamstime.com/b/pharmaceutical-factory-worker-27358227.jpg' },
-        { year: 2021, title: 'Finished Product Market Entry', description: 'We launched the export of finished pharmaceutical products and expanded our reach with registrations in Cambodia.', image: 'https://thumbs.dreamstime.com/b/pharmaceutical-industry-worker-equipment-mixing-tank-production-line-pharmacy-manufacture-factory-75376867.jpg' },
-        { year: 2024, title: 'Scaling Operations', description: 'We commenced operations at Unit-II, significantly enhancing our production capacity and operational efficiency.', image: 'https://st2.depositphotos.com/1000291/5183/i/950/depositphotos_51837845-stock-photo-pharmaceutical-factory.jpg' },
-        { year: 2025, title: 'Entering Oncology Market', description: 'We are expanding into the anti-cancer drug market with a focus on innovation and a projected revenue of $16 million.', image: 'https://c8.alamy.com/comp/2C45KJ5/pharmaceutical-automatic-production-equipment-at-modern-pharmacy-factory-or-exhibition-manufacturing-pharma-industry-medicine-and-automated-2C45KJ5.jpg' },
-        { year: 2027, title: 'Diversification & Growth', description: 'We plan to enter the hormonal and OTC drug markets, strengthening our portfolio and targeting $40 million in revenue.', image: 'https://media.istockphoto.com/id/1403976499/photo/pharmaceutical-worker-or-technologist-in-protective-equipment-controlling-quality-of-vaccine.jpg?s=612x612&w=0&k=20&c=qEgH2NQ1kpfjls4HXkj4pbsVt6swPWs-v5RaC2PxYGs=' },
+        { year: 2010, title: 'Inception & R&D', description: 'We founded Allastir with a vision to drive pharmaceutical innovation through dedicated research and development.', image: '/inception.webp' },
+        { year: 2012, title: 'First API Launched', description: 'We introduced our first API, LMF, marking the beginning of our journey as a key player in pharmaceutical manufacturing.', image: '/first-api.webp' },
+        { year: 2014, title: 'Expansion in API Portfolio', description: 'We launched Vitamin K2-7 API, further strengthening our expertise in niche and specialized pharmaceutical ingredients.', image: '/bended-caucasian.jpg' },
+        { year: 2016, title: 'Certified for Quality', description: 'We obtained GMP and ISO certifications, ensuring our manufacturing processes align with global regulatory standards.', image: '/caucasian-scientist.jpg' },
+        { year: 2018, title: 'Regulatory Milestone', description: 'We received CDSCO approval for Iguratimod and acquired land for the expansion of our second manufacturing facility.', image: '/chemist-researcher.jpg' },
+        { year: 2019, title: 'Growth & Development', description: 'We secured CDSCO approval for Fimasartan and initiated the construction of our second state-of-the-art manufacturing unit.', image: '/close-up.jpg' },
+        { year: 2020, title: 'Global Expansion', description: 'We began exporting APIs to international markets and registered our finished products for distribution in Myanmar.', image: '/laboratory-worker.jpg' },
+        { year: 2021, title: 'Finished Product Market Entry', description: 'We launched the export of finished pharmaceutical products and expanded our reach with registrations in Cambodia.', image: '/pharmaceutical-technician.jpg' },
+        { year: 2024, title: 'Scaling Operations', description: 'We commenced operations at Unit-II, significantly enhancing our production capacity and operational efficiency.', image: 'portrait-professional.jpg' },
+        { year: 2025, title: 'Entering Oncology Market', description: 'We are expanding into the anti-cancer drug market with a focus on innovation and a projected revenue of $16 million.', image: '/oncology-market.jpg' },
+        { year: 2027, title: 'Diversification & Growth', description: 'We plan to enter the hormonal and OTC drug markets, strengthening our portfolio and targeting $40 million in revenue.', image: '/diversification.jpg' },
     ];
 
     useEffect(() => {
@@ -24,7 +24,7 @@ const Section4 = () => {
             scrollTrigger: {
                 trigger: '.timeline-section',
                 start: 'top top',
-                end: 'top -350%',
+                end: 'top -550%',
                 pin: true,
                 scrub: 1,
             }

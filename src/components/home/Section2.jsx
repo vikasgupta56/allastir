@@ -3,7 +3,7 @@ import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 import React, { useEffect } from 'react'
 gsap.registerPlugin(ScrollTrigger)
 
-const Section2 = ({bluetxt , normaltxt}) => {
+const Section2 = ({sec2Ref ,bluetxt , normaltxt}) => {
   useEffect(() => {
     gsap.to(".letters-wrapper span", {
       color: "black",
@@ -25,8 +25,8 @@ const Section2 = ({bluetxt , normaltxt}) => {
 
   }, [])
   return (
-    <div className='sec2-h w-full  sm:h-[80vh] h-[80vh] sm:text-[4.5vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] px-[12.5vw] text-center'>
-      <h2 className='text-[#80868B] leading-1 font-regular'><span className='text-[#1A73E8]'>{bluetxt}</span><span className='letters-wrapper sm:text-black'>{normaltxt.split("").map((l, i) => <span key={i}>{l}</span>)}</span></h2>
+    <div ref={sec2Ref} className='sec2-h w-full  sm:h-[80vh] h-[80vh] sm:text-[4.5vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] px-[12.5vw] text-center'>
+      <h2 className='text-[#80868B] leading-1 font-regular'><span className='text-[#1863AB]'>{bluetxt}</span><span className='letters-wrapper sm:text-black'>{normaltxt.split("").map((l, i) => <span key={i}>{l}</span>)}</span></h2>
     </div>
   )
 }

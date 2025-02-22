@@ -1,12 +1,11 @@
 import Section1 from '@/components/product/Section1'
 import Footer from '@/components/footer/Footer'
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Section2 from '@/components/product/Section2'
-import Navbar2 from '@/components/navbar/Navbar2'
-// import Navbar from '@/components/navbar/Navbar'
+import Navbar from '@/components/navbar/Navbar'
+import gsap from 'gsap'
 
-const index = () => {
-  // const navRef = useRef(null)
+const Product = () => {
   const productData = [
     {
       title: "ANTI-DIABETIC",
@@ -299,17 +298,55 @@ const index = () => {
       ]
     },
   ]
+  const navRef = useRef(null)
+  const sec1Ref = useRef(null)
+  const sec2Ref = useRef(null)
+
+  useEffect(() => {
+    gsap.set(sec1Ref.current, { opacity: 0 })
+    gsap.set(sec1Ref.current.querySelector("h2"), { y: "100%" })
+    gsap.set(sec2Ref.current, { y: "80",opacity:0 })
+    gsap.set(navRef.current, { y: "-100%" })
+    var tl = gsap.timeline()
+    tl
+      .to(sec1Ref.current, {
+        opacity: 1,
+        duration: .8,
+        ease: "power4.in",
+      })
+      .to(navRef.current, {
+        y: 0,
+        duration: .6
+      })
+      .to(sec1Ref.current.querySelector("h2"), {
+        y: 0,
+        duration: .5
+      },"a")
+      .to(sec2Ref.current, {
+        y: 0,
+        opacity:1,
+        duration: .5,
+        delay:.3
+      },"a")
+
+    return () => {
+      tl.kill();
+    };
+  }, [])
+
+
   return (
     <div className='w-full relative overflow-hidden'>
-      {/* <Navbar navRef={navRef} /> */}
-      <Navbar2 />
-      <Section1 />
-      {
-        productData.map((data, i) => <Section2 key={i} data={data} />)
-      }
+      <Navbar navRef={navRef} />
+      <Section1 sec1Ref={sec1Ref} />
+      <div ref={sec2Ref} className='pb-[5vw]'>
+        {
+          productData.map((data, i) => <Section2 key={i} data={data} />)
+        }
+      </div>
       <Footer />
     </div>
   )
 }
 
-export default index
+export default Product

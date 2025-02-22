@@ -32,8 +32,6 @@ export default function App() {
       <h2 className="sm:text-[10vw] text-[3vw] font-semibold text-center">Our Clientele</h2>
       <div className="w-full sm:h-[13vh] h-[30vh]">
         <Swiper
-          slidesPerView={4}
-          spaceBetween={2}
           loop={true}
           autoplay={{
             delay: 2500,
@@ -45,8 +43,8 @@ export default function App() {
           breakpoints={{
             0: { slidesPerView: 2, spaceBetween: 2 },
             639: { slidesPerView: 2, spaceBetween: 5 },
-            767: { slidesPerView: 3, spaceBetween: 15 },
-            1024: { slidesPerView: 4, spaceBetween: 20 },
+            767: { slidesPerView: 5, spaceBetween: 15 },
+            1024: { slidesPerView: 5, spaceBetween: 20 },
           }}
           className="mySwiper"
         >

@@ -9,7 +9,7 @@ import Section6 from '@/components/home/Section6'
 import Navbar from '@/components/navbar/Navbar'
 import React, { useRef, useState } from 'react'
 
-const index = () => {
+const Home = () => {
   const navRef = useRef(null)
   const popup = useRef(null)
   const bluetxt = "Allastir is a globally recognized leader in pharmaceutical innovation, driving advancements in Active Pharmaceutical Ingredients (APIs), pharmaceutical formulations, and dietary supplements."
@@ -30,4 +30,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Home

@@ -1,11 +1,11 @@
+import { CartContext } from '@/utils/context/Wrapper'
 import gsap from 'gsap'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 
 const Navbar = ({ navRef }) => {
   const [open, setopen] = useState(false)
-
 
   const openSidebar = () => {
     if (open) {
@@ -33,9 +33,13 @@ const Navbar = ({ navRef }) => {
     }
 
   }
-
+  const { cartItems, setIsCartOpen } = useContext(CartContext);
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
   return (
-    <div ref={navRef} className='w-full  sm:px-[4vw] px-[2.5vw] sm:py-[3.1vw] py-[1vw] text-white flex items-center justify-between fixed z-[9] top-0 left-0' style={{ backdropFilter: "blur(40px)" }}>
+    <div ref={navRef} className='w-full  sm:px-[4vw] px-[2.5vw] sm:py-[3.1vw] py-[1vw] text-black bg-white flex items-center justify-between fixed z-[9] top-0 left-0' style={{ backdropFilter: "blur(40px)" }}>
       <Image width={1000} height={1000} className='w-[200px] h-auto' src="/logo-with-tag.png" alt='logo' />
       <div className='sm:hidden absolute top-1/2  left-1/2 -translate-x-1/2 text-[1.1vw] font-regular capitalize -translate-y-1/2 flex items-center gap-[3vw]'>
         <Link href="/" className='hover:opacity-[.8]'>home</Link>
@@ -44,6 +48,10 @@ const Navbar = ({ navRef }) => {
         <Link href="/Allaster_Brochure.pdf" target="_blank" className='hover:opacity-[.8]'>brochure</Link>
         <Link href="/contact" className='hover:opacity-[.8]'>contact</Link>
       </div>
+      <span className='cursor-pointer flex items-center text-[1vw]' onClick={() => setIsCartOpen(true)}>
+        <i className="ri-handbag-line"></i>
+        {isMounted ? <p>{cartItems.length}</p> : <p>0</p>}
+      </span>
       <i onClick={openSidebar} className="menu-icon cursor-pointer ri-menu-fill text-[5.5vw] sm:block hidden font-semibold"></i>
       <div className='side-menu duration-300 w-[100%] h-[100vh] absolute top-[-100vh] left-0 text-black sm:flex hidden justify-end uppercase font-semibold text-left text-[6vw]'>
         <div className='w-full h-fit relative flex flex-col justify-center bg-white'>
