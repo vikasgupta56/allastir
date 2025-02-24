@@ -13,12 +13,12 @@ const Product = () => {
         {
           name: "Voglibose JP ",
           description: "CAS No 83480-29-9",
-          image: ""
+          image: "/product/allastir-product-generic-1.png"
         },
         {
           name: "Lobeglitazone Sulphate",
           description: "CAS No763108-62-9",
-          image: ""
+          image: "/product/allastir-product-generic-2.png"
         }
       ]
     },
@@ -28,17 +28,17 @@ const Product = () => {
         {
           name: "Amoralfine HCL",
           description: "CAS No 78613-38-4",
-          image: ""
+          image: "/product/allastir-product-generic-3.png"
         },
         {
           name: "Posaconazole",
           description: "CAS No 171228-49-2",
-          image: ""
+          image: "/product/allastir-product-generic-4.png"
         },
         {
           name: "Naftifine Hcl",
           description: "CAS No 65473-14-5",
-          image: ""
+          image: "/product/allastir-product-generic-5.png"
         },
       ]
     },
@@ -48,12 +48,12 @@ const Product = () => {
         {
           name: "Dolutegravir Sodium",
           description: "CAS No 1051375-19-9",
-          image: ""
+          image: "/product/allastir-product-generic-6.png"
         },
         {
           name: "Inosine Pranobex",
           description: "CAS No 36703-88-5",
-          image: ""
+          image: "/product/allastir-product-generic-7.png"
         }
       ]
     },
@@ -63,7 +63,7 @@ const Product = () => {
         {
           name: "Torsemide USP",
           description: "CAS No 56211-40-6 ",
-          image: ""
+          image: "/product/allastir-product-generic-8.png"
         }
       ]
     },
@@ -73,7 +73,7 @@ const Product = () => {
         {
           name: "Topiroxostat",
           description: "CAS No 577778-58-6",
-          image: ""
+          image: "/product/allastir-product-generic-9.png"
         }
       ]
     },
@@ -83,7 +83,7 @@ const Product = () => {
         {
           name: "Valethemate Bromide",
           description: "CAS No 90-22-2",
-          image: ""
+          image: "/product/allastir-product-generic-10.png"
         }
       ]
     },
@@ -93,7 +93,7 @@ const Product = () => {
         {
           name: "D-Chiro Inositol",
           description: "CAS No 643-12-9",
-          image: ""
+          image: "/product/allastir-product-generic-11.png"
         }
       ]
     },
@@ -103,7 +103,7 @@ const Product = () => {
         {
           name: "Iguratimod",
           description: "CAS No 123663-49-0",
-          image: ""
+          image: "/product/allastir-product-generic-1.png"
         }
       ]
     },
@@ -113,7 +113,7 @@ const Product = () => {
         {
           name: "Rivaroxaban",
           description: "CAS No 366789-02-8",
-          image: ""
+          image: "/product/allastir-product-generic-2.png"
         }
       ]
     },
@@ -123,7 +123,7 @@ const Product = () => {
         {
           name: "Perfenidone BP",
           description: "CAS No 53179-13-8",
-          image: ""
+          image: "/product/allastir-product-generic-3.png"
         }
       ]
     },
@@ -133,7 +133,7 @@ const Product = () => {
         {
           name: "Linezolid",
           description: "CAS No 165800-03-3",
-          image: ""
+          image: "/product/allastir-product-generic-4.png"
         }
       ]
     },
@@ -143,7 +143,7 @@ const Product = () => {
         {
           name: "Cilostazol",
           description: "CAS No 73963-72-1",
-          image: ""
+          image: "/product/allastir-product-generic-5.png"
         }
       ]
     },
@@ -153,7 +153,7 @@ const Product = () => {
         {
           name: "Silodosin",
           description: "CAS No 160970-54-7",
-          image: ""
+          image: "/product/allastir-product-generic-6.png"
         }
       ]
     },
@@ -163,7 +163,7 @@ const Product = () => {
         {
           name: "Cenobamate",
           description: "CAS No 913088-80-9",
-          image: ""
+          image: "/product/allastir-product-generic-7.png"
         }
       ]
     },
@@ -173,7 +173,7 @@ const Product = () => {
         {
           name: "Polydatin",
           description: "CAS No 65914-17-2",
-          image: ""
+          image: "/product/allastir-product-generic-8.png"
         }
       ]
     },
@@ -183,62 +183,62 @@ const Product = () => {
         {
           name: "L-Methylfolate/Calcium-L-5-methyl tetrahydrofolate",
           description: "CAS No 151533-22-1",
-          image: ""
+          image: "/product/allastir-product-generic-9.png"
         },
         {
           name: "(6S)-L-5methyltetrahydrofolic acid, glucosamine salt",
           description: "CAS No 1181972-37-1 ",
-          image: ""
+          image: "/product/allastir-product-generic-10.png"
         },
         {
           name: "Calcium Folinate/Leucovorin Calcium USP",
           description: "CAS No 1492-18-8",
-          image: ""
+          image: "/product/allastir-product-generic-11.png"
         },
         {
           name: "Vitamin K2-7/Menaquinone-7 USP",
           description: "CAS No 2124-57-4 ",
-          image: ""
+          image: "/product/allastir-product-generic-1.png"
         },
         {
           name: "Pyridoxal-5-phosophate ",
           description: "CAS No 54-47-7",
-          image: ""
+          image: "/product/allastir-product-generic-2.png"
         },
         {
           name: "Rutin Trihydrate",
           description: "CAS No 250249-75-3 ",
-          image: ""
+          image: "/product/allastir-product-generic-3.png"
         },
         {
           name: "Ubidecarenone",
           description: "CAS No 303-98-0",
-          image: ""
+          image: "/product/allastir-product-generic-4.png"
         },
         {
           name: "Ubiquinol acetate",
           description: "CAS No 992-78-9",
-          image: ""
+          image: "/product/allastir-product-generic-5.png"
         },
         {
           name: "Tocopherol Polyethylene Glycol Succinate ",
           description: "CAS No 9002-96-4",
-          image: ""
+          image: "/product/allastir-product-generic-6.png"
         },
         {
           name: "Palmitoyl ethanolamide ",
           description: "CAS No 544-31-0",
-          image: ""
+          image: "/product/allastir-product-generic-7.png"
         },
         {
           name: "Oleoyl ethanolamide",
           description: "CAS No 111-58-0 ",
-          image: ""
+          image: "/product/allastir-product-generic-8.png"
         },
         {
           name: "Luteolin",
           description: "CAS No 491-70-3",
-          image: ""
+          image: "/product/allastir-product-generic-9.png"
         }
       ]
     },
@@ -248,7 +248,7 @@ const Product = () => {
         {
           name: "Troxipide",
           description: "CAS No 30751-05-4",
-          image: ""
+          image: "/product/allastir-product-generic-10.png"
         }
       ]
     },
@@ -258,22 +258,22 @@ const Product = () => {
         {
           name: "Isavuconazonium Sulfate",
           description: "CAS No 946075-13-4",
-          image: ""
+          image: "/product/allastir-product-generic-11.png"
         },
         {
           name: "Fosravuconazole L-lysinate Ethanolate",
           description: "CAS No 914361-45-8",
-          image: ""
+          image: "/product/allastir-product-generic-1.png"
         },
         {
           name: "Isavuconazole",
           description: "CAS No 241479-67-4",
-          image: ""
+          image: "/product/allastir-product-generic-2.png"
         },
         {
           name: "Fosravuconazole",
           description: "CAS No 351227-64-0",
-          image: ""
+          image: "/product/allastir-product-generic-3.png"
         }
       ]
     },
@@ -283,7 +283,7 @@ const Product = () => {
         {
           name: "Fosfomycin Trometamol ",
           description: "CAS No 78964-85-9",
-          image: ""
+          image: "/product/allastir-product-generic-4.png"
         }
       ]
     },
@@ -293,7 +293,7 @@ const Product = () => {
         {
           name: "Brivaracetam",
           description: "CAS No 357336-20-0 ",
-          image: ""
+          image: "/product/allastir-product-generic-5.png"
         }
       ]
     },

@@ -15,7 +15,7 @@ const Section4 = () => {
         { year: 2020, title: 'Global Expansion', description: 'We began exporting APIs to international markets and registered our finished products for distribution in Myanmar.', image: '/laboratory-worker.jpg' },
         { year: 2021, title: 'Finished Product Market Entry', description: 'We launched the export of finished pharmaceutical products and expanded our reach with registrations in Cambodia.', image: '/pharmaceutical-technician.jpg' },
         { year: 2024, title: 'Scaling Operations', description: 'We commenced operations at Unit-II, significantly enhancing our production capacity and operational efficiency.', image: 'portrait-professional.jpg' },
-        { year: 2025, title: 'Entering Oncology Market', description: 'We are expanding into the anti-cancer drug market with a focus on innovation and a projected revenue of $16 million.', image: '/oncology-market.jpg' },
+        { year: 2025, title: 'Entering Oncology Market', description: 'We are expanding into the anti-cancer drug market with a focus on innovation and a projected revenue of $16 million.', image: '/2025.webp' },
         { year: 2027, title: 'Diversification & Growth', description: 'We plan to enter the hormonal and OTC drug markets, strengthening our portfolio and targeting $40 million in revenue.', image: '/diversification.jpg' },
     ];
 
@@ -395,7 +395,7 @@ const Section4 = () => {
                         <div className='sm:h-[8.5vw] h-[4vw] w-fit overflow-hidden sm:mb-[3vw]'>
                             {
                                 timelineData.map((data, i) => (
-                                    <h2 className='timeline-title leading-1 whitespace-nowrap sm:text-[5vw] text-[2.3vw] capitalize'>{data.title}</h2>
+                                    <h2 key={i} className='timeline-title leading-1 whitespace-nowrap sm:text-[5vw] text-[2.3vw] capitalize'>{data.title}</h2>
                                 ))
                             }
                         </div>
