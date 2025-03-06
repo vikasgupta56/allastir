@@ -184,10 +184,10 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
   .product-wraper .product-txt {
-    width: 75%;
+    width: 100%;
   }
   .product-wraper:hover .product-txt {
-    width: 75%;
+    width: 100%;
     background-color: #58636e;
     color: #fff;
   }

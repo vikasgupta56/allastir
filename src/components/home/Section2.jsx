@@ -25,7 +25,7 @@ const Section2 = ({sec2Ref ,bluetxt , normaltxt}) => {
 
   }, [])
   return (
-    <div ref={sec2Ref} className='sec2-h w-full  sm:h-[80vh] h-[80vh] sm:text-[4.5vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] px-[12.5vw] text-center'>
+    <div ref={sec2Ref} className='sec2-h w-full  sm:h-auto md:h-auto lg:h-auto xl:h-auto sm:py-[20vw] md:py-[20vw] lg:py-[20vw] xl:py-[20vw] h-[80vh] sm:text-[4.5vw] md:text-[3.7vw] lg:text-[2.8vw] xl:text-[2.8vw] text-[2.2vw] flex flex-col items-center justify-center sm:px-[8vw] md:px-[6vw] px-[12.5vw] text-center'>
       <h2 className='text-[#80868B] leading-1 font-regular'><span className='text-[#1863AB]'>{bluetxt}</span><span className='letters-wrapper sm:text-black'>{normaltxt.split("").map((l, i) => <span key={i}>{l}</span>)}</span></h2>
     </div>
   )

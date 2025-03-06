@@ -21,7 +21,7 @@ const About = () => {
     gsap.set(sec1Ref.current, { opacity: 0 })
     gsap.set(sec1Ref.current.querySelector("h2"), { y: "100%" })
     gsap.set(sec2Ref.current, { y: "80",opacity:0 })
-    gsap.set(navRef.current, { y: "-100%" })
+    gsap.set(navRef.current, { opacity: 0 })
     var tl = gsap.timeline()
     tl
       .to(sec1Ref.current, {
@@ -30,7 +30,7 @@ const About = () => {
         ease: "power4.in",
       })
       .to(navRef.current, {
-        y: 0,
+        opacity: 1,
         duration: .6
       })
       .to(sec1Ref.current.querySelector("h2"), {

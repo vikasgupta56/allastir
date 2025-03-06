@@ -29,7 +29,7 @@ const clients = [
 export default function App() {
   return (
     <div className="w-full flex items-center flex-col justify-center px-[2.5vw]">
-      <h2 className="sm:text-[10vw] text-[3vw] font-semibold text-center">Our Clientele</h2>
+      <h2 className="sm:text-[10vw] md:text-[7vw] lg:text-[5vw] xl:text-[5vw] text-[3vw] font-semibold text-center">Our Clientele</h2>
       <div className="w-full sm:h-[13vh] h-[30vh]">
         <Swiper
           loop={true}

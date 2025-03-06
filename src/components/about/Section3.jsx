@@ -16,28 +16,28 @@ const Section3 = () => {
   
 
     return (
-        <div className="w-full sm:min-h-fit min-h-screen py-[2vw] flex flex-col items-center">
-            <h1 className="sm:text-[10vw] text-[3vw] font-semibold sm:mb-[6vw] mb-[3vw]">Our Strengths</h1>
-            <div className="sm:w-[92%] w-[75%]">
+        <div className="w-full sm:min-h-fit md:min-h-fit  min-h-screen py-[2vw] flex flex-col items-center">
+            <h1 className="sm:text-[10vw] md:text-[7vw] lg:text-[5vw] xl:text-[4vw] text-[3vw] font-semibold sm:mb-[6vw] md:mb-[6vw] mb-[3vw]">Our Strengths</h1>
+            <div className="sm:w-[92%] md:w-[90%] lg:w-[90%] xl:w-[85%] w-[75%]">
                 {bars.map((bar,i) => (
                     <div
                         key={bar.id}
-                        className={`w-full relative border-t ${i === bars.length - 1 && "border-b"} sm:py-[4vw] py-[.5vw] h-[12vw] flex sm:flex-col justify-between border-black/20 px-[1.7vw]`}
+                        className={`w-full relative border-t ${i === bars.length - 1 && "border-b"} sm:py-[4vw] md:py-[4vw] py-[.5vw] sm:h-[50vw] md:h-[45vw] lg:h-[28vw] xl:h-[20vw] h-[12vw] flex sm:flex-col md:flex-col justify-between border-black/20 px-[1.7vw]`}
                     >
-                        <div className="flex items-center sm:hidden text-[2.5vw]">
+                        <div className="flex items-center sm:hidden md:text-[3.5vw] text-[2.5vw]">
                             <h2>{bar.title}</h2>
                         </div>
-                        <div className="flex  sm:w-full sm:mt-[2vw] gap-[2vw] w-[49%] sm:items-start items-center">
+                        <div className="flex  sm:w-full md:w-full sm:mt-[2vw] md:mt-[2vw] gap-[2vw] w-[49%] sm:items-start md:items-start items-center">
                             <Image
                             width={1000}
                             height={1000}
-                                className="sm:w-[20vw] w-[5vw] sm:absolute sm:top-[10%] sm:right-0"
+                                className="sm:w-[15vw] md:w-[15vw] lg:w-[8vw] xl:w-[6vw] w-[5vw] sm:absolute md:absolute sm:top-[10%] md:top-[10%] sm:right-0 md:right-0"
                                 src={bar.image}
                                 alt={bar.title}
                             />
                             <div>
-                                <h4 className="sm:text-[5vw] text-[1.1vw] font-semibold">{bar.title}</h4>
-                                <p className="sm:text-[4.5vw] text-[#7F7F7F] sm:w-[80%]">{bar.description}</p>
+                                <h4 className="sm:text-[5vw] md:text-[4vw] lg:text-[3vw] xl:text-[2vw] text-[1.1vw] font-semibold">{bar.title}</h4>
+                                <p className="sm:text-[4.5vw] md:text-[3.7vw] text-[#7F7F7F] sm:w-[80%] md:w-[80%]">{bar.description}</p>
                             </div>
                         </div>
                     </div>

@@ -379,30 +379,30 @@ const Section4 = () => {
         };
     }, [])
     return (
-        <div className='timeline-section w-full  h-[100vh] flex sm:flex-col-reverse items-start'>
-            <div className='sm:w-full w-[42%] sm:h-[28vh]  h-full  flex flex-col justify-between pl-[2.5vw] sm:pl-[4vw] pt-[6vw] py-[1vw]'>
-                <h2 className='sm:text-[10vw] text-[3vw] font-semibold  mb-[1vw] capitalize leading-[.7]'>Our Journey</h2>
+        <div className='timeline-section w-full  h-[100vh]  flex sm:flex-col md:flex-col lg:flex-col lg:gap-[5vw] sm:justify-center md:justify-center lg:justify-center items-start'>
+            <div className='sm:w-full md:w-full lg:w-full w-[42%] sm:h-[43vh] md:h-[43vh] lg:h-[43vh]  h-full  flex flex-col justify-between pl-[2.5vw] sm:pl-[4vw] md:pl-[4vw] lg:pl-[4vw] xl:pt-[15vw]  pt-[6vw] py-[1vw]'>
+                <h2 className='sm:text-[10vw] md:text-[7vw] lg:text-[7vw] text-[3vw] font-semibold  mb-[1vw] capitalize leading-[.7]'>Our Journey</h2>
 
-                <div className='w-full h-[50vh]   flex flex-col justify-between'>
-                    <div className='sm:h-[14vw] h-[10vw] w-fit overflow-hidden '>
+                <div className='w-full h-[50vh] xl:h-[45vh] flex flex-col justify-between'>
+                    <div className='sm:h-[12.5vw] md:h-[12.5vw] lg:h-[9vw] h-[10vw] w-fit overflow-hidden '>
                         {
                             timelineData.map((data, i) => (
-                                <h1 key={i} className='present-year sm:text-[12vw] text-[10vw] font-semibold leading-none'>{data.year}</h1>
+                                <h1 key={i} className='present-year sm:text-[12vw] md:text-[12vw] lg:text-[8vw] text-[10vw] font-semibold leading-none'>{data.year}</h1>
                             ))
                         }
                     </div>
-                    <div className='w-full h-[60%] flex flex-col justify-end sm:mb-[10vw]'>
-                        <div className='sm:h-[8.5vw] h-[4vw] w-fit overflow-hidden sm:mb-[3vw]'>
+                    <div className='w-full h-[60%] flex flex-col justify-end sm:mb-[5vw] md:mb-[5vw] lg:mb-[5vw]'>
+                        <div className='sm:h-[8.5vw] md:h-[6vw] lg:h-[6vw] xl:h-[4vw] h-[4vw] w-fit overflow-hidden sm:mb-[3vw] md:mb-[3vw] lg:mb-[3vw] xl:mb-[3vw]'>
                             {
                                 timelineData.map((data, i) => (
-                                    <h2 key={i} className='timeline-title leading-1 whitespace-nowrap sm:text-[5vw] text-[2.3vw] capitalize'>{data.title}</h2>
+                                    <h2 key={i} className='timeline-title leading-1 whitespace-nowrap sm:text-[5vw] md:text-[4vw] lg:text-[4vw]  xl:text-[2.5vw]  text-[2.3vw] capitalize'>{data.title}</h2>
                                 ))
                             }
                         </div>
                         <div className="w-full relative h-[40%]">
                             {
                                 timelineData.map((data, i) => (
-                                    <p key={i} className={` timeline-para${i + 1} ${i === 0 ? '' : 'opacity-0'} absolute w-[90%] sm:text-[4.5vw] text-[1vw] leading-1 text-[#80868B]`}>{data.description}</p>
+                                    <p key={i} className={` timeline-para${i + 1} ${i === 0 ? '' : 'opacity-0'} absolute w-[90%] lg:w-[70%] sm:text-[4.5vw]  md:text-[3.7vw] lg:text-[2.5vw] xl:text-[1.8vw]  text-[1vw] leading-1 text-[#80868B]`}>{data.description}</p>
                                 ))
                             }
 
@@ -411,9 +411,9 @@ const Section4 = () => {
                     </div>
                 </div>
             </div>
-            <div className='sm:w-full w-[57%] relative sm:h-fit sm:px-[4vw] pt-[6vw]'>
-                <div className='w-full sm:h-[37vh]  h-[80vh] flex justify-between items-end pb-[1vw] sm:pb-[2vw] sm:mt-[13vw]'>
-                    <div className='timeline w-[15%] h-full relative   sm:absolute sm:rotate-[-90deg] sm:top-[-15%] sm:left-1/2 sm:-translate-x-1/2 flex items-center'>
+            <div className='sm:w-full md:w-full lg:w-full w-[57%] relative  sm:h-fit md:h-fit lg:h-fit sm:px-[4vw] md:px-[4vw] lg:px-[4vw] sm:pt-[0] md:pt-[0] lg:pt-[0] xl:pt-[15vw]  pt-[6vw]'>
+                <div className='w-full sm:h-[38vh] md:h-[38vh] lg:h-[38vh]  h-[80vh] flex justify-between items-end pb-[1vw] sm:pb-[2vw] md:pb-[2vw] lg:pb-[2vw] sm:mt-[0vw] md:mt-[0vw] lg:mt-[0vw]'>
+                    <div className='timeline w-[15%] sm:hidden md:hidden lg:hidden h-full relative   sm:absolute sm:rotate-[-90deg] sm:top-[-45%] sm:left-1/2 sm:-translate-x-1/2 flex items-center'>
                         <div className='w-[1px] sm:h-[89vw] h-[75.5vh] bg-zinc-300'>
                             <div className='timeline-strip w-full h-0 bg-[#000]'></div>
                         </div>
@@ -469,7 +469,7 @@ const Section4 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='sm:w-full w-[89%] sm:h-[80%] h-full relative rounded-lg overflow-hidden'>
+                    <div className='sm:w-full md:w-full lg:w-full w-[89%] sm:h-[80%] md:h-[80%] lg:h-[95%] h-full relative rounded-lg overflow-hidden'>
                         {timelineData.map((data, index) => (
                             <img
                                 key={index}
