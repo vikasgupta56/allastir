@@ -81,24 +81,31 @@ body {
   transition-delay: 0s;
 } */
 
-.num-c {
-  transition: all ease .3s;
-}
-.num-c:hover{
-  width: 90px;
-  height: 30px;
-}
-.product-txt:hover .num-c {
-  background-color: #fff;
+  
+@media (min-width: 639px) {
+  .num-c {
+    transition: all ease 0.3s;
+  }
+
+  .num-c:hover {
+    width: 90px;
+    height: 30px;
+  }
+
+  .product-txt:hover .num-c {
+    background-color: #fff;
+  }
+
+  .num-c:hover p {
+    color: black;
+    opacity: 1;
+  }
+
+  .num-c:hover i {
+    color: white !important;
+  }
 }
 
-.num-c:hover p{
-  color: black;
-  opacity: 1;
-}
-.num-c:hover i{
-  color: white !important;
-}
 
 .product-txt:hover i{
   color: black;

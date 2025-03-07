@@ -26,7 +26,7 @@ const Footer = () => {
   };
 
   return (
-    <div className='w-full sm:h-[85vh] md:h-[100vh] lg:h-[95vh] h-[50vh] p-[4vw] sm:p-[4vw] md:p-[4vw] lg:p-[4vw] sm:pb-[8vw] md:pb-[4vw] lg:pb-[4vw] px-[2.5vw]'>
+    <div className='w-full sm:h-[90vh] md:h-[100vh] lg:h-[95vh] h-[50vh] p-[4vw] sm:p-[4vw] md:p-[4vw] lg:p-[4vw] sm:pb-[8vw] md:pb-[4vw] lg:pb-[4vw] px-[2.5vw]'>
       <div className='w-full h-full flex sm:flex-col md:flex-col lg:flex-col sm:justify-between md:justify-between lg:justify-between'>
         <div className='sm:w-full lg:w-full md:w-full w-1/2 sm:h-fit lg:h-fit md:h-fit h-full flex flex-col justify-between'>
           <Link href="/"><Image width={1000} height={1000} className='w-[200px] h-auto' src="/logo-with-tag.png" alt='logo' /></Link>
@@ -88,8 +88,9 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className='w-full flex justify-between items-center'>
-              <p className='sm:block lg:block md:block hidden text-[3vw] lg:text-[2vw] opacity-[.7]'>All Rights Reserved © Allastir Pvt. Ltd.</p>
+            <div className='w-full flex flex-col'>
+              <p className='sm:block lg:block md:block hidden text-[3.5vw] lg:text-[2vw] opacity-[.8]'>All Rights Reserved © Allastir Pvt. Ltd.</p>
+            <p className='sm:block lg:block md:block hidden text-[3.5vw] lg:text-[2vw]'><span className='opacity-[.8]'>Developed by</span> <a target='_blank' href='https://www.zerrorstudios.com/' className='text-black font-semibold'>Zerror Studios</a></p>
               <div></div>
             </div>
           </div>

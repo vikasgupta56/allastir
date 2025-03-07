@@ -380,18 +380,18 @@ const Section4 = () => {
     }, [])
     return (
         <div className='timeline-section w-full  h-[100vh]  flex sm:flex-col md:flex-col lg:flex-col lg:gap-[5vw] sm:justify-center md:justify-center lg:justify-center items-start'>
-            <div className='sm:w-full md:w-full lg:w-full w-[42%] sm:h-[43vh] md:h-[43vh] lg:h-[43vh]  h-full  flex flex-col justify-between pl-[2.5vw] sm:pl-[4vw] md:pl-[4vw] lg:pl-[4vw] xl:pt-[15vw]  pt-[6vw] py-[1vw]'>
+            <div className='sm:w-full md:w-full lg:w-full w-[42%] sm:h-[50vh] md:h-[43vh] lg:h-[43vh]  h-full  flex flex-col justify-between pl-[2.5vw] sm:pl-[4vw] md:pl-[4vw] lg:pl-[4vw] xl:pt-[15vw] sm:pt-[15vw]  pt-[6vw] py-[1vw]'>
                 <h2 className='sm:text-[10vw] md:text-[7vw] lg:text-[7vw] text-[3vw] font-semibold  mb-[1vw] capitalize leading-[.7]'>Our Journey</h2>
 
-                <div className='w-full h-[50vh] xl:h-[45vh] flex flex-col justify-between'>
-                    <div className='sm:h-[12.5vw] md:h-[12.5vw] lg:h-[9vw] h-[10vw] w-fit overflow-hidden '>
+                <div className='w-full sm:h-[20vh] h-[50vh] xl:h-[45vh] flex flex-col justify-between'>
+                    <div className='sm:h-[18.5vw] md:h-[12.5vw] lg:h-[9vw] h-[10vw] w-fit overflow-hidden '>
                         {
                             timelineData.map((data, i) => (
                                 <h1 key={i} className='present-year sm:text-[12vw] md:text-[12vw] lg:text-[8vw] text-[10vw] font-semibold leading-none'>{data.year}</h1>
                             ))
                         }
                     </div>
-                    <div className='w-full h-[60%] flex flex-col justify-end sm:mb-[5vw] md:mb-[5vw] lg:mb-[5vw]'>
+                    <div className='w-full h-[60%] sm:h-[100%] flex flex-col justify-end sm:mb-[5vw] md:mb-[5vw] lg:mb-[5vw]'>
                         <div className='sm:h-[8.5vw] md:h-[6vw] lg:h-[6vw] xl:h-[4vw] h-[4vw] w-fit overflow-hidden sm:mb-[3vw] md:mb-[3vw] lg:mb-[3vw] xl:mb-[3vw]'>
                             {
                                 timelineData.map((data, i) => (

@@ -49,7 +49,7 @@ const Section3 = () => {
                 {bars.map((bar, i) => (
                     <div
                         key={bar.id}
-                        className={`bar-${bar.id} relative w-full border-t ${i === bars.length - 1 && "border-b"} sm:h-[60vw] md:h-[38vw] lg:h-[38vw] xl:h-[25vw] h-[12vw] sm:py-[4vw] md:py-[1vw] py-[.1vw] flex sm:flex-col md:flex-col justify-between border-black/20 px-[1.7vw]`}
+                        className={`bar-${bar.id} relative w-full border-t ${i === bars.length - 1 && "border-b"} sm:h-[63vw] md:h-[38vw] lg:h-[38vw] xl:h-[25vw] h-[12vw] sm:py-[5vw] md:py-[1vw] py-[.1vw] flex sm:flex-col md:flex-col justify-between border-black/20 px-[1.7vw]`}
                     >
                         <div className="flex items-center sm:text-[12vw] md:text-[12vw]  lg:text-[10vw] xl:text-[7vw] text-[4vw] opacity-[.8]">
                             <h2 className={`count-${bar.id}`}>0</h2>

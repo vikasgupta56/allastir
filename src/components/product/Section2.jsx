@@ -17,7 +17,7 @@ const Section2 = ({ data }) => {
 
     return (
         <div className='w-full h-auto p-[2.5vw] sm:px-0 pt-[5vw]'>
-            <h1 className='sm:text-[8vw] md:text-[6vw] lg:text-[5vw] text-[3vw] font-semibold capitalize sm:mb-[5vw] md:mb-[5vw] mb-[2.5vw] text-center leading-tight'>
+            <h1 className='sm:text-[7vw] sm:w-[80%] sm:mx-auto md:text-[6vw] lg:text-[5vw] text-[3vw] font-semibold capitalize sm:mb-[5vw] md:mb-[5vw] mb-[2.5vw] text-center leading-tight'>
                 {data.title.toLowerCase()}
             </h1>
             <div className='sm:w-[92%] md:w-[90%] lg:w-[90%] w-[80%] mx-auto rounded-2xl overflow-hidden border border-black/20'>

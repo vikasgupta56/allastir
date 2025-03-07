@@ -40,7 +40,7 @@ const Cart = ({ isOpen, onClose }) => {
     return (
         <div id="cartOverlay" className="fixed top-0 left-0 w-full h-screen bg-[#00000070] opacity-0 invisible z-[98] flex justify-end" onClick={onClose}>
             {/* Cart Sidebar */}
-            <div id='cartContainer' className="absolute right-[-50%] top-0 sm:w-[100vw] md:w-[100vw] lg:w-[100vw] xl:w-[60vw] w-[35vw] h-full bg-white shadow-lg p-4 overflow-hidden" onClick={(e) => e.stopPropagation()}>
+            <div id='cartContainer' className="absolute right-[-50%] top-0 sm:w-[100vw] md:w-[100vw] lg:w-[100vw] xl:w-[60vw] w-[35vw] h-full bg-white shadow-lg sm:pt-[30px] p-4 overflow-hidden" onClick={(e) => e.stopPropagation()}>
                 <div id='cart-wrapper' className='relative flex flex-col h-full'>
 
                     {/* Header */}
@@ -83,23 +83,23 @@ const Cart = ({ isOpen, onClose }) => {
                         </div>
                     )}
                 </div>
-                <div className='w-full h-[100vh] sm:bg-transparent md:bg-transparent  sm:p-0 md:p-0 lg:p-0 sm:pt-[13vw] md:pt-[13vw] lg:pt-[13vw] xl:pt-[10vw]  p-[2.5vw] flex flex-col justify-between'>
+                <div className='w-full sm:h-[95vh] h-[100vh] sm:bg-transparent md:bg-transparent  sm:p-0 md:p-0 lg:p-0 sm:pt-[13vw] md:pt-[13vw] lg:pt-[13vw] xl:pt-[10vw]  p-[2.5vw] flex flex-col justify-between'>
                     <div className='w-full'>
                         <h1 className='sm:text-[10vw] md:text-[7vw] lg:text-[7vw] xl:text-[5vw] text-[3.5vw] capitalize leading-none'>Contact us</h1>
                         <p className='sm:text-[4.5vw] md:text-[3.7vw] lg:text-[3vw] xl:text-[2vw] sm:w-full text-[1vw] w-[80%] sm:my-[4.5vw] md:my-[4.5vw] lg:my-[4.5vw]  my-[1vw] leading-1'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>
                     </div>
                     <form className='w-full mt-[1.5vw] sm:mt-[0] flex flex-col sm:gap-[3vw] md:gap-[3vw] lg:gap-[3vw] gap-[1vw] sm:text-[3.5vw] md:text-[3vw] lg:text-[2.8vw]'>
                         <div className='w-full flex'>
-                            <input className='w-full p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent outline-none' type="text" placeholder='Name' />
+                            <input className='w-full p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent' type="text" placeholder='Name' />
                         </div>
                         <div className='w-full flex'>
-                            <input className='w-full p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent outline-none' type="text" placeholder='Phone Number' />
+                            <input className='w-full p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent' type="text" placeholder='Phone Number' />
                         </div>
                         <div className='w-full flex'>
-                            <input className='w-full p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent outline-none' type="text" placeholder='E-Mail Address' />
+                            <input className='w-full p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent' type="text" placeholder='E-Mail Address' />
                         </div>
                         <div className='w-full flex'>
-                            <textarea className='w-full resize-none sm:h-[18vw] md:h-[18vw] lg:h-[20vw] h-[7vw] p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent outline-none' placeholder='Write additional information'></textarea>
+                            <textarea className='w-full resize-none sm:h-[18vw] md:h-[18vw] lg:h-[20vw] h-[7vw] p-[1.5vw] sm:py-[2.5vw] md:py-[1.5vw] lg:py-[1vw] sm:px-[2vw] md:px-[2vw] lg:px-[2vw] py-[.6vw] border border-black/20 rounded-md bg-transparent' placeholder='Write additional information'></textarea>
                         </div>
                         <div className='w-full flex items-center justify-center sm:h-[7vw] md:h-[7vw] lg:h-[5vw] lg:mb-[2vw] h-[4vw] sm:mt-[2vw] md:mt-[2vw] lg:mt-[2vw] xl:mt-[2vw]'>
                             <div className='text-white bg-black w-full text-center capitalize px-[1.5vw] transition-all duration-500 cursor-pointer sm:py-[4vw] md:py-[2vw] lg:py-[2vw] xl:py-[1.5vw] py-[.6vw] rounded-full font-semibold'>
@@ -108,7 +108,7 @@ const Cart = ({ isOpen, onClose }) => {
                         </div>
                     </form>
                 </div>
-                <button className="absolute top-[20px] right-[40px] text-xl text-black hover:text-gray-800" onClick={onClose}>
+                <button className="absolute sm:top-[30px] top-[20px] sm:right-[30px] right-[40px] sm:text-[7vw] text-xl text-black hover:text-gray-800" onClick={onClose}>
                             <i className="ri-close-line"></i>
                         </button>
             </div>
