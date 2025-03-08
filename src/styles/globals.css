@@ -198,6 +198,12 @@ body {
     background-color: #58636e;
     color: #fff;
   }
+  .swiper-button-prev{
+    transform: scale(.5) !important;
+  }
+  .swiper-button-next{
+    transform: scale(.5) !important;
+  }
 }
 
 

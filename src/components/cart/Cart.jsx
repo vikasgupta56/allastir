@@ -55,7 +55,10 @@ const Cart = ({ isOpen, onClose }) => {
                             <ul>
                                 {cartItems.map((item, index) => (
                                     <li key={index} className="flex justify-between items-center p-2 border-b">
-                                        <span>{item.name} - {item.description}</span>
+                                        <div className='flex-col flex'>
+                                        <span>{item.name}</span>
+                                        <span>{item.description}</span>
+                                        </div>
                                         <button
                                             onClick={() => {
                                                 const updatedCart = cartItems.filter((_, i) => i !== index);
@@ -83,7 +86,7 @@ const Cart = ({ isOpen, onClose }) => {
                         </div>
                     )}
                 </div>
-                <div className='w-full sm:h-[95vh] h-[100vh] sm:bg-transparent md:bg-transparent  sm:p-0 md:p-0 lg:p-0 sm:pt-[40vw] md:pt-[13vw] lg:pt-[13vw] xl:pt-[10vw]  p-[2.5vw] flex flex-col justify-between'>
+                <div className='w-full sm:h-[95vh] h-[100vh] sm:bg-transparent md:bg-transparent  sm:p-0 md:p-0 lg:p-0 sm:pt-[30vw] md:pt-[13vw] lg:pt-[13vw] xl:pt-[10vw]  p-[2.5vw] flex flex-col justify-between'>
                     <div className='w-full'>
                         <h1 className='sm:text-[10vw] md:text-[7vw] lg:text-[7vw] xl:text-[5vw] text-[3.5vw] sm:font-semibold capitalize leading-none'>Contact us</h1>
                         <p className='sm:text-[4.5vw] md:text-[3.7vw] lg:text-[3vw] xl:text-[2vw] sm:w-full text-[1vw] w-[80%] sm:my-[4.5vw] md:my-[4.5vw] lg:my-[4.5vw]  my-[1vw] leading-1'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>

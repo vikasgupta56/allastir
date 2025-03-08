@@ -71,13 +71,13 @@ const Navbar = ({ navRef }) => {
               {name}
             </span>
           ) : (
-            <a
+            <Link
               key={index}
               href={path}
               className={`  transition-all duration-75 relative ${router.pathname === path ? "font-bold" : "hover:font-semibold"}`}
             >
               {name}
-            </a>
+            </Link>
           )
         )}
 
@@ -104,13 +104,13 @@ const Navbar = ({ navRef }) => {
                 {name}
               </span>
             ) : (
-              <a
+              <Link
                 key={index}
                 href={path}
                 className={`hover:opacity-[.8] relative`}
               >
                 {name}
-              </a>
+              </Link>
             )
           )}
 
