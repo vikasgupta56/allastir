@@ -25,11 +25,10 @@ const Footer = () => {
         <div className='sm:w-full lg:w-full md:w-full w-1/2 sm:h-fit lg:h-fit md:h-fit h-full flex flex-col justify-between'>
           <Link href="/"><Image width={1000} height={1000} className='w-[200px] h-auto' src="/logo-with-tag.png" alt='logo' /></Link>
           <div>
-            <p className='sm:hidden md:hidden lg:hidden xl:text-[1.5vw] text-[.8vw] opacity-[.7]'>All Rights Reserved © Allastir Pvt. Ltd.</p>
-            <p className='sm:hidden md:hidden lg:hidden xl:text-[1.5vw] text-[.8vw]'><span className='opacity-[.7]'>Developed by</span> <a target='_blank' href='https://www.zerrorstudios.com/' className='text-black'>Zerror Studios</a></p>
+            <p className='sm:hidden md:hidden lg:hidden xl:text-[1.5vw] text-[.8vw] opacity-[.9]'>All Rights Reserved © Allastir Pvt. Ltd.</p>
+            <p className='sm:hidden md:hidden lg:hidden xl:text-[1.5vw] text-[.8vw]'><span className='opacity-[.9]'>Developed by</span> <a target='_blank' href='https://www.zerrorstudios.com/' className='text-black font-bold'>Zerror Studios</a></p>
           </div>
         </div>
-
         <div className='sm:w-full lg:w-full md:w-full xl:w-[85%] w-1/2 xl:flex-wrap sm:h-fit lg:h-fit md:h-fit h-full xl:h-[60%] sm:text-[4.5vw] md:text-[3.7vw] lg:text-[2.8vw] xl:text-[1.8vw]  flex sm:flex-wrap  md:flex-wrap lg:flex-wrap sm:mt-[10vw] md:mt-[10vw]  lg:mt-[10vw] capitalize sm:justify-between md:justify-between lg:justify-between'>
           <div className='sm:w-[48%] md:w-[48%] lg:w-[48%] w-[33.3%] sm:h-fit lg:h-fit md:h-fit h-full flex flex-col sm:gap-[4vw] lg:gap-[2vw] xl:gap-[1vw]  gap-[1vw]'>
             <h2 className='sm:text-[4.5vw] md:text-[3.7vw] lg:text-[2.8vw] xl:text-[1.8vw]  text-[1.1vw]'><strong>Quick Link</strong></h2>
