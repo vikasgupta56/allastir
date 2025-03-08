@@ -3,8 +3,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { Const } from '../../utils/Constant';
 import WebPageSchema from "@/components/seo/WebPageSchema";
-// import NewsMediaOrganizationSchema from "@/components/seo/NewsMediaOrganizationSchema";
-// import SiteNavigationSchema from "@/components/seo/SiteNavigationSchema";
+import NewsMediaOrganizationSchema from "@/components/seo/NewsMediaOrganizationSchema";
+import SiteNavigationSchema from "@/components/seo/SiteNavigationSchema";
 
 const SeoHeader = ({ meta }) => {
   
@@ -83,34 +83,43 @@ const SeoHeader = ({ meta }) => {
         description={meta?.description ?? ""}
         url={meta?.canonical ?? canonical}
       />
-      {/* <NewsMediaOrganizationSchema
+      <NewsMediaOrganizationSchema
         name={"Allastir"}
         clientLink={`${Const.ClientLink}/`}
         logoUrl={`${Const.ClientLink}/favicon.jpg`}
-        address={{
-          streetAddress:
-            "Gala no - 8, Shiv Krupa Building, near Maxus Mall Road, next to Pizza Hut, Bhayandar, Bhayandar West, Thane, Mira Bhayandar, ",
-          addressLocality: "Maharashtra",
-          addressRegion: "India",
-          postalCode: "401101",
-        }}
+        address={[
+          {
+            streetAddress:
+              "Plot No. 12, Shed No. 9A, Sidco Industrial Estate, Vichoor, Manali New Town, Chennai - 600103, Tamilnadu, INDIA",
+            addressLocality: "Tamilnadu",
+            addressRegion: "India",
+            postalCode: "600103",
+          },
+          {
+            streetAddress:
+              "Plot No. 8-7, 8-8, 8-17, 8-18, APIIC Industrial Park, Attivaram Village, Ozili Mandal, Tirupati District, Andhra Pradesh -524 421",
+            addressLocality: "Andhra Pradesh",
+            addressRegion: "India",
+            postalCode: "524421",
+          }
+        ]}
         contact={{
-          telephone: "+9193723 20060",
+          telephone: "+9198400 51621",
           contactType: "Customer Service",
           areaServed: "IN",
           availableLanguage: "English",
           hoursAvailable: {
-            opens: "10:30",
-            closes: "19:00",
+            opens: "10:00",
+            closes: "18:00",
           },
         }}
-        sameAs={[
-          "https://www.instagram.com/Allastir/",
-          "https://www.behance.net/Allastir",
-          "https://www.linkedin.com/company/Allastir/",
-        ]}
-      /> */}
-      {/* <SiteNavigationSchema /> */}
+        // sameAs={[
+        //   "https://www.instagram.com/Allastir/",
+        //   "https://www.behance.net/Allastir",
+        //   "https://www.linkedin.com/company/Allastir/",
+        // ]}
+      />
+      <SiteNavigationSchema />
     </Head>
   );
 };
