@@ -38,7 +38,7 @@ const Cart = ({ isOpen, onClose }) => {
     };
 
     return (
-        <div id="cartOverlay" className="fixed top-0 left-0 w-full h-screen bg-[#00000070] opacity-0 invisible z-[98] flex justify-end" onClick={onClose}>
+        <div id="cartOverlay" className="fixed top-0 left-0 w-full h-screen bg-[#00000070] opacity-0 invisible z-[999] flex justify-end" onClick={onClose}>
             {/* Cart Sidebar */}
             <div id='cartContainer' className="absolute right-[-50%] top-0 sm:w-[100vw] md:w-[100vw] lg:w-[100vw] xl:w-[60vw] w-[35vw] h-full bg-white shadow-lg sm:pt-[30px] p-4 overflow-hidden" onClick={(e) => e.stopPropagation()}>
                 <div id='cart-wrapper' className='relative flex flex-col h-full'>
@@ -83,9 +83,9 @@ const Cart = ({ isOpen, onClose }) => {
                         </div>
                     )}
                 </div>
-                <div className='w-full sm:h-[95vh] h-[100vh] sm:bg-transparent md:bg-transparent  sm:p-0 md:p-0 lg:p-0 sm:pt-[13vw] md:pt-[13vw] lg:pt-[13vw] xl:pt-[10vw]  p-[2.5vw] flex flex-col justify-between'>
+                <div className='w-full sm:h-[95vh] h-[100vh] sm:bg-transparent md:bg-transparent  sm:p-0 md:p-0 lg:p-0 sm:pt-[40vw] md:pt-[13vw] lg:pt-[13vw] xl:pt-[10vw]  p-[2.5vw] flex flex-col justify-between'>
                     <div className='w-full'>
-                        <h1 className='sm:text-[10vw] md:text-[7vw] lg:text-[7vw] xl:text-[5vw] text-[3.5vw] capitalize leading-none'>Contact us</h1>
+                        <h1 className='sm:text-[10vw] md:text-[7vw] lg:text-[7vw] xl:text-[5vw] text-[3.5vw] sm:font-semibold capitalize leading-none'>Contact us</h1>
                         <p className='sm:text-[4.5vw] md:text-[3.7vw] lg:text-[3vw] xl:text-[2vw] sm:w-full text-[1vw] w-[80%] sm:my-[4.5vw] md:my-[4.5vw] lg:my-[4.5vw]  my-[1vw] leading-1'>Our secure system ensures a smooth and hassle-free booking experience. Don’t wait for your dental needs—book your appointment online today.</p>
                     </div>
                     <form className='w-full mt-[1.5vw] sm:mt-[0] flex flex-col sm:gap-[3vw] md:gap-[3vw] lg:gap-[3vw] gap-[1vw] sm:text-[3.5vw] md:text-[3vw] lg:text-[2.8vw]'>

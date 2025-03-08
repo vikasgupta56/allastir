@@ -38,7 +38,7 @@ const Footer = () => {
                   <span
                     key={index}
                     onClick={() => handlePdf()}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:font-semibold w-fit"
                   >
                     {name}
                   </span>
@@ -46,7 +46,7 @@ const Footer = () => {
                   <Link
                     key={index}
                     href={path}
-                    className={`${router.pathname === path ? 'font-bold ' : ''}`}
+                    className={`${router.pathname === path ? 'font-bold ' : 'hover:font-semibold '} w-fit`}
                   >
                     {name}
                   </Link>
@@ -59,9 +59,9 @@ const Footer = () => {
           <div className='sm:w-[48%] md:w-[48%] lg:w-[48%] w-[33.3%] sm:h-fit lg:h-fit md:h-fit h-full flex flex-col sm:gap-[4vw] lg:gap-[2vw] xl:gap-[1vw]  gap-[1vw]'>
             <h2 className='sm:text-[4.5vw] md:text-[3.7vw] lg:text-[2.8vw] xl:text-[1.8vw]  text-[1.1vw]'><strong>Info</strong></h2>
             <div className='flex flex-col gap-[.5vw] sm:h-fit lg:h-fit md:h-fit h-[70%]'>
-              <Link href="/">Privacy Policy</Link>
-              <Link href="/">Terms of Use</Link>
-              <Link href="/">Info@allastir.com</Link>
+              <Link href="/" className='hover:font-semibold'>Privacy Policy</Link>
+              <Link href="/" className='hover:font-semibold'>Terms of Use</Link>
+              <Link href="/" className='hover:font-semibold'>Info@allastir.com</Link>
             </div>
           </div>
 

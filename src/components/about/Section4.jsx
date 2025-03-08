@@ -27,6 +27,8 @@ const Section4 = () => {
                 end: 'top -550%',
                 pin: true,
                 scrub: 1,
+                anticipatePin: 1,  // Helps smoother transition
+                invalidateOnRefresh: true  // Recalculates values on resize
             }
         })
         tl
