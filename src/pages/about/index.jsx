@@ -10,7 +10,7 @@ import SeoHeader from '@/components/seo/SeoHeader'
 import gsap from 'gsap'
 import React, { useEffect, useRef } from 'react'
 
-const About = ({meta}) => {
+const About = ({ meta }) => {
   const bluetxt = "Allastir is a leading pharmaceutical innovator specializing in Active Pharmaceutical Ingredients (APIs), formulations, and dietary supplements."
   const normaltxt = "With cutting-edge R&D, world-class manufacturing, and a commitment to quality, we deliver superior healthcare solutions globally. Our expertise, regulatory excellence, and industry partnerships drive advancements in medicine and patient care."
 
@@ -19,9 +19,36 @@ const About = ({meta}) => {
   const sec2Ref = useRef(null)
 
   useEffect(() => {
+    if (window.innerWidth < 600) {
+      gsap.set(sec1Ref.current, { opacity: 0 })
+      gsap.set(sec1Ref.current.querySelector("h2"), { y: "100%" })
+      gsap.set(sec2Ref.current, { y: "80", opacity: 0 })
+      gsap.set(navRef.current, { opacity: 0 })
+      var tlm = gsap.timeline()
+      tlm
+        .to(sec1Ref.current, {
+          opacity: 1,
+          duration: .4,
+          ease: "power4.in",
+        }, "a")
+        .to(navRef.current, {
+          opacity: 1,
+          duration: .4
+        }, "a")
+        .to(sec1Ref.current.querySelector("h2"), {
+          y: 0,
+          duration: .3
+        }, "b")
+        .to(sec2Ref.current, {
+          y: 0,
+          opacity: 1,
+          duration: .3,
+        }, "b")
+      return;
+    };
     gsap.set(sec1Ref.current, { opacity: 0 })
     gsap.set(sec1Ref.current.querySelector("h2"), { y: "100%" })
-    gsap.set(sec2Ref.current, { y: "80",opacity:0 })
+    gsap.set(sec2Ref.current, { y: "80", opacity: 0 })
     gsap.set(navRef.current, { opacity: 0 })
     var tl = gsap.timeline()
     tl
@@ -37,13 +64,13 @@ const About = ({meta}) => {
       .to(sec1Ref.current.querySelector("h2"), {
         y: 0,
         duration: .5
-      },"a")
+      }, "a")
       .to(sec2Ref.current, {
         y: 0,
-        opacity:1,
+        opacity: 1,
         duration: .5,
-        delay:.3
-      },"a")
+        delay: .3
+      }, "a")
 
     return () => {
       tl.kill();
@@ -55,17 +82,17 @@ const About = ({meta}) => {
 
   return (
     <>
-    <SeoHeader meta={meta} />
-    <div className='w-full relative overflow-hidden'>
-      <Navbar navRef={navRef}/>
-      <Section1 sec1Ref={sec1Ref}/>
-      <Section2 sec2Ref={sec2Ref} bluetxt={bluetxt} normaltxt={normaltxt} />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Footer />
-    </div>
+      <SeoHeader meta={meta} />
+      <div className='w-full relative overflow-hidden'>
+        <Navbar navRef={navRef} />
+        <Section1 sec1Ref={sec1Ref} />
+        <Section2 sec2Ref={sec2Ref} bluetxt={bluetxt} normaltxt={normaltxt} />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Footer />
+      </div>
     </>
   )
 }
@@ -77,7 +104,7 @@ export async function getStaticProps() {
     title:
       "Allastir Private Limited | Innovating Niche APIs Since 2010",
     description:
-    "Learn about Allastir, a leading manufacturer of high-quality niche APIs. Backed by strong R&D, we prioritize innovation, quality, and customer satisfaction.",
+      "Learn about Allastir, a leading manufacturer of high-quality niche APIs. Backed by strong R&D, we prioritize innovation, quality, and customer satisfaction.",
     keywords: "Allastir, about Allastir, pharmaceutical company, niche APIs, API manufacturing, pharma R&D, drug formulation, high-quality APIs, API solutions, pharma innovation",
     author: "Allastir",
     robots: "index,follow",

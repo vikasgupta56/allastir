@@ -4,9 +4,44 @@ import Link from 'next/link'
 import React, { useEffect, useRef } from 'react'
 gsap.registerPlugin(ScrollTrigger)
 
-const Section1 = ({ navRef, popup }) => {
+const Section1 = ({ navRef, popup,bell }) => {
     const videoRef = useRef(null)
     useEffect(() => {
+        if(window.innerWidth < 600){
+            gsap.set(popup.current, {scale: 1,})
+            gsap.set(popup.current.querySelector(".close"), {scale: 1,})
+            gsap.set(popup.current, {display:"none",})
+            gsap.set(videoRef.current, { opacity: 0 })
+            gsap.set(navRef.current, { opacity:0 })
+            var tl = gsap.timeline()
+            tl
+                .to(videoRef.current, {
+                    opacity: 1,
+                    duration: .4,
+                    ease: "power4.in",
+                    onComplete: () => {
+                        videoRef.current.play()
+                    }
+                })
+                .to(".hero-txt1 , .hero-txt2", {
+                    transform: "translateY(0%)",
+                    duration: .3,
+                },"a")
+                .to(navRef.current, {
+                    opacity:1,
+                    duration: .3
+                },"a")
+                .to(".hero-para", {
+                    opacity: 1,
+                    duration: .3,
+                    onStart:()=>{
+                        gsap.set(bell.current,{opacity:1})
+                    }
+                },"a")
+                ScrollTrigger.refresh();
+                return;
+    
+        }
         gsap.set(videoRef.current, { opacity: 0 })
         gsap.set(navRef.current, { opacity:0 })
         var tl = gsap.timeline()

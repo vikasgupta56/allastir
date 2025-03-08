@@ -13,6 +13,7 @@ import React, { useRef, useState } from 'react'
 const Home = ({meta}) => {
   const navRef = useRef(null)
   const popup = useRef(null)
+  const bell = useRef(null)
   const bluetxt = "Allastir is a globally recognized leader in pharmaceutical innovation, driving advancements in Active Pharmaceutical Ingredients (APIs), pharmaceutical formulations, and dietary supplements."
   const normaltxt = "With world-class manufacturing facilities, state-of-the-art research, and a team of industry experts, we are committed to transforming healthcare through cutting-edge science, quality, and excellence. Our unwavering dedication to regulatory compliance and breakthrough solutions ensures that we consistently deliver superior healthcare products to markets worldwide."
 
@@ -21,8 +22,8 @@ const Home = ({meta}) => {
    <SeoHeader meta={meta}/>
     <div className='relative overflow-hidden'>
       <Navbar navRef={navRef} />
-      <Popup popup={popup} />
-      <Section1 navRef={navRef} popup={popup} />
+      <Popup popup={popup} bell={bell}/>
+      <Section1 navRef={navRef} popup={popup} bell={bell} />
       <Section2 bluetxt={bluetxt} normaltxt={normaltxt} />
       <Section3 />
       <Section4 />
