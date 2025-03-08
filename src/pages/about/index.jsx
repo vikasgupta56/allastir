@@ -6,10 +6,11 @@ import Section6 from '@/components/about/Section6'
 import Footer from '@/components/footer/Footer'
 import Section2 from '@/components/home/Section2'
 import Navbar from '@/components/navbar/Navbar'
+import SeoHeader from '@/components/seo/SeoHeader'
 import gsap from 'gsap'
 import React, { useEffect, useRef } from 'react'
 
-const About = () => {
+const About = ({meta}) => {
   const bluetxt = "Allastir is a leading pharmaceutical innovator specializing in Active Pharmaceutical Ingredients (APIs), formulations, and dietary supplements."
   const normaltxt = "With cutting-edge R&D, world-class manufacturing, and a commitment to quality, we deliver superior healthcare solutions globally. Our expertise, regulatory excellence, and industry partnerships drive advancements in medicine and patient care."
 
@@ -53,6 +54,8 @@ const About = () => {
 
 
   return (
+    <>
+    <SeoHeader meta={meta} />
     <div className='w-full relative overflow-hidden'>
       <Navbar navRef={navRef}/>
       <Section1 sec1Ref={sec1Ref}/>
@@ -63,7 +66,21 @@ const About = () => {
       <Section6 />
       <Footer />
     </div>
+    </>
   )
 }
 
-export default About
+export default About;
+
+export async function getStaticProps() {
+  const meta = {
+    title:
+      "Allastir Private Limited | Innovating Niche APIs Since 2010",
+    description:
+    "Learn about Allastir, a leading manufacturer of high-quality niche APIs. Backed by strong R&D, we prioritize innovation, quality, and customer satisfaction.",
+    keywords: "Allastir, about Allastir, pharmaceutical company, niche APIs, API manufacturing, pharma R&D, drug formulation, high-quality APIs, API solutions, pharma innovation",
+    author: "Allastir",
+    robots: "index,follow",
+  };
+  return { props: { meta: meta } };
+}

@@ -31,6 +31,7 @@ const Navbar = ({ navRef }) => {
     }
   };
 
+
   const links = [
     { path: "/", name: "Home" },
     { path: "/about", name: "About" },
@@ -40,13 +41,9 @@ const Navbar = ({ navRef }) => {
   ];
 
   const handlePdf = () => {
-    console.log("clicked");
-    
-    if (window.innerWidth < 1000) {
-      router.push('/Allaster_Brochure.pdf'); // Replace '/some-route' with your desired route
-      return;
-    }
+    setOpen(false)
     setIsPdf(true);
+    openSidebar()
   };
 
   return (

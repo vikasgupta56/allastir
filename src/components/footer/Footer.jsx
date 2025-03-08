@@ -16,12 +16,6 @@ const Footer = () => {
     { path: "/contact", name: "Contact" },
   ];
   const handlePdf = () => {
-    console.log("clicked");
-    
-    if (window.innerWidth < 1000) {
-      router.push('/Allaster_Brochure.pdf'); // Replace '/some-route' with your desired route
-      return;
-    }
     setIsPdf(true);
   };
 

@@ -4,8 +4,9 @@ import React, { useEffect, useRef } from 'react'
 import Section2 from '@/components/product/Section2'
 import Navbar from '@/components/navbar/Navbar'
 import gsap from 'gsap'
+import SeoHeader from '@/components/seo/SeoHeader'
 
-const Product = () => {
+const Product = ({meta}) => {
   const productData = [
     {
       title: "ANTI-DIABETIC",
@@ -336,6 +337,8 @@ const Product = () => {
 
 
   return (
+   <>
+   <SeoHeader meta={meta}/>
     <div className='w-full relative overflow-hidden'>
       <Navbar navRef={navRef} />
       <Section1 sec1Ref={sec1Ref} />
@@ -346,7 +349,21 @@ const Product = () => {
       </div>
       <Footer />
     </div>
+   </>
   )
 }
 
-export default Product
+export default Product;
+
+export async function getStaticProps() {
+  const meta = {
+    title:
+      "Allastir Private Limited | High-Quality Niche APIs",
+    description:
+    "Explore Allastir’s range of high-quality niche APIs for pharmaceutical formulations, including tablets, capsules, soft gelatins, and oral liquids.",
+    keywords: "Niche APIs, pharmaceutical APIs, API products, API formulations, drug ingredients, high-quality APIs, pharmaceutical manufacturing, custom APIs, research-based APIs, pharma solutions",
+    author: "Allastir",
+    robots: "index,follow",
+  };
+  return { props: { meta: meta } };
+}
