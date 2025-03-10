@@ -10,13 +10,13 @@ const Navbar = ({ navRef }) => {
   const { setIsPdf } = useContext(CartContext)
   const [open, setOpen] = useState(false);
   const { cartItems, setIsCartOpen } = useContext(CartContext);
-  const [isMounted, setIsMounted] = useState(false);
+  // const [isMounted, setIsMounted] = useState(false);
   const router = useRouter();
 
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsMounted(true);
+  // }, []);
 
   const openSidebar = () => {
     if (open) {
@@ -44,13 +44,7 @@ const Navbar = ({ navRef }) => {
     }
   };
 
-  // const menus = [
-  //   { path: "/", name: "Home" },
-  //   { path: "/about", name: "About" },
-  //   { path: "/product", name: "Product" },
-  //   { path: "/Allaster_Brochure.pdf", name: "Brochure" },
-  //   { path: "/contact", name: "Contact" },
-  // ];
+
 
   const handlePdf = () => {
     setOpen(false)
@@ -88,7 +82,7 @@ const Navbar = ({ navRef }) => {
       <div className='flex items-center gap-[50px]'>
         <span className='cursor-pointer relative flex items-center text-[20px]' onClick={() => setIsCartOpen(true)}>
           <i className="ri-shopping-cart-2-line"></i>
-          {isMounted && cartItems.length > 0 ? <p className='absolute top-[-3px] right-[-13px] w-[18px] h-[18px] text-white bg-red-600 rounded-full flex items-center justify-center text-[10px]'>{cartItems.length}</p> : ''}
+          {/* {isMounted && cartItems.length > 0 ? <p className='absolute top-[-3px] right-[-13px] w-[18px] h-[18px] text-white bg-red-600 rounded-full flex items-center justify-center text-[10px]'>{cartItems.length}</p> : ''} */}
         </span>
 
         <i onClick={openSidebar} className="menu-icon cursor-pointer ri-menu-fill text-[5.5vw] lg:text-[3.3vw] sm:block md:block lg:block hidden font-semibold"></i>
