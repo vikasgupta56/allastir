@@ -1,18 +1,22 @@
 export const menus = [
-    {
-      name: "Home",
-      link: "/",
-    },
-    {
-      name: "About",
-      link: "/about",
-    },
-    {
-      name: "Product",
-      link: "/product",
-    },
-    {
-      name: "Contact",
-      link: "/contact",
-    },
-  ];
+  {
+    path: "/",
+    name: "Home",
+  },
+  {
+    path: "/about",
+    name: "About",
+  },
+  {
+    path: "/Allaster_Brochure.pdf",
+    name: "Brochure" ,
+  },
+  {
+    path: "/product",
+    name: "Product",
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+  },
+];

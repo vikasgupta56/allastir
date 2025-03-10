@@ -1,3 +1,4 @@
+import { menus } from '@/helpers/MenuData'
 import { CartContext } from '@/utils/context/Wrapper'
 import gsap from 'gsap'
 import Image from 'next/image'
@@ -43,14 +44,13 @@ const Navbar = ({ navRef }) => {
     }
   };
 
-
-  const links = [
-    { path: "/", name: "Home" },
-    { path: "/about", name: "About" },
-    { path: "/product", name: "Product" },
-    { path: "/Allaster_Brochure.pdf", name: "Brochure" },
-    { path: "/contact", name: "Contact" },
-  ];
+  // const menus = [
+  //   { path: "/", name: "Home" },
+  //   { path: "/about", name: "About" },
+  //   { path: "/product", name: "Product" },
+  //   { path: "/Allaster_Brochure.pdf", name: "Brochure" },
+  //   { path: "/contact", name: "Contact" },
+  // ];
 
   const handlePdf = () => {
     setOpen(false)
@@ -60,10 +60,10 @@ const Navbar = ({ navRef }) => {
 
   return (
     <div ref={navRef} className='w-full sm:px-[4vw] md:px-[4vw] lg:px-[4vw] px-[2.5vw] sm:py-[3.1vw] md:py-[3.1vw] lg:py-[3.1vw] py-[1vw] text-black bg-white flex items-center justify-between fixed z-[99] top-0 left-0' style={{ backdropFilter: "blur(40px)" }}>
-      <Link href="/"><Image width={1000} height={1000} className='w-[200px] h-[60px] object-contain' src="/logo-with-tag.png" alt='logo' /></Link>
+      <Link href="/"><Image width={1000} height={1000} priority className='w-[200px] h-[60px] object-contain' src="/logo-with-tag.png" alt='logo' /></Link>
 
       <div className='sm:hidden md:hidden lg:hidden absolute top-1/2 left-1/2 -translate-x-1/2 xl:text-[1.8vw] text-[1.1vw] font-regular capitalize -translate-y-1/2 flex items-center gap-[3vw]'>
-        {links.map(({ path, name }, index) =>
+        {menus.map(({ path, name }, index) =>
           name === "Brochure" ? (
             <span
               key={index}
@@ -96,7 +96,7 @@ const Navbar = ({ navRef }) => {
       </div>
       <div className='side-menu duration-300 w-[100%] sm:pt-[20vw] bg-white h-[90dvh] absolute top-[100%] opacity-0 pointer-events-none left-0 text-black sm:flex  sm:flex-col sm:justify-between md:flex lg:flex  hidden justify-end capitalize  text-left text-[5.5vw] lg:text-[3.5vw]'>
         <div className='w-full h-fit relative flex flex-col gap-[2vw] justify-center items-end bg-white p-[4vw]'>
-          {links.map(({ path, name }, index) =>
+          {menus.map(({ path, name }, index) =>
             name === "Brochure" ? (
               <span
                 key={index}

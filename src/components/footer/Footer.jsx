@@ -1,3 +1,4 @@
+import { menus } from '@/helpers/MenuData';
 import { CartContext } from '@/utils/context/Wrapper';
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,13 +9,13 @@ const Footer = () => {
   const router = useRouter();
   const { setIsPdf } = useContext(CartContext)
 
-  const links = [
-    { path: "/", name: "Home" },
-    { path: "/about", name: "About" },
-    { path: "/product", name: "Product" },
-    { path: "/Allaster_Brochure.pdf", name: "Brochure" },
-    { path: "/contact", name: "Contact" },
-  ];
+  // const menus = [
+  //   { path: "/", name: "Home" },
+  //   { path: "/about", name: "About" },
+  //   { path: "/product", name: "Product" },
+  //   { path: "/Allaster_Brochure.pdf", name: "Brochure" },
+  //   { path: "/contact", name: "Contact" },
+  // ];
   const handlePdf = () => {
     setIsPdf(true);
   };
@@ -33,7 +34,7 @@ const Footer = () => {
           <div className='sm:w-[48%] md:w-[48%] lg:w-[48%] w-[33.3%] sm:h-fit lg:h-fit md:h-fit h-full flex flex-col sm:gap-[4vw] lg:gap-[2vw] xl:gap-[1vw]  gap-[1vw]'>
             <h2 className='sm:text-[4.5vw] md:text-[3.7vw] lg:text-[2.8vw] xl:text-[1.8vw]  text-[1.1vw]'><strong>Quick Link</strong></h2>
             <div className='flex flex-col gap-[.5vw] sm:h-fit lg:h-fit md:h-fit h-[70%]'>
-              {links.map(({ path, name }, index) => (     
+              {menus.map(({ path, name }, index) => (     
                 path === "/Allaster_Brochure.pdf" ? (
                   <span
                     key={index}
