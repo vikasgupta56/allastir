@@ -31,7 +31,7 @@ const Section1 = () => {
             </div>
             <div className='sm:w-full md:w-full lg:w-full w-[50%] sm:h-fit md:h-fit h-[85vh] sm:gap-[6vw] md:gap-[6vw] gap-[1vw]  rounded-2xl flex flex-col sm:pt-[4vw]'>
                 <div className='w-full h-[45%] rounded-2xl overflow-hidden'>
-                    <Image className='w-full h-full object-cover' width={1000} height={1000} src="/unit2.jpg" alt="unit-image" />
+                    <Image className='w-full h-full object-cover' width={1000} height={1000} priority src="/unit2.jpg" alt="unit-image" />
                 </div>
                 <div className='w-full h-[55%] sm:h-[75%]  rounded-2xl sm:bg-transparent md:bg-transparent bg-zinc-100/40 flex  flex-wrap sm:p-0 md:p-0 p-[1.5vw] justify-between'>
                     <div className='sm:hidden w-[49%] sm:w-full md:w-full lg:w-full h-fit sm:mb-[4vw]'>
