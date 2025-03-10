@@ -22,21 +22,23 @@ const Navbar = ({ navRef }) => {
       document.querySelector(".menu-icon").classList.remove("ri-close-line");
       document.querySelector(".menu-icon").classList.add("ri-menu-fill");
       // gsap.to(".side-menu", { top: "-100vh", duration: 0.3 });
-      gsap.to(".side-menu", {opacity:0, duration: 0.3,
-        onComplete:()=>{
-          gsap.set(".side-menu",{pointerEvents:"none"})
+      gsap.to(".side-menu", {
+        opacity: 0, duration: 0.3,
+        onComplete: () => {
+          gsap.set(".side-menu", { pointerEvents: "none" })
         }
-       });
+      });
       setOpen(false);
     } else {
       document.querySelector(".menu-icon").classList.add("ri-close-line");
       document.querySelector(".menu-icon").classList.remove("ri-menu-fill");
       // gsap.to(".side-menu", { top: "100%", duration: 0.3 });
-      gsap.to(".side-menu", {opacity:1, duration: 0.3,
-        onComplete:()=>{
-          gsap.set(".side-menu",{pointerEvents:"all"})
+      gsap.to(".side-menu", {
+        opacity: 1, duration: 0.3,
+        onComplete: () => {
+          gsap.set(".side-menu", { pointerEvents: "all" })
         }
-       });
+      });
       setOpen(true);
     }
   };
@@ -58,14 +60,14 @@ const Navbar = ({ navRef }) => {
 
   return (
     <div ref={navRef} className='w-full sm:px-[4vw] md:px-[4vw] lg:px-[4vw] px-[2.5vw] sm:py-[3.1vw] md:py-[3.1vw] lg:py-[3.1vw] py-[1vw] text-black bg-white flex items-center justify-between fixed z-[99] top-0 left-0' style={{ backdropFilter: "blur(40px)" }}>
-      <a href="/"><Image width={1000} height={1000} className='w-[200px] h-auto' src="/logo-with-tag.png" alt='logo' /></a>
+      <Link href="/"><Image width={1000} height={1000} className='w-[200px] h-[60px] object-contain' src="/logo-with-tag.png" alt='logo' /></Link>
 
       <div className='sm:hidden md:hidden lg:hidden absolute top-1/2 left-1/2 -translate-x-1/2 xl:text-[1.8vw] text-[1.1vw] font-regular capitalize -translate-y-1/2 flex items-center gap-[3vw]'>
         {links.map(({ path, name }, index) =>
           name === "Brochure" ? (
             <span
               key={index}
-              className="hover:font-semibold  transition-all duration-75  relative cursor-pointer"
+              className="hover:text-[#E31E23]  transition-all duration-75  relative cursor-pointer"
               onClick={() => handlePdf()}
             >
               {name}
@@ -74,7 +76,7 @@ const Navbar = ({ navRef }) => {
             <Link
               key={index}
               href={path}
-              className={`  transition-all duration-75 relative ${router.pathname === path ? "font-bold" : "hover:font-semibold"}`}
+              className={`  transition-all duration-75 relative ${router.pathname === path ? "font-bold" : "hover:text-[#E31E23]"}`}
             >
               {name}
             </Link>

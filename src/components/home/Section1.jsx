@@ -43,12 +43,12 @@ const Section1 = ({ navRef, popup,bell }) => {
     
         }
         gsap.set(videoRef.current, { opacity: 0 })
-        gsap.set(navRef.current, { opacity:0 })
+        // gsap.set(navRef.current, { opacity:0 })
         var tl = gsap.timeline()
         tl
             .to(videoRef.current, {
                 opacity: 1,
-                duration: .7,
+                duration: .2,
                 ease: "power4.in",
                 onComplete: () => {
                     videoRef.current.play()
@@ -56,26 +56,25 @@ const Section1 = ({ navRef, popup,bell }) => {
             })
             .to(".hero-txt1 , .hero-txt2", {
                 transform: "translateY(0%)",
-                duration: .5,
-                stagger:.2
+                duration: .6,
+                // stagger:.2
             })
-            .to(navRef.current, {
-                opacity:1,
-                duration: .3
-            },"a")
+            // .to(navRef.current, {
+            //     opacity:1,
+            //     duration: .3
+            // },"a")
             .to(".hero-para", {
                 opacity: 1,
-                duration: .4,
+                duration: .2,
             },"a")
             .to(popup.current, {
                 scale: 1,
-                duration: .5,
-            }, "p")
+                duration: .3,
+            }, "a")
             .to(popup.current.querySelector(".close"), {
                 scale: 1,
                 duration: .2,
-                delay: 2
-            }, "p")
+            })
 
         ScrollTrigger.refresh();
 
