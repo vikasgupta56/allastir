@@ -13,8 +13,6 @@ const Section3 = () => {
         { id: 5, target: "Pioneering Innovation", title: "Pioneering Innovation", description: "We have introduced 2 first-time-in-India APIs and have 6 niche API products currently under development.", image:"/Pioneering Innovation.png" },
     ];
 
-  
-
     return (
         <div className="w-full sm:min-h-fit md:min-h-fit  min-h-screen py-[2vw] flex flex-col items-center">
             <h1 className="sm:text-[10vw] md:text-[7vw] lg:text-[5vw] xl:text-[4vw] text-[3vw] font-semibold sm:mb-[6vw] md:mb-[6vw] mb-[3vw]">Our Strengths</h1>

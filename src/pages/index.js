@@ -8,15 +8,12 @@ import Section5 from '@/components/home/Section5'
 import Section6 from '@/components/home/Section6'
 import Navbar from '@/components/navbar/Navbar'
 import SeoHeader from '@/components/seo/SeoHeader'
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 
-const Home = ({meta}) => {
+const Home = ({meta, bluetxt, normaltxt }) => {
   const navRef = useRef(null)
   const popup = useRef(null)
   const bell = useRef(null)
-  const bluetxt = "Allastir is a globally recognized leader in pharmaceutical innovation, driving advancements in Active Pharmaceutical Ingredients (APIs), pharmaceutical formulations, and dietary supplements."
-  const normaltxt = "With world-class manufacturing facilities, state-of-the-art research, and a team of industry experts, we are committed to transforming healthcare through cutting-edge science, quality, and excellence. Our unwavering dedication to regulatory compliance and breakthrough solutions ensures that we consistently deliver superior healthcare products to markets worldwide."
-
   return (
    <>
    <SeoHeader meta={meta}/>
@@ -37,16 +34,21 @@ const Home = ({meta}) => {
 
 export default Home;
 
-
 export async function getStaticProps() {
   const meta = {
-    title:
-      "Allastir Private Limited | High-Quality Niche APIs",
+    title: "Allastir Private Limited | High-Quality Niche APIs",
     description:
-    "Allastir Private Limited specializes in high-quality niche APIs for the pharmaceutical industry. Backed by strong R&D, we ensure innovation, precision, and reliability.",
-    keywords: "Niche APIs, pharmaceutical APIs, API manufacturing, high-quality APIs, pharmaceutical ingredients, research-based APIs, custom API solutions, API formulations, pharmaceutical R&D, drug formulation APIs",
+      "Allastir Private Limited specializes in high-quality niche APIs for the pharmaceutical industry. Backed by strong R&D, we ensure innovation, precision, and reliability.",
+    keywords:
+      "Niche APIs, pharmaceutical APIs, API manufacturing, high-quality APIs, pharmaceutical ingredients, research-based APIs, custom API solutions, API formulations, pharmaceutical R&D, drug formulation APIs",
     author: "Allastir",
     robots: "index,follow",
   };
-  return { props: { meta: meta } };
-}
+
+  const bluetxt =
+    "Allastir is a globally recognized leader in pharmaceutical innovation, driving advancements in Active Pharmaceutical Ingredients (APIs), pharmaceutical formulations, and dietary supplements.";
+  const normaltxt =
+    "With world-class manufacturing facilities, state-of-the-art research, and a team of industry experts, we are committed to transforming healthcare through cutting-edge science, quality, and excellence. Our unwavering dedication to regulatory compliance and breakthrough solutions ensures that we consistently deliver superior healthcare products to markets worldwide.";
+
+  return { props: { meta, bluetxt, normaltxt } };
+};
