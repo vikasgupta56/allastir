@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect } from 'react';
 import Cart from '@/components/cart/Cart';
 import dynamic from "next/dynamic";
 
-const PdfViewer = dynamic(() => import("@/components/pdf/PdfViewer"), { ssr: false });
+// const PdfViewer = dynamic(() => import("@/components/pdf/PdfViewer"), { ssr: false });
 
 export const CartContext = createContext({
     isCartOpen: false,
@@ -35,7 +35,7 @@ const Wrapper = ({ children }) => {
 
     return (
         <CartContext.Provider value={{ isCartOpen, setIsCartOpen, cartItems, setCartItems, isPdf, setIsPdf }}>
-            {isPdf && <PdfViewer fileUrl="/Allaster_Brochure.pdf" />}
+            {/* {isPdf && <PdfViewer fileUrl="/Allaster_Brochure.pdf" />} */}
             <Cart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
             {children}
         </CartContext.Provider>

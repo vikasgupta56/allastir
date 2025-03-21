@@ -62,7 +62,7 @@ const Navbar = ({ navRef }) => {
             <span
               key={index}
               className="hover:text-[#E31E23]  transition-all duration-75  relative cursor-pointer"
-              onClick={() => handlePdf()}
+              // onClick={() => handlePdf()}
             >
               {name}
             </span>
