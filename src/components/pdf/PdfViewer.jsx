@@ -12,7 +12,7 @@ const PdfViewer = ({ fileUrl, onClose }) => {
             </button>
 
             {/* PDF Viewer */}
-            <div className="sm:w-[350px] md:w-[600px] w-[1000px] sm:h-[35vh] md:h-[65vh] h-[100vh] flex items-center justify-center bg-white shadow-lg rounded-lg p-4 overflow-hidden">
+            <div className="sm:w-[350px] md:w-[600px] w-[1000px] sm:h-[35vh] md:h-[65vh] h-[90vh] flex items-center justify-center bg-white shadow-lg rounded-lg p-4 overflow-hidden">
                 <iframe src={fileUrl} className="w-full h-full border-none"></iframe>
             </div>
         </div>
