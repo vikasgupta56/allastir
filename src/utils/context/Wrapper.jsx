@@ -1,8 +1,7 @@
 import React, { createContext, useState, useEffect } from 'react';
 import Cart from '@/components/cart/Cart';
-import dynamic from "next/dynamic";
+import PdfViewer from '@/components/pdf/PdfViewer';
 
-const PdfViewer = dynamic(() => import("@/components/pdf/PdfViewer"), { ssr: false });
 
 export const CartContext = createContext({
     isCartOpen: false,
