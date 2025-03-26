@@ -1,3 +1,0 @@
-preBuild:
-  commands:
-    - rm -rf .next/cache
